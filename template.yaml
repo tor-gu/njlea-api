@@ -1,0 +1,152 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  SAM template for njlea-api
+
+
+Parameters:
+  TorguapiLayerArn:
+    Type: String
+    Description: Arn for torguapi layer (not a layer version, so exclude the version number)
+  TorguapiLayerVersion:
+    Type: Number
+    Description: Version number for TorguapiLayer (11 or later, for lists of dicts and the page parameter fix)
+    MinValue: "11"
+  EnvPrefix:
+    Type: String
+    Description: Prefix for resource names
+    Default: ""
+  ApiRoot:
+    Type: String
+    Description: API root
+    Default: https://api.tor-gu.com
+  DataVersion:
+    Type: String
+    Description: njlea version the data was built from (data/SOURCE)
+    Default: ""
+
+Globals:
+  Api:
+    TracingEnabled: True
+
+
+Resources:
+  # One function for every route (one warm container), packaging its data
+  # (lea/data/njlea.json, built by make data); no common layer
+  LeaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: lea/
+      FunctionName: !Sub "${EnvPrefix}njlea-api"
+      Description: "njlea-api: the NJ law enforcement agency registry"
+      Handler: app.lea_api.lea_handler
+      Runtime: python3.12
+      Architectures:
+        - x86_64
+      Timeout: 10
+      MemorySize: 512
+      Tracing: Active
+      Environment:
+        Variables:
+          API_ROOT: !Ref ApiRoot
+          DATA_VERSION: !Ref DataVersion
+      Layers:
+        - !Sub "${TorguapiLayerArn}:${TorguapiLayerVersion}"
+      Events:
+        GetAgencies:
+          Type: Api
+          Properties:
+            Path: /nj/lea/agencies
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetAgenciesYear:
+          Type: Api
+          Properties:
+            Path: /nj/lea/agencies/{year}
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetAgency:
+          Type: Api
+          Properties:
+            Path: /nj/lea/agencies/{year}/{agency_id}
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetAgencyEpochs:
+          Type: Api
+          Properties:
+            Path: /nj/lea/agency_epochs
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetAgencyMunicipalities:
+          Type: Api
+          Properties:
+            Path: /nj/lea/agency_municipalities
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetAgencyMunicipalitiesYear:
+          Type: Api
+          Properties:
+            Path: /nj/lea/agency_municipalities/{year}
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetAliases:
+          Type: Api
+          Properties:
+            Path: /nj/lea/aliases
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetOris:
+          Type: Api
+          Properties:
+            Path: /nj/lea/oris
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetOri:
+          Type: Api
+          Properties:
+            Path: /nj/lea/oris/{ori}
+            Method: GET
+            RestApiId: !Ref LeaApi
+        GetSources:
+          Type: Api
+          Properties:
+            Path: /nj/lea/sources
+            Method: GET
+            RestApiId: !Ref LeaApi
+        Search:
+          Type: Api
+          Properties:
+            Path: /nj/lea/search
+            Method: GET
+            RestApiId: !Ref LeaApi
+
+  LeaApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: Prod
+      Name: !Sub "${EnvPrefix}LeaApi"
+      # The spec without its examples (CloudFormation rejects their nulls):
+      # make apigateway_spec writes it from njlea-openapi.yaml
+      DefinitionBody:
+        Fn::Transform:
+          Name: AWS::Include
+          Parameters:
+            Location: apigateway-openapi.yaml
+      # Starting values; CloudFront caches repeated requests in front of this.
+      # Every route is a few ms in memory, so no per-route limits.
+      MethodSettings:
+        - ResourcePath: "/*"
+          HttpMethod: "*"
+          ThrottlingRateLimit: 50
+          ThrottlingBurstLimit: 100
+
+Outputs:
+  LeaApiId:
+    Description: "API Gateway REST API id (the origin of the /nj/lea/* route in torgu-api-cloudfront)"
+    Value: !Ref LeaApi
+  LeaApiUrl:
+    Description: "API Gateway endpoint URL for the Prod stage"
+    Value: !Sub "https://${LeaApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/nj/lea/"
+  LeaFunction:
+    Description: "Lambda Function ARN"
+    Value: !GetAtt LeaFunction.Arn

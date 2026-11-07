@@ -1,0 +1,5 @@
+package=njlea
+version=0.0.0
+ref=fixture
+min_year=2020
+max_year=2023

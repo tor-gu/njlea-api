@@ -1,0 +1,1945 @@
+"source","source_county","source_name","agency_id","first_year","final_year","source_type"
+"njoag-leod-2021","Atlantic","Absecon City PD","NJLEA0001",,,"Municipal"
+"njoag-leod-2025","Atlantic","Absecon City PD","NJLEA0001",,,
+"njoag-major-discipline","Atlantic","Absecon City PD","NJLEA0001",,,
+"njoaguof","Atlantic County","Absecon City PD","NJLEA0001",,,
+"njoag-leod-2021","Atlantic","Atlantic City PD","NJLEA0002",,,"Municipal"
+"njoag-leod-2025","Atlantic","Atlantic City PD","NJLEA0002",,,
+"njoag-major-discipline","Atlantic","Atlantic City PD","NJLEA0002",,,
+"njoaguof","Atlantic County","Atlantic City PD","NJLEA0002",,,
+"njoag-major-discipline","Atlantic","Atlantic County Public Safety Division of Adult Detention","NJLEA0003",,,
+"njoaguof","Atlantic County","Atlantic Co Corrections","NJLEA0003",,,
+"njoag-leod-2021","Atlantic","Atlantic County Prosecutors Office","NJLEA0004",,,"County"
+"njoag-leod-2025","Atlantic","Atlantic County Prosecutors Office","NJLEA0004",,,
+"njoag-major-discipline","Atlantic","Atlantic County Prosecutors Office","NJLEA0004",,,
+"njoaguof","Atlantic County","Atlantic County Prosecutors Office","NJLEA0004",,,
+"njoag-leod-2021","Atlantic","Atlantic Co Sheriffs Office","NJLEA0005",,,"County"
+"njoag-leod-2025","Atlantic","Atlantic Co Sheriffs Office","NJLEA0005",,,
+"njoag-major-discipline","Atlantic","Atlantic County Sheriffs Office","NJLEA0005",,,
+"njoaguof","Atlantic County","Atlantic Co Sheriffs Office","NJLEA0005",,,
+"njoag-leod-2021","Atlantic","Brigantine PD","NJLEA0006",,,"Municipal"
+"njoag-leod-2025","Atlantic","Brigantine PD","NJLEA0006",,,
+"njoag-major-discipline","Atlantic","Brigantine PD","NJLEA0006",,,
+"njoaguof","Atlantic County","Brigantine PD","NJLEA0006",,,
+"njoag-leod-2021","Atlantic","Egg Harbor City PD","NJLEA0007",,,"Municipal"
+"njoag-leod-2025","Atlantic","Egg Harbor City PD","NJLEA0007",,,
+"njoaguof","Atlantic County","Egg Harbor City PD","NJLEA0007",,,
+"njoag-leod-2021","Atlantic","Egg Harbor Twp PD","NJLEA0008",,,"Municipal"
+"njoag-leod-2025","Atlantic","Egg Harbor Twp PD","NJLEA0008",,,
+"njoag-major-discipline","Atlantic","Egg Harbor Twp PD","NJLEA0008",,,
+"njoaguof","Atlantic County","Egg Harbor Twp PD","NJLEA0008",,,
+"njoag-leod-2021","Atlantic","Galloway Twp PD","NJLEA0009",,,"Municipal"
+"njoag-leod-2025","Atlantic","Galloway Twp PD","NJLEA0009",,,
+"njoag-major-discipline","Atlantic","Galloway Twp PD","NJLEA0009",,,
+"njoaguof","Atlantic County","Galloway Twp PD","NJLEA0009",,,
+"njoag-leod-2021","Atlantic","Hamilton Twp PD","NJLEA0010",,,"Municipal"
+"njoag-leod-2025","Atlantic","Hamilton Twp PD","NJLEA0010",,,
+"njoag-major-discipline","Atlantic","Hamilton Twp PD - Atlantic County","NJLEA0010",,,
+"njoaguof","Atlantic County","Hamilton Twp PD","NJLEA0010",,,
+"njoag-leod-2021","Atlantic","Hammonton PD","NJLEA0011",,,"Municipal"
+"njoag-leod-2025","Atlantic","Hammonton PD","NJLEA0011",,,
+"njoaguof","Atlantic County","Hammonton PD","NJLEA0011",,,
+"njoag-leod-2021","Atlantic","Linwood City PD","NJLEA0012",,,"Municipal"
+"njoag-leod-2025","Atlantic","Linwood City PD","NJLEA0012",,,
+"njoag-major-discipline","Atlantic","Linwood City PD","NJLEA0012",,,
+"njoaguof","Atlantic County","Linwood City PD","NJLEA0012",,,
+"njoag-leod-2021","Atlantic","Longport PD","NJLEA0013",,,"Municipal"
+"njoag-leod-2025","Atlantic","Longport PD","NJLEA0013",,,
+"njoag-major-discipline","Atlantic","Longport PD","NJLEA0013",,,
+"njoaguof","Atlantic County","Longport PD","NJLEA0013",,,
+"njoag-leod-2021","Atlantic","Margate PD","NJLEA0014",,,"Municipal"
+"njoag-leod-2025","Atlantic","Margate PD","NJLEA0014",,,
+"njoaguof","Atlantic County","Margate PD","NJLEA0014",,,
+"njoag-leod-2021","Atlantic","Mullica Twp PD","NJLEA0015",,,"Municipal"
+"njoag-leod-2025","Atlantic","Mullica Twp PD","NJLEA0015",,,
+"njoag-major-discipline","Atlantic","Mullica Twp PD","NJLEA0015",,,
+"njoaguof","Atlantic County","Mullica Twp PD","NJLEA0015",,,
+"njoag-leod-2021","Atlantic","Northfield PD","NJLEA0016",,,"Municipal"
+"njoag-leod-2025","Atlantic","Northfield PD","NJLEA0016",,,
+"njoaguof","Atlantic County","Northfield PD","NJLEA0016",,,
+"njoag-leod-2021","Atlantic","Pleasantville PD","NJLEA0017",,,"Municipal"
+"njoag-leod-2025","Atlantic","Pleasantville PD","NJLEA0017",,,
+"njoag-major-discipline","Atlantic","Pleasantville PD","NJLEA0017",,,
+"njoaguof","Atlantic County","Pleasantville PD","NJLEA0017",,,
+"njoag-leod-2021","Atlantic","Somers Point PD","NJLEA0018",,,"Municipal"
+"njoag-leod-2025","Atlantic","Somers Point PD","NJLEA0018",,,
+"njoag-major-discipline","Atlantic","Somers Point PD","NJLEA0018",,,
+"njoaguof","Atlantic County","Somers Point PD","NJLEA0018",,,
+"njoag-leod-2021","Atlantic","Ventnor PD","NJLEA0019",,,"Municipal"
+"njoag-leod-2025","Atlantic","Ventnor PD","NJLEA0019",,,
+"njoag-major-discipline","Atlantic","Ventnor PD","NJLEA0019",,,
+"njoaguof","Atlantic County","Ventnor PD","NJLEA0019",,,
+"njoag-leod-2021","Bergen","Allendale PD","NJLEA0020",,,"Municipal"
+"njoag-leod-2025","Bergen","Allendale PD","NJLEA0020",,,
+"njoag-major-discipline","Bergen","Allendale PD","NJLEA0020",,,
+"njoaguof","Bergen County","Allendale PD","NJLEA0020",,,
+"njoag-leod-2021","Bergen","Alpine PD","NJLEA0021",,,"Municipal"
+"njoag-leod-2025","Bergen","Alpine PD","NJLEA0021",,,
+"njoaguof","Bergen County","Alpine PD","NJLEA0021",,,
+"njoag-leod-2021","Bergen","Bergen Co Prosecutors Office","NJLEA0022",,,"County"
+"njoag-leod-2025","Bergen","Bergen Co Prosecutors Office","NJLEA0022",,,
+"njoag-major-discipline","Bergen","Bergen County Prosecutors Office","NJLEA0022",,,
+"njoaguof","Bergen County","Bergen Co Prosecutors Office","NJLEA0022",,,
+"njoag-leod-2021","Bergen","Bergen Co Sheriffs Dept","NJLEA0023",,,"County"
+"njoag-leod-2025","Bergen","Bergen Co Sheriffs Dept","NJLEA0023",,,
+"njoag-major-discipline","Bergen","Bergen County Sheriffs Office","NJLEA0023",,,
+"njoaguof","Bergen County","Bergen Co Sheriffs Dept","NJLEA0023",,,
+"njoag-leod-2021","Bergen","Bergenfield PD","NJLEA0024",,,"Municipal"
+"njoag-leod-2025","Bergen","Bergenfield PD","NJLEA0024",,,
+"njoag-major-discipline","Bergen","Bergenfield PD","NJLEA0024",,,
+"njoaguof","Bergen County","Bergenfield PD","NJLEA0024",,,
+"njoag-leod-2021","Bergen","Bogota PD","NJLEA0025",,,"Municipal"
+"njoag-leod-2025","Bergen","Bogota PD","NJLEA0025",,,
+"njoag-major-discipline","Bergen","Bogota PD","NJLEA0025",,,
+"njoaguof","Bergen County","Bogota PD","NJLEA0025",,,
+"njoag-leod-2021","Bergen","Carlstadt PD","NJLEA0026",,,"Municipal"
+"njoag-leod-2025","Bergen","Carlstadt PD","NJLEA0026",,,
+"njoag-major-discipline","Bergen","Carlstadt PD","NJLEA0026",,,
+"njoaguof","Bergen County","Carlstadt PD","NJLEA0026",,,
+"njoag-leod-2021","Bergen","Cliffside Park PD","NJLEA0027",,,"Municipal"
+"njoag-leod-2025","Bergen","Cliffside Park PD","NJLEA0027",,,
+"njoag-major-discipline","Bergen","Cliffside Park PD","NJLEA0027",,,
+"njoaguof","Bergen County","Cliffside Park PD","NJLEA0027",,,
+"njoag-leod-2021","Bergen","Closter PD","NJLEA0028",,,"Municipal"
+"njoag-leod-2025","Bergen","Closter PD","NJLEA0028",,,
+"njoaguof","Bergen County","Closter PD","NJLEA0028",,,
+"njoag-leod-2021","Bergen","Cresskill PD","NJLEA0029",,,"Municipal"
+"njoag-leod-2025","Bergen","Cresskill PD","NJLEA0029",,,
+"njoaguof","Bergen County","Cresskill PD","NJLEA0029",,,
+"njoag-leod-2021","Bergen","Demarest PD","NJLEA0030",,,"Municipal"
+"njoag-leod-2025","Bergen","Demarest PD","NJLEA0030",,,
+"njoag-major-discipline","Bergen","Demarest PD","NJLEA0030",,,
+"njoaguof","Bergen County","Demarest PD","NJLEA0030",,,
+"njoag-leod-2021","Bergen","Dumont PD","NJLEA0031",,,"Municipal"
+"njoag-leod-2025","Bergen","Dumont PD","NJLEA0031",,,
+"njoag-major-discipline","Bergen","Dumont PD","NJLEA0031",,,
+"njoaguof","Bergen County","Dumont PD","NJLEA0031",,,
+"njoag-leod-2021","Bergen","East Rutherford PD","NJLEA0032",,,"Municipal"
+"njoag-leod-2025","Bergen","East Rutherford PD","NJLEA0032",,,
+"njoaguof","Bergen County","East Rutherford PD","NJLEA0032",,,
+"njoag-leod-2021","Bergen","Edgewater PD","NJLEA0033",,,"Municipal"
+"njoag-leod-2025","Bergen","Edgewater PD","NJLEA0033",,,
+"njoaguof","Bergen County","Edgewater PD","NJLEA0033",,,
+"njoag-leod-2021","Bergen","Elmwood Park PD","NJLEA0034",,,"Municipal"
+"njoag-leod-2025","Bergen","Elmwood Park PD","NJLEA0034",,,
+"njoag-major-discipline","Bergen","Elmwood Park PD","NJLEA0034",,,
+"njoaguof","Bergen County","Elmwood Park PD","NJLEA0034",,,
+"njoag-leod-2021","Bergen","Emerson PD","NJLEA0035",,,"Municipal"
+"njoag-leod-2025","Bergen","Emerson PD","NJLEA0035",,,
+"njoaguof","Bergen County","Emerson PD","NJLEA0035",,,
+"njoag-leod-2021","Bergen","Englewood Cliffs PD","NJLEA0036",,,"Municipal"
+"njoag-leod-2025","Bergen","Englewood Cliffs PD","NJLEA0036",,,
+"njoaguof","Bergen County","Englewood Cliffs PD","NJLEA0036",,,
+"njoag-leod-2021","Bergen","Englewood PD","NJLEA0037",,,"Municipal"
+"njoag-leod-2025","Bergen","Englewood PD","NJLEA0037",,,
+"njoag-major-discipline","Bergen","Englewood PD","NJLEA0037",,,
+"njoaguof","Bergen County","Englewood PD","NJLEA0037",,,
+"njoag-leod-2021","Bergen","Fair Lawn PD","NJLEA0038",,,"Municipal"
+"njoag-leod-2025","Bergen","Fair Lawn PD","NJLEA0038",,,
+"njoaguof","Bergen County","Fair Lawn PD","NJLEA0038",,,
+"njoag-leod-2021","Bergen","Fairview PD","NJLEA0039",,,"Municipal"
+"njoag-leod-2025","Bergen","Fairview PD","NJLEA0039",,,
+"njoaguof","Bergen County","Fairview PD","NJLEA0039",,,
+"njoag-leod-2021","Bergen","Fort Lee PD","NJLEA0040",,,"Municipal"
+"njoag-leod-2025","Bergen","Fort Lee PD","NJLEA0040",,,
+"njoag-major-discipline","Bergen","Fort Lee PD","NJLEA0040",,,
+"njoaguof","Bergen County","Fort Lee PD","NJLEA0040",,,
+"njoag-leod-2021","Bergen","Franklin Lakes Boro PD","NJLEA0041",,,"Municipal"
+"njoag-leod-2025","Bergen","Franklin Lakes Boro PD","NJLEA0041",,,
+"njoaguof","Bergen County","Franklin Lakes Boro PD","NJLEA0041",,,
+"njoag-leod-2021","Bergen","Garfield PD","NJLEA0042",,,"Municipal"
+"njoag-leod-2025","Bergen","Garfield PD","NJLEA0042",,,
+"njoag-major-discipline","Bergen","Garfield PD","NJLEA0042",,,
+"njoaguof","Bergen County","Garfield PD","NJLEA0042",,,
+"njoag-leod-2021","Bergen","Glen Rock PD","NJLEA0043",,,"Municipal"
+"njoag-leod-2025","Bergen","Glen Rock PD","NJLEA0043",,,
+"njoaguof","Bergen County","Glen Rock PD","NJLEA0043",,,
+"njoag-leod-2021","Bergen","Hackensack PD","NJLEA0044",,,"Municipal"
+"njoag-leod-2025","Bergen","Hackensack PD","NJLEA0044",,,
+"njoag-major-discipline","Bergen","Hackensack PD","NJLEA0044",,,
+"njoaguof","Bergen County","Hackensack PD","NJLEA0044",,,
+"njoag-leod-2021","Bergen","Harrington Park PD","NJLEA0045",,,"Municipal"
+"njoag-leod-2025","Bergen","Harrington Park PD","NJLEA0045",,,
+"njoag-major-discipline","Bergen","Harrington Park PD","NJLEA0045",,,
+"njoaguof","Bergen County","Harrington Park PD","NJLEA0045",,,
+"njoag-leod-2021","Bergen","Hasbrouck Heights PD","NJLEA0046",,,"Municipal"
+"njoag-leod-2025","Bergen","Hasbrouck Heights PD","NJLEA0046",,,
+"njoaguof","Bergen County","Hasbrouck Heights PD","NJLEA0046",,,
+"njoag-leod-2021","Bergen","Haworth PD","NJLEA0047",,,"Municipal"
+"njoag-leod-2025","Bergen","Haworth PD","NJLEA0047",,,
+"njoaguof","Bergen County","Haworth PD","NJLEA0047",,,
+"njoag-leod-2021","Bergen","Hillsdale PD","NJLEA0048",,,"Municipal"
+"njoag-leod-2025","Bergen","Hillsdale PD","NJLEA0048",,,
+"njoag-major-discipline","Bergen","Hillsdale PD","NJLEA0048",,,
+"njoaguof","Bergen County","Hillsdale PD","NJLEA0048",,,
+"njoag-leod-2021","Bergen","Ho-Ho-Kus PD","NJLEA0049",,,"Municipal"
+"njoag-leod-2025","Bergen","Ho-Ho-Kus PD","NJLEA0049",,,
+"njoag-major-discipline","Bergen","Ho-Ho-Kus PD","NJLEA0049",,,
+"njoaguof","Bergen County","Ho-Ho-Kus PD","NJLEA0049",,,
+"njoag-leod-2021","Bergen","Leonia PD","NJLEA0050",,,"Municipal"
+"njoag-leod-2025","Bergen","Leonia PD","NJLEA0050",,,
+"njoag-major-discipline","Bergen","Leonia PD","NJLEA0050",,,
+"njoaguof","Bergen County","Leonia PD","NJLEA0050",,,
+"njoag-leod-2021","Bergen","Little Ferry PD","NJLEA0051",,,"Municipal"
+"njoag-leod-2025","Bergen","Little Ferry PD","NJLEA0051",,,
+"njoag-major-discipline","Bergen","Little Ferry PD","NJLEA0051",,,
+"njoaguof","Bergen County","Little Ferry PD","NJLEA0051",,,
+"njoag-leod-2021","Bergen","Lodi PD","NJLEA0052",,,"Municipal"
+"njoag-leod-2025","Bergen","Lodi PD","NJLEA0052",,,
+"njoag-major-discipline","Bergen","Lodi PD","NJLEA0052",,,
+"njoaguof","Bergen County","Lodi PD","NJLEA0052",,,
+"njoag-leod-2021","Bergen","Lyndhurst PD","NJLEA0053",,,"Municipal"
+"njoag-leod-2025","Bergen","Lyndhurst PD","NJLEA0053",,,
+"njoag-major-discipline","Bergen","Lyndhurst PD","NJLEA0053",,,
+"njoaguof","Bergen County","Lyndhurst PD","NJLEA0053",,,
+"njoag-leod-2021","Bergen","Mahwah Twp PD","NJLEA0054",,,"Municipal"
+"njoag-leod-2025","Bergen","Mahwah Twp PD","NJLEA0054",,,
+"njoaguof","Bergen County","Mahwah Twp PD","NJLEA0054",,,
+"njoag-leod-2021","Bergen","Maywood PD","NJLEA0055",,,"Municipal"
+"njoag-leod-2025","Bergen","Maywood PD","NJLEA0055",,,
+"njoaguof","Bergen County","Maywood PD","NJLEA0055",,,
+"njoag-leod-2021","Bergen","Midland Park PD","NJLEA0056",,,"Municipal"
+"njoag-leod-2025","Bergen","Midland Park PD","NJLEA0056",,,
+"njoaguof","Bergen County","Midland Park PD","NJLEA0056",,,
+"njoag-leod-2021","Bergen","Montvale PD","NJLEA0057",,,"Not Provided"
+"njoag-leod-2025","Bergen","Montvale PD","NJLEA0057",,,
+"njoaguof","Bergen County","Montvale PD","NJLEA0057",,,
+"njoag-leod-2021","Bergen","Moonachie PD","NJLEA0058",,,"Municipal"
+"njoag-leod-2025","Bergen","Moonachie PD","NJLEA0058",,,
+"njoaguof","Bergen County","Moonachie PD","NJLEA0058",,,
+"njoag-leod-2021","Bergen","New Milford PD","NJLEA0059",,,"Municipal"
+"njoag-leod-2025","Bergen","New Milford PD","NJLEA0059",,,
+"njoag-major-discipline","Bergen","New Milford PD","NJLEA0059",,,
+"njoaguof","Bergen County","New Milford PD","NJLEA0059",,,
+"njoag-leod-2021","Bergen","North Arlington PD","NJLEA0060",,,"Municipal"
+"njoag-leod-2025","Bergen","North Arlington PD","NJLEA0060",,,
+"njoag-major-discipline","Bergen","North Arlington PD","NJLEA0060",,,
+"njoaguof","Bergen County","North Arlington PD","NJLEA0060",,,
+"njoag-leod-2021","Bergen","Northvale PD","NJLEA0061",,,"Municipal"
+"njoag-leod-2025","Bergen","Northvale PD","NJLEA0061",,,
+"njoag-major-discipline","Bergen","Northvale PD","NJLEA0061",,,
+"njoaguof","Bergen County","Northvale PD","NJLEA0061",,,
+"njoag-leod-2021","Bergen","Norwood PD","NJLEA0062",,,"Municipal"
+"njoag-leod-2025","Bergen","Norwood PD","NJLEA0062",,,
+"njoaguof","Bergen County","Norwood PD","NJLEA0062",,,
+"njoag-leod-2021","Bergen","Oakland PD","NJLEA0063",,,"Municipal"
+"njoag-leod-2025","Bergen","Oakland PD","NJLEA0063",,,
+"njoag-major-discipline","Bergen","Oakland PD","NJLEA0063",,,
+"njoaguof","Bergen County","Oakland PD","NJLEA0063",,,
+"njoag-leod-2021","Bergen","Old Tappan PD","NJLEA0064",,,"Municipal"
+"njoag-leod-2025","Bergen","Old Tappan PD","NJLEA0064",,,
+"njoaguof","Bergen County","Old Tappan PD","NJLEA0064",,,
+"njoag-leod-2021","Bergen","Oradell PD","NJLEA0065",,,"Municipal"
+"njoag-leod-2025","Bergen","Oradell PD","NJLEA0065",,,
+"njoag-major-discipline","Bergen","Oradell PD","NJLEA0065",,,
+"njoaguof","Bergen County","Oradell PD","NJLEA0065",,,
+"njoag-leod-2021","Bergen","Palisades Park PD","NJLEA0066",,,"Municipal"
+"njoag-leod-2025","Bergen","Palisades Park PD","NJLEA0066",,,
+"njoag-major-discipline","Bergen","Palisades Park PD","NJLEA0066",,,
+"njoaguof","Bergen County","Palisades Park PD","NJLEA0066",,,
+"njoag-leod-2021","Bergen","Paramus PD","NJLEA0067",,,"Municipal"
+"njoag-leod-2025","Bergen","Paramus PD","NJLEA0067",,,
+"njoag-major-discipline","Bergen","Paramus PD","NJLEA0067",,,
+"njoaguof","Bergen County","Paramus PD","NJLEA0067",,,
+"njoag-leod-2021","Bergen","Park Ridge PD","NJLEA0068",,,"Municipal"
+"njoag-leod-2025","Bergen","Park Ridge PD","NJLEA0068",,,
+"njoaguof","Bergen County","Park Ridge PD","NJLEA0068",,,
+"njoag-leod-2021","Bergen","Ramsey PD","NJLEA0069",,,"Municipal"
+"njoag-leod-2025","Bergen","Ramsey PD","NJLEA0069",,,
+"njoag-major-discipline","Bergen","Ramsey PD","NJLEA0069",,,
+"njoaguof","Bergen County","Ramsey PD","NJLEA0069",,,
+"njoag-leod-2021","Bergen","Ridgefield Park PD","NJLEA0070",,,"Municipal"
+"njoag-leod-2025","Bergen","Ridgefield Park PD","NJLEA0070",,,
+"njoag-major-discipline","Bergen","Ridgefield Park PD","NJLEA0070",,,
+"njoaguof","Bergen County","Ridgefield Park PD","NJLEA0070",,,
+"njoag-leod-2021","Bergen","Ridgefield Boro PD","NJLEA0071",,,"Municipal"
+"njoag-leod-2025","Bergen","Ridgefield Boro PD","NJLEA0071",,,
+"njoag-major-discipline","Bergen","Ridgefield PD","NJLEA0071",,,
+"njoaguof","Bergen County","Ridgefield Boro PD","NJLEA0071",,,
+"njoag-leod-2021","Bergen","Ridgewood Village PD","NJLEA0072",,,"Municipal"
+"njoag-leod-2025","Bergen","Ridgewood Village PD","NJLEA0072",,,
+"njoag-major-discipline","Bergen","Ridgewood PD","NJLEA0072",,,
+"njoaguof","Bergen County","Ridgewood Village PD","NJLEA0072",,,
+"njoag-leod-2021","Bergen","River Edge PD","NJLEA0073",,,"Municipal"
+"njoag-leod-2025","Bergen","River Edge PD","NJLEA0073",,,
+"njoag-major-discipline","Bergen","River Edge PD","NJLEA0073",,,
+"njoaguof","Bergen County","River Edge PD","NJLEA0073",,,
+"njoag-leod-2021","Bergen","River Vale PD","NJLEA0074",,,"Municipal"
+"njoag-leod-2025","Bergen","River Vale PD","NJLEA0074",,,
+"njoaguof","Bergen County","River Vale PD","NJLEA0074",,,
+"njoag-leod-2021","Bergen","Rochelle Park PD","NJLEA0075",,,"Municipal"
+"njoag-leod-2025","Bergen","Rochelle Park PD","NJLEA0075",,,
+"njoag-major-discipline","Bergen","Rochelle Park PD","NJLEA0075",,,
+"njoaguof","Bergen County","Rochelle Park PD","NJLEA0075",,,
+"njoag-leod-2021","Bergen","Rutherford PD","NJLEA0076",,,"Municipal"
+"njoag-leod-2025","Bergen","Rutherford PD","NJLEA0076",,,
+"njoag-major-discipline","Bergen","Rutherford PD","NJLEA0076",,,
+"njoaguof","Bergen County","Rutherford PD","NJLEA0076",,,
+"njoag-leod-2021","Bergen","Saddle Brook PD","NJLEA0077",,,"Municipal"
+"njoag-leod-2025","Bergen","Saddle Brook PD","NJLEA0077",,,
+"njoag-major-discipline","Bergen","Saddle Brook PD","NJLEA0077",,,
+"njoaguof","Bergen County","Saddle Brook PD","NJLEA0077",,,
+"njoag-leod-2021","Bergen","Saddle River PD","NJLEA0078",,,"Municipal"
+"njoag-leod-2025","Bergen","Saddle River PD","NJLEA0078",,,
+"njoag-major-discipline","Bergen","Saddle River PD","NJLEA0078",,,
+"njoaguof","Bergen County","Saddle River PD","NJLEA0078",,,
+"njoag-leod-2021","Bergen","South Hackensack PD","NJLEA0079",,,"Municipal"
+"njoag-leod-2025","Bergen","South Hackensack PD","NJLEA0079",,,
+"njoaguof","Bergen County","South Hackensack PD","NJLEA0079",,,
+"njoag-leod-2021","Bergen","Teaneck PD","NJLEA0080",,,"Municipal"
+"njoag-leod-2025","Bergen","Teaneck PD","NJLEA0080",,,
+"njoag-major-discipline","Bergen","Teaneck PD","NJLEA0080",,,
+"njoaguof","Bergen County","Teaneck PD","NJLEA0080",,,
+"njoag-leod-2021","Bergen","Tenafly PD","NJLEA0081",,,"Municipal"
+"njoag-leod-2025","Bergen","Tenafly PD","NJLEA0081",,,
+"njoag-major-discipline","Bergen","Tenafly PD","NJLEA0081",,,
+"njoaguof","Bergen County","Tenafly PD","NJLEA0081",,,
+"njoag-leod-2021","Bergen","Upper Saddle River PD","NJLEA0082",,,"Municipal"
+"njoag-leod-2025","Bergen","Upper Saddle River PD","NJLEA0082",,,
+"njoaguof","Bergen County","Upper Saddle River PD","NJLEA0082",,,
+"njoag-leod-2021","Bergen","Waldwick PD","NJLEA0083",,,"Municipal"
+"njoag-leod-2025","Bergen","Waldwick PD","NJLEA0083",,,
+"njoaguof","Bergen County","Waldwick PD","NJLEA0083",,,
+"njoag-leod-2021","Bergen","Wallington PD","NJLEA0084",,,"Municipal"
+"njoag-leod-2025","Bergen","Wallington PD","NJLEA0084",,,
+"njoaguof","Bergen County","Wallington PD","NJLEA0084",,,
+"njoag-leod-2021","Bergen","Washington Twp PD","NJLEA0085",,,"Municipal"
+"njoag-leod-2025","Bergen","Washington Twp PD","NJLEA0085",,,
+"njoaguof","Bergen County","Washington Twp PD","NJLEA0085",,,
+"njoag-leod-2021","Bergen","Westwood PD","NJLEA0086",,,"Municipal"
+"njoag-leod-2025","Bergen","Westwood PD","NJLEA0086",,,
+"njoag-major-discipline","Bergen","Westwood PD","NJLEA0086",,,
+"njoaguof","Bergen County","Westwood PD","NJLEA0086",,,
+"njoag-leod-2021","Bergen","Wood-Ridge PD","NJLEA0087",,,"Municipal"
+"njoag-leod-2025","Bergen","Wood-Ridge PD","NJLEA0087",,,
+"njoaguof","Bergen County","Wood-Ridge PD","NJLEA0087",,,
+"njoag-leod-2021","Bergen","Woodcliff Lake PD","NJLEA0088",,,"Municipal"
+"njoag-leod-2025","Bergen","Woodcliff Lake PD","NJLEA0088",,,
+"njoaguof","Bergen County","Woodcliff Lake PD","NJLEA0088",,,
+"njoag-leod-2021","Bergen","Wyckoff Twp PD","NJLEA0089",,,"Municipal"
+"njoag-leod-2025","Bergen","Wyckoff Twp PD","NJLEA0089",,,
+"njoaguof","Bergen County","Wyckoff Twp PD","NJLEA0089",,,
+"njoag-leod-2021","Burlington","Beverly City PD","NJLEA0090",,,"Municipal"
+"njoag-leod-2025","Burlington","Beverly City PD","NJLEA0090",,,
+"njoaguof","Burlington County","Beverly City PD","NJLEA0090",,,
+"njoag-leod-2021","Burlington","Bordentown City PD","NJLEA0091",,,"Municipal"
+"njoag-leod-2025","Burlington","Bordentown City PD","NJLEA0091",,,
+"njoag-major-discipline","Burlington","Bordentown City PD","NJLEA0091",,,
+"njoaguof","Burlington County","Bordentown City PD","NJLEA0091",,,
+"njoag-leod-2021","Burlington","Bordentown Twp PD","NJLEA0092",,,"Municipal"
+"njoag-leod-2025","Burlington","Bordentown Twp PD","NJLEA0092",,,
+"njoag-major-discipline","Burlington","Bordentown Twp PD","NJLEA0092",,,
+"njoaguof","Burlington County","Bordentown Twp PD","NJLEA0092",,,
+"njoag-leod-2021","Burlington","Burlington County Bridge Commission","NJLEA0093",,,"County"
+"njoag-leod-2025","Burlington","Burlington County Bridge Commission","NJLEA0093",,,
+"njoaguof","Burlington County","Burlington County Bridge Commission","NJLEA0093",,,
+"njoag-major-discipline","Burlington","Burlington County Department of Corrections","NJLEA0094",,,
+"njoag-leod-2021","Burlington","Burlington Co Prosecutors Office","NJLEA0095",,,"County"
+"njoag-leod-2025","Burlington","Burlington Co Prosecutors Office","NJLEA0095",,,
+"njoag-major-discipline","Burlington","Burlington County Prosecutors Office","NJLEA0095",,,
+"njoaguof","Burlington County","Burlington Co Prosecutors Office","NJLEA0095",,,
+"njoag-leod-2021","Burlington","Burlington County Sheriffs Off","NJLEA0096",,,"County"
+"njoag-leod-2025","Burlington","Burlington County Sheriffs Off","NJLEA0096",,,
+"njoag-major-discipline","Burlington","Burlington County Sheriffs Office","NJLEA0096",,,
+"njoaguof","Burlington County","Burlington Co Sheriffs Office","NJLEA0096",,,
+"njoag-leod-2021","Burlington","Burlington City PD","NJLEA0097",,,"Municipal"
+"njoag-leod-2025","Burlington","Burlington City PD","NJLEA0097",,,
+"njoag-major-discipline","Burlington","Burlington City PD","NJLEA0097",,,
+"njoaguof","Burlington County","Burlington City PD","NJLEA0097",,,
+"njoag-leod-2021","Burlington","Burlington Twp PD","NJLEA0098",,,"Municipal"
+"njoag-leod-2025","Burlington","Burlington Twp PD","NJLEA0098",,,
+"njoag-major-discipline","Burlington","Burlington Twp PD","NJLEA0098",,,
+"njoaguof","Burlington County","Burlington Twp PD","NJLEA0098",,,
+"njoag-leod-2021","Burlington","Chesterfield Twp PD","NJLEA0099",,,"Municipal"
+"njoag-leod-2025","Burlington","Chesterfield Twp PD","NJLEA0099",,,
+"njoaguof","Burlington County","Chesterfield Twp PD","NJLEA0099",,,
+"njoag-leod-2021","Burlington","Cinnaminson PD","NJLEA0100",,,"Municipal"
+"njoag-leod-2025","Burlington","Cinnaminson PD","NJLEA0100",,,
+"njoag-major-discipline","Burlington","Cinnaminson PD","NJLEA0100",,,
+"njoaguof","Burlington County","Cinnaminson PD","NJLEA0100",,,
+"njoag-leod-2021","Burlington","Delanco Twp PD","NJLEA0101",,,"Multiple Municipalities"
+"njoag-leod-2025","Burlington","Delanco Twp PD","NJLEA0101",,,
+"njoaguof","Burlington County","Delanco Twp PD","NJLEA0101",,,
+"njoag-leod-2021","Burlington","Delran Twp PD","NJLEA0102",,,"Municipal"
+"njoag-leod-2025","Burlington","Delran Twp PD","NJLEA0102",,,
+"njoag-major-discipline","Burlington","Delran PD","NJLEA0102",,,
+"njoaguof","Burlington County","Delran Twp PD","NJLEA0102",,,
+"njoag-leod-2021","Burlington","Eastampton Twp PD","NJLEA0103",,,"Municipal"
+"njoag-leod-2025","Burlington","Eastampton PD","NJLEA0103",,,
+"njoaguof","Burlington County","Eastampton Twp PD","NJLEA0103",,,
+"njoag-leod-2021","Burlington","Edgewater Park Twp PD","NJLEA0104",,,"Municipal"
+"njoag-leod-2025","Burlington","Edgewater Park PD","NJLEA0104",,,
+"njoag-major-discipline","Burlington","Edgewater Park PD","NJLEA0104",,,
+"njoaguof","Burlington County","Edgewater Park Twp PD","NJLEA0104",,,
+"njoag-leod-2021","Burlington","Evesham Twp PD","NJLEA0105",,,"Municipal"
+"njoag-leod-2025","Burlington","Evesham Twp PD","NJLEA0105",,,
+"njoag-major-discipline","Burlington","Evesham Twp PD","NJLEA0105",,,
+"njoaguof","Burlington County","Evesham Twp PD","NJLEA0105",,,
+"njoag-leod-2021","Burlington","Florence Twp PD","NJLEA0106",,,"Municipal"
+"njoag-leod-2025","Burlington","Florence Twp PD","NJLEA0106",,,
+"njoag-major-discipline","Burlington","Florence PD","NJLEA0106",,,
+"njoaguof","Burlington County","Florence Twp PD","NJLEA0106",,,
+"njoag-leod-2021","Burlington","Lumberton Twp PD","NJLEA0107",,,"Municipal"
+"njoag-leod-2025","Burlington","Lumberton Twp PD","NJLEA0107",,,
+"njoag-major-discipline","Burlington","Lumberton PD","NJLEA0107",,,
+"njoaguof","Burlington County","Lumberton Twp PD","NJLEA0107",,,
+"njoag-leod-2021","Burlington","Mansfield Twp PD","NJLEA0108",,,"Municipal"
+"njoag-leod-2025","Burlington","Mansfield Twp PD","NJLEA0108",,,
+"njoaguof","Burlington County","Mansfield Twp PD","NJLEA0108",,,
+"njoag-leod-2021","Burlington","Maple Shade PD","NJLEA0109",,,"Municipal"
+"njoag-leod-2025","Burlington","Maple Shade PD","NJLEA0109",,,
+"njoag-major-discipline","Burlington","Maple Shade PD","NJLEA0109",,,
+"njoaguof","Burlington County","Maple Shade PD","NJLEA0109",,,
+"njoag-leod-2021","Burlington","Medford Lakes PD","NJLEA0110",,,"Municipal"
+"njoag-leod-2025","Burlington","Medford Lakes PD","NJLEA0110",,,
+"njoaguof","Burlington County","Medford Lakes PD","NJLEA0110",,,
+"njoag-leod-2021","Burlington","Medford Twp PD","NJLEA0111",,,"Municipal"
+"njoag-leod-2025","Burlington","Medford Twp PD","NJLEA0111",,,
+"njoaguof","Burlington County","Medford Twp PD","NJLEA0111",,,
+"njoag-leod-2021","Burlington","Moorestown PD","NJLEA0112",,,"Municipal"
+"njoag-leod-2025","Burlington","Moorestown PD","NJLEA0112",,,
+"njoag-major-discipline","Burlington","Moorestown PD","NJLEA0112",,,
+"njoaguof","Burlington County","Moorestown PD","NJLEA0112",,,
+"njoag-leod-2021","Burlington","Mount Holly PD","NJLEA0113",,,"Municipal"
+"njoag-leod-2025","Burlington","Mount Holly PD","NJLEA0113",,,
+"njoag-major-discipline","Burlington","Mount Holly PD","NJLEA0113",,,
+"njoaguof","Burlington County","Mount Holly PD","NJLEA0113",,,
+"njoag-leod-2021","Burlington","Mount Laurel Twp PD","NJLEA0114",,,"Municipal"
+"njoag-leod-2025","Burlington","Mount Laurel Twp PD","NJLEA0114",,,
+"njoag-major-discipline","Burlington","Mount Laurel Twp PD","NJLEA0114",,,
+"njoaguof","Burlington County","Mount Laurel Twp PD","NJLEA0114",,,
+"njoag-leod-2021","Burlington","New Hanover Twp PD","NJLEA0115",,,"Municipal"
+"njoag-leod-2025","Burlington","New Hanover Twp PD","NJLEA0115",,,
+"njoag-major-discipline","Burlington","New Hanover Twp PD","NJLEA0115",,,
+"njoaguof","Burlington County","New Hanover Twp PD","NJLEA0115",,,
+"njoag-leod-2021","Burlington","North Hanover Twp PD","NJLEA0116",,,"Municipal"
+"njoag-leod-2025","Burlington","North Hanover Twp PD","NJLEA0116",,,
+"njoaguof","Burlington County","North Hanover Twp PD","NJLEA0116",,,
+"njoag-leod-2021","Burlington","Palmyra Boro PD","NJLEA0117",,,"Municipal"
+"njoag-leod-2025","Burlington","Palmyra Boro PD","NJLEA0117",,,
+"njoag-major-discipline","Burlington","Palmyra Boro PD","NJLEA0117",,,
+"njoaguof","Burlington County","Palmyra Boro PD","NJLEA0117",,,
+"njoag-leod-2021","Burlington","Pemberton Boro PD","NJLEA0118",,,"Municipal"
+"njoag-leod-2025","Burlington","Pemberton Boro PD","NJLEA0118",,,
+"njoaguof","Burlington County","Pemberton Boro PD","NJLEA0118",,,
+"njoag-leod-2021","Burlington","Pemberton Twp PD","NJLEA0119",,,"Municipal"
+"njoag-leod-2025","Burlington","Pemberton Twp PD","NJLEA0119",,,
+"njoag-major-discipline","Burlington","Pemberton Twp PD","NJLEA0119",,,
+"njoaguof","Burlington County","Pemberton Twp PD","NJLEA0119",,,
+"njoag-leod-2021","Burlington","Riverside PD","NJLEA0120",,,"Municipal"
+"njoag-leod-2025","Burlington","Riverside PD","NJLEA0120",,,
+"njoag-major-discipline","Burlington","Riverside PD","NJLEA0120",,,
+"njoaguof","Burlington County","Riverside PD","NJLEA0120",,,
+"njoag-leod-2021","Burlington","Riverton Boro PD","NJLEA0121",,,"Municipal"
+"njoag-leod-2025","Burlington","Riverton Boro PD","NJLEA0121",,,
+"njoaguof","Burlington County","Riverton Boro PD","NJLEA0121",,,
+"njoag-leod-2021","Burlington","Springfield Twp PD","NJLEA0122",,,"Municipal"
+"njoag-leod-2025","Burlington","Springfield Twp PD","NJLEA0122",,,
+"njoag-major-discipline","Burlington","Springfield Twp PD - Burlington County","NJLEA0122",,,
+"njoaguof","Burlington County","Springfield Twp PD","NJLEA0122",,,
+"njoag-leod-2021","Burlington","Westampton Twp PD","NJLEA0123",,,"Municipal"
+"njoag-leod-2025","Burlington","Westampton Twp PD","NJLEA0123",,,
+"njoag-major-discipline","Burlington","Westampton Twp PD","NJLEA0123",,,
+"njoaguof","Burlington County","Westampton Twp PD","NJLEA0123",,,
+"njoag-leod-2021","Burlington","Willingboro PD","NJLEA0124",,,"Municipal"
+"njoag-leod-2025","Burlington","Willingboro PD","NJLEA0124",,,
+"njoag-major-discipline","Burlington","Willingboro PD","NJLEA0124",,,
+"njoaguof","Burlington County","Willingboro PD","NJLEA0124",,,
+"njoag-leod-2021","Camden","Audubon PD","NJLEA0125",,,"Municipal"
+"njoag-leod-2025","Camden","Audubon PD","NJLEA0125",,,
+"njoag-major-discipline","Camden","Audubon PD","NJLEA0125",,,
+"njoaguof","Camden County","Audubon PD","NJLEA0125",,,
+"njoag-leod-2021","Camden","Barrington PD","NJLEA0126",,,"Municipal"
+"njoag-leod-2025","Camden","Barrington PD","NJLEA0126",,,
+"njoag-major-discipline","Camden","Barrington PD","NJLEA0126",,,
+"njoaguof","Camden County","Barrington PD","NJLEA0126",,,
+"njoag-leod-2021","Camden","Bellmawr PD","NJLEA0127",,,"Municipal"
+"njoag-leod-2025","Camden","Bellmawr PD","NJLEA0127",,,
+"njoaguof","Camden County","Bellmawr PD","NJLEA0127",,,
+"njoag-leod-2021","Camden","Berlin Boro PD","NJLEA0128",,,"Municipal"
+"njoag-leod-2025","Camden","Berlin Boro PD","NJLEA0128",,,
+"njoag-major-discipline","Camden","Berlin Boro PD","NJLEA0128",,,
+"njoaguof","Camden County","Berlin Boro PD","NJLEA0128",,,
+"njoag-leod-2021","Camden","Berlin Twp PD","NJLEA0129",,,"Municipal"
+"njoag-leod-2025","Camden","Berlin Twp PD","NJLEA0129",,,
+"njoaguof","Camden County","Berlin Twp PD","NJLEA0129",,,
+"njoag-leod-2021","Camden","Brooklawn PD","NJLEA0130",,,"Municipal"
+"njoag-leod-2025","Camden","Brooklawn PD","NJLEA0130",,,
+"njoag-major-discipline","Camden","Brooklawn PD","NJLEA0130",,,
+"njoaguof","Camden County","Brooklawn PD","NJLEA0130",,,
+"njoag-major-discipline","Camden","Camden County Department of Corrections","NJLEA0131",,,
+"njoaguof","Camden County","Camden Co Corrections","NJLEA0131",,,
+"njoag-leod-2021","Camden","Camden PD","NJLEA0132",,,"County"
+"njoag-leod-2025","Camden","Camden PD","NJLEA0132",,,
+"njoag-major-discipline","Camden","Camden PD","NJLEA0132",,,
+"njoaguof","Camden County","Camden PD","NJLEA0132",,,
+"njoag-leod-2021","Camden","Camden Co Prosecutors Office","NJLEA0133",,,"County"
+"njoag-leod-2025","Camden","Camden Co Prosecutors Office","NJLEA0133",,,
+"njoaguof","Camden County","Camden Co Prosecutors Office","NJLEA0133",,,
+"njoag-leod-2021","Camden","Camden Co Sheriffs Dept","NJLEA0134",,,"County"
+"njoag-leod-2025","Camden","Camden Co Sheriffs Dept","NJLEA0134",,,
+"njoag-major-discipline","Camden","Camden County Sheriffs Office","NJLEA0134",,,
+"njoaguof","Camden County","Camden Co Sheriffs Office","NJLEA0134",,,
+"njoag-leod-2021","Camden","Cherry Hill Campus Police","NJLEA0135",,,"Municipal"
+"njoag-leod-2025","Camden","Cherry Hill Campus PD","NJLEA0135",,,
+"njoag-leod-2021","Camden","Cherry Hill Twp PD","NJLEA0136",,,"Municipal"
+"njoag-leod-2025","Camden","Cherry Hill Twp PD","NJLEA0136",,,
+"njoaguof","Camden County","Cherry Hill Twp PD","NJLEA0136",,,
+"njoag-leod-2021","Camden","Chesilhurst PD","NJLEA0137",,,"Municipal"
+"njoag-leod-2025","Camden","Chesilhurst PD","NJLEA0137",,,
+"njoaguof","Camden County","Chesilhurst PD","NJLEA0137",,,
+"njoag-leod-2021","Camden","Clementon Boro PD","NJLEA0138",,,"Municipal"
+"njoag-leod-2025","Camden","Clementon Boro PD","NJLEA0138",,,
+"njoaguof","Camden County","Clementon Boro PD","NJLEA0138",,,
+"njoag-leod-2021","Camden","Collingswood PD","NJLEA0139",,,"Municipal"
+"njoag-leod-2025","Camden","Collingswood PD","NJLEA0139",,,
+"njoag-major-discipline","Camden","Collingswood PD","NJLEA0139",,,
+"njoaguof","Camden County","Collingswood PD","NJLEA0139",,,
+"njoag-leod-2021","Camden","Gibbsboro PD","NJLEA0140",,,"Municipal"
+"njoag-leod-2025","Camden","Gibbsboro PD","NJLEA0140",,,
+"njoaguof","Camden County","Gibbsboro PD","NJLEA0140",,,
+"njoag-leod-2021","Camden","Gloucester City PD","NJLEA0141",,,"Municipal"
+"njoag-leod-2025","Camden","Gloucester City PD","NJLEA0141",,,
+"njoaguof","Camden County","Gloucester City PD","NJLEA0141",,,
+"njoag-leod-2021","Camden","Gloucester Twp PD","NJLEA0142",,,"Municipal"
+"njoag-leod-2025","Camden","Gloucester Twp PD","NJLEA0142",,,
+"njoag-major-discipline","Camden","Gloucester Twp PD","NJLEA0142",,,
+"njoaguof","Camden County","Gloucester Twp PD","NJLEA0142",,,
+"njoag-leod-2021","Camden","Haddon Heights PD","NJLEA0143",,,"Municipal"
+"njoag-leod-2025","Camden","Haddon Heights PD","NJLEA0143",,,
+"njoaguof","Camden County","Haddon Heights PD","NJLEA0143",,,
+"njoag-leod-2021","Camden","Haddon Twp PD","NJLEA0144",,,"Multiple Municipalities"
+"njoag-leod-2025","Camden","Haddon Twp PD","NJLEA0144",,,
+"njoaguof","Camden County","Haddon Twp PD","NJLEA0144",,,
+"njoag-leod-2021","Camden","Haddonfield PD","NJLEA0145",,,"Municipal"
+"njoag-leod-2025","Camden","Haddonfield PD","NJLEA0145",,,
+"njoaguof","Camden County","Haddonfield PD","NJLEA0145",,,
+"njoag-leod-2021","Camden","Hi-Nella PD","NJLEA0146",,,"Municipal"
+"njoag-leod-2025","Camden","Hi-Nella PD","NJLEA0146",,,
+"njoaguof","Camden County","Hi-Nella PD","NJLEA0146",,,
+"njoag-leod-2021","Camden","Laurel Springs PD","NJLEA0147",,,"Municipal"
+"njoag-leod-2025","Camden","Laurel Springs PD","NJLEA0147",,,
+"njoaguof","Camden County","Laurel Springs PD","NJLEA0147",,,
+"njoag-leod-2021","Camden","Lawnside Boro PD","NJLEA0148",,,"Municipal"
+"njoag-leod-2025","Camden","Lawnside Boro PD","NJLEA0148",,,
+"njoaguof","Camden County","Lawnside Boro PD","NJLEA0148",,,
+"njoag-leod-2021","Camden","Lindenwold Boro PD","NJLEA0149",,,"Municipal"
+"njoag-leod-2025","Camden","Lindenwold Boro PD","NJLEA0149",,,
+"njoag-major-discipline","Camden","Lindenwold Boro PD","NJLEA0149",,,
+"njoaguof","Camden County","Lindenwold Boro PD","NJLEA0149",,,
+"njoag-leod-2021","Camden","Magnolia PD","NJLEA0150",,,"Multiple Municipalities"
+"njoag-leod-2025","Camden","Magnolia PD","NJLEA0150",,,
+"njoaguof","Camden County","Magnolia PD","NJLEA0150",,,
+"njoag-leod-2021","Camden","Merchantville PD","NJLEA0151",,,"Municipal"
+"njoag-leod-2025","Camden","Merchantville PD","NJLEA0151",,,
+"njoaguof","Camden County","Merchantville PD","NJLEA0151",,,
+"njoag-leod-2021","Camden","Mt. Ephraim PD","NJLEA0152",,,"Municipal"
+"njoag-leod-2025","Camden","Mt. Ephraim PD","NJLEA0152",,,
+"njoaguof","Camden County","Mt. Ephraim PD","NJLEA0152",,,
+"njoag-leod-2021","Camden","Oaklyn Boro PD","NJLEA0153",,,"Municipal"
+"njoag-leod-2025","Camden","Oaklyn Boro PD","NJLEA0153",,,
+"njoaguof","Camden County","Oaklyn Boro PD","NJLEA0153",,,
+"njoag-leod-2021","Camden","Pennsauken Twp PD","NJLEA0154",,,"Municipal"
+"njoag-leod-2025","Camden","Pennsauken Twp PD","NJLEA0154",,,
+"njoag-major-discipline","Camden","Pennsauken Twp PD","NJLEA0154",,,
+"njoaguof","Camden County","Pennsauken Twp PD","NJLEA0154",,,
+"njoag-leod-2021","Camden","Pine Hill PD","NJLEA0155",,,"Municipal"
+"njoag-leod-2025","Camden","Pine Hill PD","NJLEA0155",,,
+"njoag-major-discipline","Camden","Pine Hill PD","NJLEA0155",,,
+"njoaguof","Camden County","Pine Hill PD","NJLEA0155",,,
+"njoag-leod-2021","Camden","Runnemede PD","NJLEA0156",,,"Municipal"
+"njoag-leod-2025","Camden","Runnemede PD","NJLEA0156",,,
+"njoaguof","Camden County","Runnemede PD","NJLEA0156",,,
+"njoag-leod-2021","Camden","Somerdale PD","NJLEA0157",,,"Municipal"
+"njoag-leod-2025","Camden","Somerdale PD","NJLEA0157",,,
+"njoaguof","Camden County","Somerdale PD","NJLEA0157",,,
+"njoag-leod-2021","Camden","Stratford Boro PD","NJLEA0158",,,"Municipal"
+"njoag-leod-2025","Camden","Stratford Boro PD","NJLEA0158",,,
+"njoaguof","Camden County","Stratford Boro PD","NJLEA0158",,,
+"njoag-leod-2021","Camden","Voorhees Twp PD","NJLEA0159",,,"Municipal"
+"njoag-leod-2025","Camden","Voorhees Twp PD","NJLEA0159",,,
+"njoag-major-discipline","Camden","Voorhees Twp PD","NJLEA0159",,,
+"njoaguof","Camden County","Voorhees Twp PD","NJLEA0159",,,
+"njoag-leod-2021","Camden","Waterford Twp PD","NJLEA0160",,,"Municipal"
+"njoag-leod-2025","Camden","Waterford Twp PD","NJLEA0160",,,
+"njoag-major-discipline","Camden","Waterford Twp PD","NJLEA0160",,,
+"njoaguof","Camden County","Waterford Twp PD","NJLEA0160",,,
+"njoag-leod-2021","Camden","Winslow Twp PD","NJLEA0161",,,"Municipal"
+"njoag-leod-2025","Camden","Winslow Twp PD","NJLEA0161",,,
+"njoag-major-discipline","Camden","Winslow Twp PD","NJLEA0161",,,
+"njoaguof","Camden County","Winslow Twp PD","NJLEA0161",,,
+"njoag-leod-2021","Camden","Woodlynne PD","NJLEA0162",,,"Municipal"
+"njoag-leod-2025","Camden","Woodlynne PD","NJLEA0162",,,
+"njoag-major-discipline","Camden","Woodlynne PD","NJLEA0162",,,
+"njoaguof","Camden County","Woodlynne PD","NJLEA0162",,,
+"njoag-leod-2021","Cape May","Avalon Boro PD","NJLEA0163",,,"Municipal"
+"njoag-leod-2025","Cape May","Avalon Boro PD","NJLEA0163",,,
+"njoag-major-discipline","Cape May","Avalon Boro PD","NJLEA0163",,,
+"njoaguof","Cape May County","Avalon Boro PD","NJLEA0163",,,
+"njoag-leod-2021","Cape May","Cape May Co Prosecutors Office","NJLEA0164",,,"County"
+"njoag-leod-2025","Cape May","Cape May Co Prosecutors Office","NJLEA0164",,,
+"njoag-major-discipline","Cape May","Cape May County Prosecutors Office","NJLEA0164",,,
+"njoaguof","Cape May County","Cape May Co Prosecutors Office","NJLEA0164",,,
+"njoag-leod-2021","Cape May","Cape May Co Sheriffs Office","NJLEA0165",,,"County"
+"njoag-leod-2025","Cape May","Cape May Co Sheriffs Office","NJLEA0165",,,
+"njoag-major-discipline","Cape May","Cape May County Sheriffs Office","NJLEA0165",,,
+"njoaguof","Cape May County","Cape May Co Sheriffs Office","NJLEA0165",,,
+"njoag-leod-2021","Cape May","Cape May City PD","NJLEA0166",,,"Multiple Municipalities"
+"njoag-leod-2025","Cape May","Cape May City PD","NJLEA0166",,,
+"njoag-major-discipline","Cape May","Cape May City PD","NJLEA0166",,,
+"njoaguof","Cape May County","Cape May City PD","NJLEA0166",,,
+"njoag-leod-2021","Cape May","Lower Twp PD","NJLEA0167",,,"Municipal"
+"njoag-leod-2025","Cape May","Lower Twp PD","NJLEA0167",,,
+"njoag-major-discipline","Cape May","Lower Twp PD","NJLEA0167",,,
+"njoaguof","Cape May County","Lower Twp PD","NJLEA0167",,,
+"njoag-leod-2021","Cape May","Middle Twp PD","NJLEA0168",,,"Municipal"
+"njoag-leod-2025","Cape May","Middle Twp PD","NJLEA0168",,,
+"njoag-major-discipline","Cape May","Middle Twp PD","NJLEA0168",,,
+"njoaguof","Cape May County","Middle Twp PD","NJLEA0168",,,
+"njoag-leod-2021","Cape May","North Wildwood City PD","NJLEA0169",,,"Municipal"
+"njoag-leod-2025","Cape May","North Wildwood City PD","NJLEA0169",,,
+"njoaguof","Cape May County","North Wildwood City PD","NJLEA0169",,,
+"njoag-leod-2021","Cape May","Ocean City PD","NJLEA0170",,,"Municipal"
+"njoag-leod-2025","Cape May","Ocean City PD","NJLEA0170",,,
+"njoag-major-discipline","Cape May","Ocean City PD","NJLEA0170",,,
+"njoaguof","Cape May County","Ocean City PD","NJLEA0170",,,
+"njoag-leod-2021","Cape May","Sea Isle City PD","NJLEA0171",,,"Municipal"
+"njoag-leod-2025","Cape May","Sea Isle City PD","NJLEA0171",,,
+"njoag-major-discipline","Cape May","Sea Isle City PD","NJLEA0171",,,
+"njoaguof","Cape May County","Sea Isle City PD","NJLEA0171",,,
+"njoag-leod-2021","Cape May","Stone Harbor Boro PD","NJLEA0172",,,"Municipal"
+"njoag-leod-2025","Cape May","Stone Harbor Boro PD","NJLEA0172",,,
+"njoaguof","Cape May County","Stone Harbor Boro PD","NJLEA0172",,,
+"njoag-leod-2021","Cape May","West Wildwood Boro PD","NJLEA0173",,,"Municipal"
+"njoag-leod-2025","Cape May","West Wildwood Boro PD","NJLEA0173",,,
+"njoaguof","Cape May County","West Wildwood Boro PD","NJLEA0173",,,
+"njoag-leod-2021","Cape May","Wildwood Crest Boro PD","NJLEA0174",,,"Municipal"
+"njoag-leod-2025","Cape May","Wildwood Crest Boro PD","NJLEA0174",,,
+"njoaguof","Cape May County","Wildwood Crest Boro PD","NJLEA0174",,,
+"njoag-leod-2021","Cape May","Wildwood PD","NJLEA0175",,,"Municipal"
+"njoag-leod-2025","Cape May","Wildwood PD","NJLEA0175",,,
+"njoag-major-discipline","Cape May","Wildwood PD","NJLEA0175",,,
+"njoaguof","Cape May County","Wildwood PD","NJLEA0175",,,
+"njoag-leod-2021","Cumberland","Bridgeton PD","NJLEA0176",,,"Municipal"
+"njoag-leod-2025","Cumberland","Bridgeton PD","NJLEA0176",,,
+"njoag-major-discipline","Cumberland","Bridgeton PD","NJLEA0176",,,
+"njoaguof","Cumberland County","Bridgeton PD","NJLEA0176",,,
+"njoag-major-discipline","Cumberland","Cumberland County Department of Corrections","NJLEA0177",,,
+"njoaguof","Cumberland County","Cumberland Co Corrections","NJLEA0177",,,
+"njoag-leod-2021","Cumberland","Cumberland Co Prosecutors Office","NJLEA0178",,,"County"
+"njoag-leod-2025","Cumberland","Cumberland Co Prosecutors Office","NJLEA0178",,,
+"njoag-major-discipline","Cumberland","Cumberland County Prosecutors Office","NJLEA0178",,,
+"njoaguof","Cumberland County","Cumberland Co Prosecutors Office","NJLEA0178",,,
+"njoag-leod-2021","Cumberland","Cumberland Co Sheriff'S Dept","NJLEA0179",,,"County"
+"njoag-leod-2025","Cumberland","Cumberland Co Sheriffs Dept","NJLEA0179",,,
+"njoag-major-discipline","Cumberland","Cumberland County Sheriffs Office","NJLEA0179",,,
+"njoaguof","Cumberland County","Cumberland Co Sheriffs Dept","NJLEA0179",,,
+"njoag-leod-2021","Cumberland","Millville PD","NJLEA0180",,,"Municipal"
+"njoag-leod-2025","Cumberland","Millville PD","NJLEA0180",,,
+"njoag-major-discipline","Cumberland","Millville PD","NJLEA0180",,,
+"njoaguof","Cumberland County","Millville PD","NJLEA0180",,,
+"njoag-leod-2021","Cumberland","Vineland PD","NJLEA0181",,,"Municipal"
+"njoag-leod-2025","Cumberland","Vineland PD","NJLEA0181",,,
+"njoag-major-discipline","Cumberland","Vineland PD","NJLEA0181",,,
+"njoaguof","Cumberland County","Vineland PD","NJLEA0181",,,
+"njoag-leod-2021","Essex","Belleville PD","NJLEA0182",,,"Multiple Municipalities"
+"njoag-leod-2025","Essex","Belleville PD","NJLEA0182",,,
+"njoag-major-discipline","Essex","Belleville PD","NJLEA0182",,,
+"njoaguof","Essex County","Belleville PD","NJLEA0182",,,
+"njoag-leod-2021","Essex","Bloomfield PD","NJLEA0183",,,"Municipal"
+"njoag-leod-2025","Essex","Bloomfield PD","NJLEA0183",,,
+"njoag-major-discipline","Essex","Bloomfield PD","NJLEA0183",,,
+"njoaguof","Essex County","Bloomfield PD","NJLEA0183",,,
+"njoag-leod-2021","Essex","Caldwell PD","NJLEA0184",,,"Municipal"
+"njoag-leod-2025","Essex","Caldwell PD","NJLEA0184",,,
+"njoag-major-discipline","Essex","Caldwell PD","NJLEA0184",,,
+"njoaguof","Essex County","Caldwell PD","NJLEA0184",,,
+"njoag-leod-2021","ESSEX","Cedar Grove PD","NJLEA0185",,,"Municipal"
+"njoag-leod-2021","Essex","Cedar Grove PD","NJLEA0185",,,
+"njoag-leod-2025","Essex","Cedar Grove PD","NJLEA0185",,,
+"njoaguof","Essex County","Cedar Grove PD","NJLEA0185",,,
+"njoag-leod-2021","Essex","East Orange PD","NJLEA0186",,,"Municipal"
+"njoag-leod-2025","Essex","East Orange PD","NJLEA0186",,,
+"njoag-major-discipline","Essex","East Orange PD","NJLEA0186",,,
+"njoaguof","Essex County","East Orange PD","NJLEA0186",,,
+"njoag-leod-2021","Essex","Essex County College PD","NJLEA0187",,,"County"
+"njoag-leod-2025","Essex","Essex County College PD","NJLEA0187",,,
+"njoag-major-discipline","Essex","Essex County Department of Corrections","NJLEA0188",,,
+"njoag-leod-2021","Essex","Essex Co Prosecutors Office","NJLEA0189",,,"County"
+"njoag-leod-2025","Essex","Essex Co Prosecutors Office","NJLEA0189",,,
+"njoag-major-discipline","Essex","Essex County Prosecutors Office","NJLEA0189",,,
+"njoaguof","Essex County","Essex Co Prosecutors Office","NJLEA0189",,,
+"njoag-leod-2021","Essex","Essex Co Sheriffs Office","NJLEA0190",,,"County"
+"njoag-leod-2025","Essex","Essex Co Sheriffs Office","NJLEA0190",,,
+"njoag-major-discipline","Essex","Essex County Sheriffs Office","NJLEA0190",,,
+"njoaguof","Essex County","Essex Co Sheriffs Office","NJLEA0190",,,
+"njoag-leod-2021","Essex","Essex Fells PD","NJLEA0191",,,"Municipal"
+"njoag-leod-2025","Essex","Essex Fells PD","NJLEA0191",,,
+"njoaguof","Essex County","Essex Fells PD","NJLEA0191",,,
+"njoag-leod-2021","Essex","Fairfield PD","NJLEA0192",,,"Municipal"
+"njoag-leod-2025","Essex","Fairfield PD","NJLEA0192",,,
+"njoag-major-discipline","Essex","Fairfield PD","NJLEA0192",,,
+"njoaguof","Essex County","Fairfield PD","NJLEA0192",,,
+"njoag-leod-2021","Essex","Glen Ridge PD","NJLEA0193",,,"Municipal"
+"njoag-leod-2025","Essex","Glen Ridge PD","NJLEA0193",,,
+"njoaguof","Essex County","Glen Ridge PD","NJLEA0193",,,
+"njoag-leod-2021","Essex","Irvington PD","NJLEA0194",,,"Municipal"
+"njoag-leod-2025","Essex","Irvington PD","NJLEA0194",,,
+"njoag-major-discipline","Essex","Irvington PD","NJLEA0194",,,
+"njoaguof","Essex County","Irvington PD","NJLEA0194",,,
+"njoag-leod-2021","Essex","Livingston PD","NJLEA0195",,,"Municipal"
+"njoag-leod-2025","Essex","Livingston PD","NJLEA0195",,,
+"njoag-major-discipline","Essex","Livingston PD","NJLEA0195",,,
+"njoaguof","Essex County","Livingston PD","NJLEA0195",,,
+"njoag-leod-2021","Essex","Maplewood PD","NJLEA0196",,,"Municipal"
+"njoag-leod-2025","Essex","Maplewood PD","NJLEA0196",,,
+"njoag-major-discipline","Essex","Maplewood PD","NJLEA0196",,,
+"njoaguof","Essex County","Maplewood PD","NJLEA0196",,,
+"njoag-leod-2021","Essex","Millburn PD","NJLEA0197",,,"Municipal"
+"njoag-leod-2025","Essex","Millburn PD","NJLEA0197",,,
+"njoaguof","Essex County","Millburn PD","NJLEA0197",,,
+"njoag-leod-2021","Essex","Montclair PD","NJLEA0198",,,"Municipal"
+"njoag-leod-2025","Essex","Montclair PD","NJLEA0198",,,
+"njoag-major-discipline","Essex","Montclair PD","NJLEA0198",,,
+"njoaguof","Essex County","Montclair PD","NJLEA0198",,,
+"njoag-leod-2021","Essex","Newark PD","NJLEA0199",,,"Municipal"
+"njoag-leod-2025","Essex","Newark PD","NJLEA0199",,,
+"njoag-major-discipline","Essex","Newark PD","NJLEA0199",,,
+"njoaguof","Essex County","Newark PD","NJLEA0199",,,
+"njoag-leod-2021","Essex","North Caldwell PD","NJLEA0200",,,"Municipal"
+"njoag-leod-2025","Essex","North Caldwell PD","NJLEA0200",,,
+"njoaguof","Essex County","North Caldwell PD","NJLEA0200",,,
+"njoag-leod-2021","Essex","Nutley PD","NJLEA0201",,,"Municipal"
+"njoag-leod-2025","Essex","Nutley PD","NJLEA0201",,,
+"njoag-major-discipline","Essex","Nutley PD","NJLEA0201",,,
+"njoaguof","Essex County","Nutley PD","NJLEA0201",,,
+"njoag-leod-2021","Essex","Orange PD","NJLEA0202",,,"Municipal"
+"njoag-leod-2025","Essex","Orange PD","NJLEA0202",,,
+"njoag-major-discipline","Essex","Orange PD","NJLEA0202",,,
+"njoaguof","Essex County","Orange PD","NJLEA0202",,,
+"njoag-leod-2021","Essex","Roseland PD","NJLEA0203",,,"Municipal"
+"njoag-leod-2025","Essex","Roseland PD","NJLEA0203",,,
+"njoaguof","Essex County","Roseland PD","NJLEA0203",,,
+"njoag-leod-2021","Essex","South Orange PD","NJLEA0204",,,"Municipal"
+"njoag-leod-2025","Essex","South Orange PD","NJLEA0204",,,
+"njoag-major-discipline","Essex","South Orange PD","NJLEA0204",,,
+"njoaguof","Essex County","South Orange PD","NJLEA0204",,,
+"njoag-leod-2021","Essex","Verona PD","NJLEA0205",,,"Municipal"
+"njoag-leod-2025","Essex","Verona PD","NJLEA0205",,,
+"njoaguof","Essex County","Verona PD","NJLEA0205",,,
+"njoag-leod-2021","Essex","West Caldwell PD","NJLEA0206",,,"Municipal"
+"njoag-leod-2025","Essex","West Caldwell PD","NJLEA0206",,,
+"njoag-major-discipline","Essex","West Caldwell PD","NJLEA0206",,,
+"njoaguof","Essex County","West Caldwell PD","NJLEA0206",,,
+"njoag-leod-2021","Essex","West Orange PD","NJLEA0207",,,"Municipal"
+"njoag-leod-2025","Essex","West Orange PD","NJLEA0207",,,
+"njoag-major-discipline","Essex","West Orange PD","NJLEA0207",,,
+"njoaguof","Essex County","West Orange PD","NJLEA0207",,,
+"njoag-leod-2021","Gloucester","Clayton PD","NJLEA0208",,,"Municipal"
+"njoag-leod-2025","Gloucester","Clayton PD","NJLEA0208",,,
+"njoag-major-discipline","Gloucester","Clayton PD","NJLEA0208",,,
+"njoaguof","Gloucester County","Clayton PD","NJLEA0208",,,
+"njoag-leod-2021","Gloucester","Deptford Twp PD","NJLEA0209",,,"Municipal"
+"njoag-leod-2025","Gloucester","Deptford Twp PD","NJLEA0209",,,
+"njoag-major-discipline","Gloucester","Deptford Twp PD","NJLEA0209",,,
+"njoaguof","Gloucester County","Deptford Twp PD","NJLEA0209",,,
+"njoag-leod-2021","Gloucester","East Greenwich Twp PD","NJLEA0210",,,"Municipal"
+"njoag-leod-2025","Gloucester","East Greenwich Twp PD","NJLEA0210",,,
+"njoag-major-discipline","Gloucester","East Greenwich Twp PD","NJLEA0210",,,
+"njoaguof","Gloucester County","East Greenwich Twp PD","NJLEA0210",,,
+"njoag-leod-2021","Gloucester","Elk Twp PD","NJLEA0211",,,"Municipal"
+"njoag-leod-2025","Gloucester","Elk Twp PD","NJLEA0211",,,
+"njoaguof","Gloucester County","Elk Twp PD","NJLEA0211",,,
+"njoag-leod-2021","Gloucester","Franklin Twp PD","NJLEA0212",,,"Multiple Municipalities"
+"njoag-leod-2025","Gloucester","Franklin Twp PD","NJLEA0212",,,
+"njoag-major-discipline","Gloucester","Franklin Twp PD - Gloucester County","NJLEA0212",,,
+"njoaguof","Gloucester County","Franklin Twp PD","NJLEA0212",,,
+"njoag-leod-2021","Gloucester","Glassboro PD","NJLEA0213",,,"Municipal"
+"njoag-leod-2025","Gloucester","Glassboro PD","NJLEA0213",,,
+"njoag-major-discipline","Gloucester","Glassboro PD","NJLEA0213",,,
+"njoaguof","Gloucester County","Glassboro PD","NJLEA0213",,,
+"njoag-leod-2021","Gloucester","Gloucester Co Prosecutors Office","NJLEA0214",,,"County"
+"njoag-leod-2025","Gloucester","Gloucester Co Prosecutors Office","NJLEA0214",,,
+"njoag-major-discipline","Gloucester","Gloucester County Prosecutors Office","NJLEA0214",,,
+"njoaguof","Gloucester County","Gloucester Co Prosecutors Office","NJLEA0214",,,
+"njoag-leod-2021","Gloucester","Gloucester Co Sheriffs Dept","NJLEA0215",,,"County"
+"njoag-leod-2025","Gloucester","Gloucester Co Sheriffs Dept","NJLEA0215",,,
+"njoag-major-discipline","Gloucester","Gloucester County Sheriffs Office","NJLEA0215",,,
+"njoaguof","Gloucester County","Gloucester Co Sheriffs Dept","NJLEA0215",,,
+"njoag-leod-2021","Gloucester","Greenwich Twp PD","NJLEA0216",,,"Not Provided"
+"njoag-leod-2025","Gloucester","Greenwich Twp PD","NJLEA0216",,,
+"njoaguof","Gloucester County","Greenwich Twp PD","NJLEA0216",,,
+"njoag-leod-2021","Gloucester","Harrison Twp PD","NJLEA0217",,,"Municipal"
+"njoag-leod-2025","Gloucester","Harrison Twp PD","NJLEA0217",,,
+"njoag-major-discipline","Gloucester","Harrison Twp PD","NJLEA0217",,,
+"njoaguof","Gloucester County","Harrison Twp PD","NJLEA0217",,,
+"njoag-leod-2021","Gloucester","Logan Twp PD","NJLEA0218",,,"Municipal"
+"njoag-leod-2025","Gloucester","Logan Twp PD","NJLEA0218",,,
+"njoaguof","Gloucester County","Logan Twp PD","NJLEA0218",,,
+"njoag-leod-2021","Gloucester","Mantua Twp PD","NJLEA0219",,,"Municipal"
+"njoag-leod-2025","Gloucester","Mantua Twp PD","NJLEA0219",,,
+"njoag-major-discipline","Gloucester","Mantua Twp PD","NJLEA0219",,,
+"njoaguof","Gloucester County","Mantua Twp PD","NJLEA0219",,,
+"njoag-leod-2021","Gloucester","Monroe Twp PD","NJLEA0220",,,"Municipal"
+"njoag-leod-2025","Gloucester","Monroe Twp PD","NJLEA0220",,,
+"njoag-major-discipline","Gloucester","Monroe Twp PD - Gloucester County","NJLEA0220",,,
+"njoaguof","Gloucester County","Monroe Twp PD","NJLEA0220",,,
+"njoag-leod-2021","Gloucester","Paulsboro PD","NJLEA0221",,,"Municipal"
+"njoag-leod-2025","Gloucester","Paulsboro PD","NJLEA0221",,,
+"njoag-major-discipline","Gloucester","Paulsboro PD","NJLEA0221",,,
+"njoaguof","Gloucester County","Paulsboro PD","NJLEA0221",,,
+"njoag-leod-2021","Gloucester","Pitman PD","NJLEA0222",,,"Municipal"
+"njoag-leod-2025","Gloucester","Pitman PD","NJLEA0222",,,
+"njoaguof","Gloucester County","Pitman PD","NJLEA0222",,,
+"njoag-leod-2021","Gloucester","Washington Twp PD","NJLEA0223",,,"Municipal"
+"njoag-leod-2025","Gloucester","Washington Twp PD","NJLEA0223",,,
+"njoag-major-discipline","Gloucester","Washington Twp PD - Gloucester County","NJLEA0223",,,
+"njoaguof","Gloucester County","Washington Twp PD","NJLEA0223",,,
+"njoag-leod-2021","Gloucester","West Deptford Twp PD","NJLEA0224",,,"Municipal"
+"njoag-leod-2025","Gloucester","West Deptford Twp PD","NJLEA0224",,,
+"njoag-major-discipline","Gloucester","West Deptford Twp PD","NJLEA0224",,,
+"njoaguof","Gloucester County","West Deptford Twp PD","NJLEA0224",,,
+"njoag-leod-2021","Gloucester","Westville PD","NJLEA0225",,,"Municipal"
+"njoag-leod-2025","Gloucester","Westville PD","NJLEA0225",,,
+"njoaguof","Gloucester County","Westville PD","NJLEA0225",,,
+"njoag-leod-2021","Gloucester","Woodbury Heights PD","NJLEA0226",,,"Municipal"
+"njoag-leod-2025","Gloucester","Woodbury Heights PD","NJLEA0226",,,
+"njoaguof","Gloucester County","Woodbury Heights PD","NJLEA0226",,,
+"njoag-leod-2021","Gloucester","Woodbury City PD","NJLEA0227",,,"Municipal"
+"njoag-leod-2025","Gloucester","Woodbury City PD","NJLEA0227",,,
+"njoaguof","Gloucester County","Woodbury City PD","NJLEA0227",,,
+"njoag-leod-2021","Gloucester","Woolwich Twp PD","NJLEA0228",,,"Multiple Municipalities"
+"njoag-leod-2025","Gloucester","Woolwich Twp PD","NJLEA0228",,,
+"njoag-major-discipline","Gloucester","Woolwich Twp PD","NJLEA0228",,,
+"njoaguof","Gloucester County","Woolwich Twp PD","NJLEA0228",,,
+"njoag-leod-2021","Hudson","Bayonne PD","NJLEA0229",,,"Municipal"
+"njoag-leod-2025","Hudson","Bayonne PD","NJLEA0229",,,
+"njoag-major-discipline","Hudson","Bayonne PD","NJLEA0229",,,
+"njoaguof","Hudson County","Bayonne PD","NJLEA0229",,,
+"njoag-leod-2021","Hudson","East Newark PD","NJLEA0230",,,"Municipal"
+"njoag-leod-2025","Hudson","East Newark PD","NJLEA0230",,,
+"njoag-major-discipline","Hudson","East Newark PD","NJLEA0230",,,
+"njoaguof","Hudson County","East Newark PD","NJLEA0230",,,
+"njoag-leod-2021","Hudson","Guttenberg PD","NJLEA0231",,,"Municipal"
+"njoag-leod-2025","Hudson","Guttenberg PD","NJLEA0231",,,
+"njoag-major-discipline","Hudson","Guttenberg PD","NJLEA0231",,,
+"njoaguof","Hudson County","Guttenberg PD","NJLEA0231",,,
+"njoag-leod-2021","Hudson","Harrison PD","NJLEA0232",,,"Municipal"
+"njoag-leod-2025","Hudson","Harrison PD","NJLEA0232",,,
+"njoag-major-discipline","Hudson","Harrison PD","NJLEA0232",,,
+"njoaguof","Hudson County","Harrison PD","NJLEA0232",,,
+"njoag-leod-2021","Hudson","Hoboken PD","NJLEA0233",,,"Municipal"
+"njoag-leod-2025","Hudson","Hoboken PD","NJLEA0233",,,
+"njoag-major-discipline","Hudson","Hoboken PD","NJLEA0233",,,
+"njoaguof","Hudson County","Hoboken PD","NJLEA0233",,,
+"njoag-major-discipline","Hudson","Hudson County Department of Corrections","NJLEA0234",,,
+"njoaguof","Hudson County","Hudson Co Corrections","NJLEA0234",,,
+"njoag-leod-2021","Hudson","Hudson Co Prosecutor Office","NJLEA0235",,,"County"
+"njoag-leod-2025","Hudson","Hudson Co Prosecutor Office","NJLEA0235",,,
+"njoag-major-discipline","Hudson","Hudson County Prosecutors Office","NJLEA0235",,,
+"njoaguof","Hudson County","Hudson Co Prosecutors Office","NJLEA0235",,,
+"njoag-leod-2021","Hudson","Hudson Co Sheriffs Dept","NJLEA0236",,,"County"
+"njoag-leod-2025","Hudson","Hudson Co Sheriffs Dept","NJLEA0236",,,
+"njoag-major-discipline","Hudson","Hudson County Sheriffs Office","NJLEA0236",,,
+"njoaguof","Hudson County","Hudson Co Sheriffs Dept","NJLEA0236",,,
+"njoag-leod-2021","Hudson","Jersey City PD","NJLEA0237",,,"Municipal"
+"njoag-leod-2025","Hudson","Jersey City PD","NJLEA0237",,,
+"njoag-major-discipline","Hudson","Jersey City PD","NJLEA0237",,,
+"njoaguof","Hudson County","Jersey City PD","NJLEA0237",,,
+"njoag-leod-2021","Hudson","Kearny PD","NJLEA0238",,,"Municipal"
+"njoag-leod-2025","Hudson","Kearny PD","NJLEA0238",,,
+"njoag-major-discipline","Hudson","Kearny PD","NJLEA0238",,,
+"njoaguof","Hudson County","Kearny PD","NJLEA0238",,,
+"njoag-leod-2021","Hudson","North Bergen PD","NJLEA0239",,,"Municipal"
+"njoag-leod-2025","Hudson","North Bergen PD","NJLEA0239",,,
+"njoag-major-discipline","Hudson","North Bergen PD","NJLEA0239",,,
+"njoaguof","Hudson County","North Bergen PD","NJLEA0239",,,
+"njoag-leod-2021","Hudson","Secaucus PD","NJLEA0240",,,"Municipal"
+"njoag-leod-2025","Hudson","Secaucus PD","NJLEA0240",,,
+"njoag-major-discipline","Hudson","Secaucus PD","NJLEA0240",,,
+"njoaguof","Hudson County","Secaucus PD","NJLEA0240",,,
+"njoag-leod-2021","Hudson","Union City PD","NJLEA0241",,,"Municipal"
+"njoag-leod-2025","Hudson","Union City PD","NJLEA0241",,,
+"njoag-major-discipline","Hudson","Union City PD","NJLEA0241",,,
+"njoaguof","Hudson County","Union City PD","NJLEA0241",,,
+"njoag-leod-2021","Hudson","Weehawken PD","NJLEA0242",,,"Municipal"
+"njoag-leod-2025","Hudson","Weehawken PD","NJLEA0242",,,
+"njoag-major-discipline","Hudson","Weehawken PD","NJLEA0242",,,
+"njoaguof","Hudson County","Weehawken PD","NJLEA0242",,,
+"njoag-leod-2021","Hudson","West New York PD","NJLEA0243",,,"Municipal"
+"njoag-leod-2025","Hudson","West New York PD","NJLEA0243",,,
+"njoag-major-discipline","Hudson","West New York PD","NJLEA0243",,,
+"njoaguof","Hudson County","West New York PD","NJLEA0243",,,
+"njoag-leod-2021","Hunterdon","Clinton Town PD","NJLEA0244",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Clinton Town PD","NJLEA0244",,,
+"njoaguof","Hunterdon County","Clinton Town PD","NJLEA0244",,,
+"njoag-leod-2021","Hunterdon","Clinton Twp PD","NJLEA0245",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Clinton Twp PD","NJLEA0245",,,
+"njoag-major-discipline","Hunterdon","Clinton Twp PD","NJLEA0245",,,
+"njoaguof","Hunterdon County","Clinton Twp PD","NJLEA0245",,,
+"njoag-leod-2021","Hunterdon","Delaware Twp PD","NJLEA0246",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Delaware Twp PD","NJLEA0246",,,
+"njoaguof","Hunterdon County","Delaware Twp PD","NJLEA0246",,,
+"njoag-leod-2021","Hunterdon","Flemington PD","NJLEA0247",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Flemington PD","NJLEA0247",,,
+"njoaguof","Hunterdon County","Flemington PD","NJLEA0247",,,
+"njoag-leod-2021","Hunterdon","Franklin Twp PD","NJLEA0248",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Franklin Twp PD","NJLEA0248",,,
+"njoag-major-discipline","Hunterdon","Franklin Twp PD - Hunterdon County","NJLEA0248",,,
+"njoaguof","Hunterdon County","Franklin Twp PD","NJLEA0248",,,
+"njoag-leod-2021","Hunterdon","Frenchtown Boro PD","NJLEA0249",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Frenchtown Boro PD","NJLEA0249",,,
+"njoaguof","Hunterdon County","Frenchtown Boro PD","NJLEA0249",,,
+"njoag-leod-2021","Hunterdon","High Bridge Boro PD","NJLEA0250",,,"Municipal"
+"njoag-leod-2025","Hunterdon","High Bridge Boro PD","NJLEA0250",,,
+"njoaguof","Hunterdon County","High Bridge Boro PD","NJLEA0250",,,
+"njoag-leod-2021","Hunterdon","Holland Twp PD","NJLEA0251",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Holland Twp PD","NJLEA0251",,,
+"njoaguof","Hunterdon County","Holland Twp PD","NJLEA0251",,,
+"njoag-leod-2021","Hunterdon","Hunterdon Co Prosecutor Office","NJLEA0252",,,"County"
+"njoag-leod-2025","Hunterdon","Hunterdon Co Prosecutor Office","NJLEA0252",,,
+"njoaguof","Hunterdon County","Hunterdon Co Prosecutors Office","NJLEA0252",,,
+"njoag-leod-2021","Hunterdon","Hunterdon Co Sheriff'S Dept","NJLEA0253",,,"County"
+"njoag-leod-2025","Hunterdon","Hunterdon Co Sheriffs Dept","NJLEA0253",,,
+"njoaguof","Hunterdon County","Hunterdon Co Sheriffs Dept","NJLEA0253",,,
+"njoag-leod-2021","Hunterdon","Lambertville City PD","NJLEA0254",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Lambertville City PD","NJLEA0254",,,
+"njoaguof","Hunterdon County","Lambertville City PD","NJLEA0254",,,
+"njoag-leod-2021","Hunterdon","Lebanon Twp PD","NJLEA0255",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Lebanon Twp PD","NJLEA0255",,,
+"njoaguof","Hunterdon County","Lebanon Twp PD","NJLEA0255",,,
+"njoag-leod-2021","Hunterdon","Raritan Twp PD","NJLEA0256",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Raritan Twp PD","NJLEA0256",,,
+"njoag-major-discipline","Hunterdon","Raritan Twp PD","NJLEA0256",,,
+"njoaguof","Hunterdon County","Raritan Twp PD","NJLEA0256",,,
+"njoag-leod-2021","Hunterdon","Readington PD","NJLEA0257",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Readington PD","NJLEA0257",,,
+"njoaguof","Hunterdon County","Readington PD","NJLEA0257",,,
+"njoag-leod-2021","Hunterdon","Tewksbury Twp PD","NJLEA0258",,,"Municipal"
+"njoag-leod-2025","Hunterdon","Tewksbury Twp PD","NJLEA0258",,,
+"njoaguof","Hunterdon County","Tewksbury Twp PD","NJLEA0258",,,
+"njoag-leod-2021","Hunterdon","West Amwell Twp PD","NJLEA0259",,,"Municipal"
+"njoag-leod-2025","Hunterdon","West Amwell Twp PD","NJLEA0259",,,
+"njoaguof","Hunterdon County","West Amwell Twp PD","NJLEA0259",,,
+"njoag-leod-2021","Mercer","East Windsor Twp PD","NJLEA0260",,,"Municipal"
+"njoag-leod-2025","Mercer","East Windsor Twp PD","NJLEA0260",,,
+"njoag-major-discipline","Mercer","East Windsor Twp PD","NJLEA0260",,,
+"njoaguof","Mercer County","East Windsor Twp PD","NJLEA0260",,,
+"njoag-leod-2021","Mercer","Ewing Twp PD","NJLEA0261",,,"Municipal"
+"njoag-leod-2025","Mercer","Ewing Twp PD","NJLEA0261",,,
+"njoag-major-discipline","Mercer","Ewing Twp PD","NJLEA0261",,,
+"njoaguof","Mercer County","Ewing Twp PD","NJLEA0261",,,
+"njoag-leod-2021","Mercer","Hamilton Twp PD","NJLEA0262",,,"Municipal"
+"njoag-leod-2025","Mercer","Hamilton Twp PD","NJLEA0262",,,
+"njoag-major-discipline","Mercer","Hamilton Twp PD - Mercer County","NJLEA0262",,,
+"njoaguof","Mercer County","Hamilton Twp PD","NJLEA0262",,,
+"njoag-leod-2021","Mercer","Hightstown PD","NJLEA0263",,,"Municipal"
+"njoag-leod-2025","Mercer","Hightstown PD","NJLEA0263",,,
+"njoaguof","Mercer County","Hightstown PD","NJLEA0263",,,
+"njoag-leod-2021","Mercer","Hopewell Twp PD","NJLEA0264",,,"Municipal"
+"njoag-leod-2025","Mercer","Hopewell Twp PD","NJLEA0264",,,
+"njoag-major-discipline","Mercer","Hopewell Twp PD","NJLEA0264",,,
+"njoaguof","Mercer County","Hopewell Twp PD","NJLEA0264",,,
+"njoag-leod-2021","MERCER","Lawrence Twp PD","NJLEA0265",,,"Municipal"
+"njoag-leod-2021","Mercer","Lawrence Twp PD","NJLEA0265",,,
+"njoag-leod-2025","Mercer","Lawrence Twp PD","NJLEA0265",,,
+"njoag-major-discipline","Mercer","Lawrence Twp PD","NJLEA0265",,,
+"njoaguof","Mercer County","Lawrence Twp PD","NJLEA0265",,,
+"njoag-leod-2021","Mercer","Mercer Co Prosecutor Offfice","NJLEA0266",,,"County"
+"njoag-leod-2025","Mercer","Mercer Co Prosecutor Office","NJLEA0266",,,
+"njoag-major-discipline","Mercer","Mercer County Prosecutors Office","NJLEA0266",,,
+"njoaguof","Mercer County","Mercer Co Prosecutors Office","NJLEA0266",,,
+"njoag-leod-2021","Mercer","Mercer Co Sheriffs Dept","NJLEA0267",,,"County"
+"njoag-leod-2025","Mercer","Mercer County Sheriffs Office","NJLEA0267",,,
+"njoag-major-discipline","Mercer","Mercer County Sheriffs Office","NJLEA0267",,,
+"njoaguof","Mercer County","Mercer Co Sheriffs Dept","NJLEA0267",,,
+"njoag-leod-2021","Mercer","Pennington Boro PD","NJLEA0268",,,"Municipal"
+"njoag-leod-2025","Mercer","Pennington Boro PD","NJLEA0268",,,
+"njoag-major-discipline","Mercer","Pennington Boro PD","NJLEA0268",,,
+"njoaguof","Mercer County","Pennington Boro PD","NJLEA0268",,,
+"njoag-leod-2021","Mercer","Princeton PD","NJLEA0269",,,"Municipal"
+"njoag-leod-2025","Mercer","Princeton PD","NJLEA0269",,,
+"njoaguof","Mercer County","Princeton PD","NJLEA0269",,,
+"njoag-leod-2021","Mercer","Robbinsville Township Police","NJLEA0270",,,"Multiple Municipalities"
+"njoag-leod-2025","Mercer","Robbinsville Township Police","NJLEA0270",,,
+"njoag-major-discipline","Mercer","Robbinsville Twp PD","NJLEA0270",,,
+"njoaguof","Mercer County","Robbinsville Twp PD","NJLEA0270",,,
+"njoag-leod-2021","Mercer","Trenton PD","NJLEA0271",,,"Municipal"
+"njoag-leod-2025","Mercer","Trenton PD","NJLEA0271",,,
+"njoag-major-discipline","Mercer","Trenton PD","NJLEA0271",,,
+"njoaguof","Mercer County","Trenton PD","NJLEA0271",,,
+"njoag-leod-2021","Mercer","West Windsor Twp PD","NJLEA0272",,,"Municipal"
+"njoag-leod-2025","Mercer","West Windsor Twp PD","NJLEA0272",,,
+"njoag-major-discipline","Mercer","West Windsor Twp PD","NJLEA0272",,,
+"njoaguof","Mercer County","West Windsor Twp PD","NJLEA0272",,,
+"njoag-leod-2021","Middlesex","Carteret PD","NJLEA0273",,,"Municipal"
+"njoag-leod-2025","Middlesex","Carteret PD","NJLEA0273",,,
+"njoaguof","Middlesex County","Carteret PD","NJLEA0273",,,
+"njoag-leod-2021","Middlesex","Cranbury Twp PD","NJLEA0274",,,"Municipal"
+"njoag-leod-2025","Middlesex","Cranbury Twp PD","NJLEA0274",,,
+"njoaguof","Middlesex County","Cranbury Twp PD","NJLEA0274",,,
+"njoag-leod-2021","Middlesex","Dunellen PD","NJLEA0275",,,"Municipal"
+"njoag-leod-2025","Middlesex","Dunellen PD","NJLEA0275",,,
+"njoag-major-discipline","Middlesex","Dunellen PD","NJLEA0275",,,
+"njoaguof","Middlesex County","Dunellen PD","NJLEA0275",,,
+"njoag-leod-2021","Middlesex","East Brunswick Twp PD","NJLEA0276",,,"Municipal"
+"njoag-leod-2025","Middlesex","East Brunswick Twp PD","NJLEA0276",,,
+"njoag-major-discipline","Middlesex","East Brunswick Twp PD","NJLEA0276",,,
+"njoaguof","Middlesex County","East Brunswick Twp PD","NJLEA0276",,,
+"njoag-leod-2021","Middlesex","Edison Twp PD","NJLEA0277",,,"Municipal"
+"njoag-leod-2025","Middlesex","Edison Twp PD","NJLEA0277",,,
+"njoag-major-discipline","Middlesex","Edison Twp PD","NJLEA0277",,,
+"njoaguof","Middlesex County","Edison Twp PD","NJLEA0277",,,
+"njoag-leod-2021","Middlesex","Highland Park PD","NJLEA0278",,,"Municipal"
+"njoag-leod-2025","Middlesex","Highland Park PD","NJLEA0278",,,
+"njoag-major-discipline","Middlesex","Highland Park PD","NJLEA0278",,,
+"njoaguof","Middlesex County","Highland Park PD","NJLEA0278",,,
+"njoag-leod-2021","Middlesex","Jamesburg PD","NJLEA0279",,,"Municipal"
+"njoag-leod-2025","Middlesex","Jamesburg PD","NJLEA0279",,,
+"njoaguof","Middlesex County","Jamesburg PD","NJLEA0279",,,
+"njoag-leod-2021","Middlesex","Metuchen PD","NJLEA0280",,,"Municipal"
+"njoag-leod-2025","Middlesex","Metuchen PD","NJLEA0280",,,
+"njoaguof","Middlesex County","Metuchen PD","NJLEA0280",,,
+"njoag-leod-2021","Middlesex","Middlesex Co College PD","NJLEA0281",,,"County"
+"njoag-leod-2025","Middlesex","Middlesex Co College PD","NJLEA0281",,,
+"njoaguof","Middlesex County","Middlesex Co College PD","NJLEA0281",,,
+"njoag-major-discipline","Middlesex","Middlesex County Department of Corrections","NJLEA0282",,,
+"njoag-leod-2021","Middlesex","Middlesex Co Prosecutors Office","NJLEA0283",,,"County"
+"njoag-leod-2025","Middlesex","Middlesex Co Prosecutors Office","NJLEA0283",,,
+"njoag-major-discipline","Middlesex","Middlesex County Prosecutors Office","NJLEA0283",,,
+"njoaguof","Middlesex County","Middlesex Co Prosecutors Office","NJLEA0283",,,
+"njoag-leod-2021","Middlesex","Middlesex Co Sheriffs Dept","NJLEA0284",,,"County"
+"njoag-leod-2025","Middlesex","Middlesex Co Sheriffs Dept","NJLEA0284",,,
+"njoag-major-discipline","Middlesex","Middlesex County Sheriffs Office","NJLEA0284",,,
+"njoaguof","Middlesex County","Middlesex Co Sheriffs Dept","NJLEA0284",,,
+"njoag-leod-2021","Middlesex","Middlesex Boro PD","NJLEA0285",,,"Municipal"
+"njoag-leod-2025","Middlesex","Middlesex Boro PD","NJLEA0285",,,
+"njoag-major-discipline","Middlesex","Middlesex Boro PD","NJLEA0285",,,
+"njoaguof","Middlesex County","Middlesex Boro PD","NJLEA0285",,,
+"njoag-leod-2021","Middlesex","Milltown PD","NJLEA0286",,,"Municipal"
+"njoag-leod-2025","Middlesex","Milltown PD","NJLEA0286",,,
+"njoag-major-discipline","Middlesex","Milltown PD","NJLEA0286",,,
+"njoaguof","Middlesex County","Milltown PD","NJLEA0286",,,
+"njoag-leod-2021","Middlesex","Monroe Twp PD","NJLEA0287",,,"Municipal"
+"njoag-leod-2025","Middlesex","Monroe Twp PD","NJLEA0287",,,
+"njoag-major-discipline","Middlesex","Monroe Twp PD - Middlesex County","NJLEA0287",,,
+"njoaguof","Middlesex County","Monroe Twp PD","NJLEA0287",,,
+"njoag-leod-2021","Middlesex","New Brunswick PD","NJLEA0288",,,"Municipal"
+"njoag-leod-2025","Middlesex","New Brunswick PD","NJLEA0288",,,
+"njoag-major-discipline","Middlesex","New Brunswick PD","NJLEA0288",,,
+"njoaguof","Middlesex County","New Brunswick PD","NJLEA0288",,,
+"njoag-leod-2021","Middlesex","North Brunswick Twp PD","NJLEA0289",,,"Municipal"
+"njoag-leod-2025","Middlesex","North Brunswick Twp PD","NJLEA0289",,,
+"njoag-major-discipline","Middlesex","North Brunswick Twp PD","NJLEA0289",,,
+"njoaguof","Middlesex County","North Brunswick PD","NJLEA0289",,,
+"njoag-leod-2021","MIDDLESEX","Old Bridge Twp PD","NJLEA0290",,,"Not Provided"
+"njoag-leod-2021","Middlesex","Old Bridge Twp PD","NJLEA0290",,,
+"njoag-leod-2025","Middlesex","Old Bridge Twp PD","NJLEA0290",,,
+"njoag-major-discipline","Middlesex","Old Bridge Twp PD","NJLEA0290",,,
+"njoaguof","Middlesex County","Old Bridge Twp PD","NJLEA0290",,,
+"njoag-leod-2021","Middlesex","Perth Amboy PD","NJLEA0291",,,"Municipal"
+"njoag-leod-2025","Middlesex","Perth Amboy PD","NJLEA0291",,,
+"njoag-major-discipline","Middlesex","Perth Amboy PD","NJLEA0291",,,
+"njoaguof","Middlesex County","Perth Amboy PD","NJLEA0291",,,
+"njoag-leod-2021","Middlesex","Piscataway Twp PD","NJLEA0292",,,"Municipal"
+"njoag-leod-2025","Middlesex","Piscataway Twp PD","NJLEA0292",,,
+"njoag-major-discipline","Middlesex","Piscataway Twp PD","NJLEA0292",,,
+"njoaguof","Middlesex County","Piscataway Twp PD","NJLEA0292",,,
+"njoag-leod-2021","Middlesex","Plainsboro Twp PD","NJLEA0293",,,"Municipal"
+"njoag-leod-2025","Middlesex","Plainsboro Twp PD","NJLEA0293",,,
+"njoag-major-discipline","Middlesex","Plainsboro Twp PD","NJLEA0293",,,
+"njoaguof","Middlesex County","Plainsboro Twp PD","NJLEA0293",,,
+"njoag-leod-2021","Middlesex","Sayreville PD","NJLEA0294",,,"Municipal"
+"njoag-leod-2025","Middlesex","Sayreville PD","NJLEA0294",,,
+"njoag-major-discipline","Middlesex","Sayreville PD","NJLEA0294",,,
+"njoaguof","Middlesex County","Sayreville PD","NJLEA0294",,,
+"njoag-leod-2021","Middlesex","South Amboy PD","NJLEA0295",,,"Municipal"
+"njoag-leod-2025","Middlesex","South Amboy PD","NJLEA0295",,,
+"njoaguof","Middlesex County","South Amboy PD","NJLEA0295",,,
+"njoag-leod-2021","Middlesex","South Brunswick Twp PD","NJLEA0296",,,"Municipal"
+"njoag-leod-2025","Middlesex","South Brunswick Twp PD","NJLEA0296",,,
+"njoag-major-discipline","Middlesex","South Brunswick Twp PD","NJLEA0296",,,
+"njoaguof","Middlesex County","South Brunswick Twp PD","NJLEA0296",,,
+"njoag-leod-2021","Middlesex","South Plainfield PD","NJLEA0297",,,"Municipal"
+"njoag-leod-2025","Middlesex","South Plainfield PD","NJLEA0297",,,
+"njoag-major-discipline","Middlesex","South Plainfield PD","NJLEA0297",,,
+"njoaguof","Middlesex County","South Plainfield PD","NJLEA0297",,,
+"njoag-leod-2021","Middlesex","South River PD","NJLEA0298",,,"Municipal"
+"njoag-leod-2025","Middlesex","South River PD","NJLEA0298",,,
+"njoag-major-discipline","Middlesex","South River PD","NJLEA0298",,,
+"njoaguof","Middlesex County","South River PD","NJLEA0298",,,
+"njoag-leod-2021","Middlesex","Spotswood PD","NJLEA0299",,,"Municipal"
+"njoag-leod-2025","Middlesex","Spotswood PD","NJLEA0299",,,
+"njoaguof","Middlesex County","Spotswood PD","NJLEA0299",,,
+"njoag-leod-2021","Middlesex","Woodbridge Twp PD","NJLEA0300",,,"Municipal"
+"njoag-leod-2025","Middlesex","Woodbridge Twp PD","NJLEA0300",,,
+"njoag-major-discipline","Middlesex","Woodbridge Twp PD","NJLEA0300",,,
+"njoaguof","Middlesex County","Woodbridge Twp PD","NJLEA0300",,,
+"njoag-leod-2021","Monmouth","Aberdeen Twp PD","NJLEA0301",,,"Municipal"
+"njoag-leod-2025","Monmouth","Aberdeen Twp PD","NJLEA0301",,,
+"njoag-major-discipline","Monmouth","Aberdeen Twp PD","NJLEA0301",,,
+"njoaguof","Monmouth County","Aberdeen Twp PD","NJLEA0301",,,
+"njoag-leod-2021","Monmouth","Allenhurst PD","NJLEA0302",,,"Municipal"
+"njoag-leod-2025","Monmouth","Allenhurst PD","NJLEA0302",,,
+"njoag-major-discipline","Monmouth","Allenhurst PD","NJLEA0302",,,
+"njoaguof","Monmouth County","Allenhurst PD","NJLEA0302",,,
+"njoag-leod-2021","Monmouth","Allentown Boro PD","NJLEA0303",,,"Municipal"
+"njoag-leod-2025","Monmouth","Allentown Boro PD","NJLEA0303",,,
+"njoaguof","Monmouth County","Allentown Boro PD","NJLEA0303",,,
+"njoag-leod-2021","Monmouth","Asbury Park PD","NJLEA0304",,,"Municipal"
+"njoag-leod-2025","Monmouth","Asbury Park PD","NJLEA0304",,,
+"njoag-major-discipline","Monmouth","Asbury Park PD","NJLEA0304",,,
+"njoaguof","Monmouth County","Asbury Park PD","NJLEA0304",,,
+"njoag-leod-2021","Monmouth","Atlantic Highlands PD","NJLEA0305",,,"Municipal"
+"njoag-leod-2025","Monmouth","Atlantic Highlands PD","NJLEA0305",,,
+"njoaguof","Monmouth County","Atlantic Highlands PD","NJLEA0305",,,
+"njoag-leod-2021","Monmouth","Avon-By-The-Sea PD","NJLEA0306",,,"Municipal"
+"njoag-leod-2025","Monmouth","Avon-By-The-Sea PD","NJLEA0306",,,
+"njoaguof","Monmouth County","Avon-By-The-Sea PD","NJLEA0306",,,
+"njoag-leod-2021","Monmouth","Belmar PD","NJLEA0307",,,"Multiple Municipalities"
+"njoag-leod-2025","Monmouth","Belmar PD","NJLEA0307",,,
+"njoaguof","Monmouth County","Belmar PD","NJLEA0307",,,
+"njoag-leod-2021","Monmouth","Bradley Beach PD","NJLEA0308",,,"Municipal"
+"njoag-leod-2025","Monmouth","Bradley Beach PD","NJLEA0308",,,
+"njoag-major-discipline","Monmouth","Bradley Beach PD","NJLEA0308",,,
+"njoaguof","Monmouth County","Bradley Beach PD","NJLEA0308",,,
+"njoag-leod-2021","Monmouth","Brielle PD","NJLEA0309",,,"Municipal"
+"njoag-leod-2025","Monmouth","Brielle PD","NJLEA0309",,,
+"njoag-major-discipline","Monmouth","Brielle PD","NJLEA0309",,,
+"njoaguof","Monmouth County","Brielle PD","NJLEA0309",,,
+"njoag-leod-2021","Monmouth","Brookdale College PD","NJLEA0310",,,"County"
+"njoag-leod-2025","Monmouth","Brookdale College PD","NJLEA0310",,,
+"njoag-leod-2021","Monmouth","Colts Neck PD","NJLEA0311",,,"Municipal"
+"njoag-leod-2025","Monmouth","Colts Neck PD","NJLEA0311",,,
+"njoaguof","Monmouth County","Colts Neck PD","NJLEA0311",,,
+"njoag-leod-2021","Monmouth","Deal PD","NJLEA0312",,,"Municipal"
+"njoag-leod-2025","Monmouth","Deal PD","NJLEA0312",,,
+"njoag-major-discipline","Monmouth","Deal PD","NJLEA0312",,,
+"njoaguof","Monmouth County","Deal PD","NJLEA0312",,,
+"njoag-leod-2021","Monmouth","Eatontown PD","NJLEA0313",,,"Municipal"
+"njoag-leod-2025","Monmouth","Eatontown PD","NJLEA0313",,,
+"njoaguof","Monmouth County","Eatontown PD","NJLEA0313",,,
+"njoag-leod-2021","Monmouth","Englishtown PD","NJLEA0314",,,"Municipal"
+"njoag-leod-2025","Monmouth","Englishtown PD","NJLEA0314",,,
+"njoag-major-discipline","Monmouth","Englishtown PD","NJLEA0314",,,
+"njoaguof","Monmouth County","Englishtown PD","NJLEA0314",,,
+"njoag-leod-2021","Monmouth","Fair Haven PD","NJLEA0315",,,"Municipal"
+"njoag-leod-2025","Monmouth","Fair Haven PD","NJLEA0315",,,
+"njoaguof","Monmouth County","Fair Haven PD","NJLEA0315",,,
+"njoag-leod-2025","Monmouth","Freehold Boro PD","NJLEA0316",,,
+"njoaguof","Monmouth County","Freehold Boro PD","NJLEA0316",,,
+"njoag-leod-2021","Monmouth","Freehold Twp PD","NJLEA0317",,,"Municipal"
+"njoag-leod-2025","Monmouth","Freehold Twp PD","NJLEA0317",,,
+"njoag-major-discipline","Monmouth","Freehold Twp PD","NJLEA0317",,,
+"njoaguof","Monmouth County","Freehold Twp PD","NJLEA0317",,,
+"njoag-leod-2021","Monmouth","Hazlet Twp PD","NJLEA0318",,,"Municipal"
+"njoag-leod-2025","Monmouth","Hazlet Twp PD","NJLEA0318",,,
+"njoaguof","Monmouth County","Hazlet Twp PD","NJLEA0318",,,
+"njoag-leod-2021","Monmouth","Highlands PD","NJLEA0319",,,"Municipal"
+"njoag-leod-2025","Monmouth","Highlands PD","NJLEA0319",,,
+"njoag-major-discipline","Monmouth","Highlands PD","NJLEA0319",,,
+"njoaguof","Monmouth County","Highlands PD","NJLEA0319",,,
+"njoag-leod-2021","Monmouth","Holmdel PD","NJLEA0320",,,"Municipal"
+"njoag-leod-2025","Monmouth","Holmdel PD","NJLEA0320",,,
+"njoag-major-discipline","Monmouth","Holmdel PD","NJLEA0320",,,
+"njoaguof","Monmouth County","Holmdel PD","NJLEA0320",,,
+"njoag-leod-2021","Monmouth","Howell Twp PD","NJLEA0321",,,"Municipal"
+"njoag-leod-2025","Monmouth","Howell Twp PD","NJLEA0321",,,
+"njoag-major-discipline","Monmouth","Howell Twp PD","NJLEA0321",,,
+"njoaguof","Monmouth County","Howell Twp PD","NJLEA0321",,,
+"njoag-leod-2021","Monmouth","Keansburg PD","NJLEA0322",,,"Municipal"
+"njoag-leod-2025","Monmouth","Keansburg PD","NJLEA0322",,,
+"njoag-major-discipline","Monmouth","Keansburg PD","NJLEA0322",,,
+"njoaguof","Monmouth County","Keansburg PD","NJLEA0322",,,
+"njoag-leod-2021","Monmouth","Keyport PD","NJLEA0323",,,"Municipal"
+"njoag-leod-2025","Monmouth","Keyport PD","NJLEA0323",,,
+"njoaguof","Monmouth County","Keyport PD","NJLEA0323",,,
+"njoag-leod-2021","Monmouth","Little Silver PD","NJLEA0324",,,"Municipal"
+"njoag-leod-2025","Monmouth","Little Silver PD","NJLEA0324",,,
+"njoaguof","Monmouth County","Little Silver PD","NJLEA0324",,,
+"njoag-leod-2021","Monmouth","Long Branch PD","NJLEA0325",,,"Municipal"
+"njoag-leod-2025","Monmouth","Long Branch PD","NJLEA0325",,,
+"njoag-major-discipline","Monmouth","Long Branch PD","NJLEA0325",,,
+"njoaguof","Monmouth County","Long Branch PD","NJLEA0325",,,
+"njoag-leod-2021","Monmouth","Manalapan Twp PD","NJLEA0326",,,"Municipal"
+"njoag-leod-2025","Monmouth","Manalapan Twp PD","NJLEA0326",,,
+"njoag-major-discipline","Monmouth","Manalapan Twp PD","NJLEA0326",,,
+"njoaguof","Monmouth County","Manalapan Twp PD","NJLEA0326",,,
+"njoag-leod-2021","Monmouth","Manasquan PD","NJLEA0327",,,"Municipal"
+"njoag-leod-2025","Monmouth","Manasquan PD","NJLEA0327",,,
+"njoag-major-discipline","Monmouth","Manasquan PD","NJLEA0327",,,
+"njoaguof","Monmouth County","Manasquan PD","NJLEA0327",,,
+"njoag-leod-2021","Monmouth","Marlboro Twp PD","NJLEA0328",,,"Municipal"
+"njoag-leod-2025","Monmouth","Marlboro Twp PD","NJLEA0328",,,
+"njoag-major-discipline","Monmouth","Marlboro Twp PD","NJLEA0328",,,
+"njoaguof","Monmouth County","Marlboro Twp PD","NJLEA0328",,,
+"njoag-leod-2021","Monmouth","Matawan PD","NJLEA0329",,,"Municipal"
+"njoag-leod-2025","Monmouth","Matawan PD","NJLEA0329",,,
+"njoag-major-discipline","Monmouth","Matawan PD","NJLEA0329",,,
+"njoaguof","Monmouth County","Matawan PD","NJLEA0329",,,
+"njoag-leod-2021","Monmouth","Middletown PD","NJLEA0330",,,"Municipal"
+"njoag-leod-2025","Monmouth","Middletown PD","NJLEA0330",,,
+"njoag-major-discipline","Monmouth","Middletown PD","NJLEA0330",,,
+"njoaguof","Monmouth County","Middletown PD","NJLEA0330",,,
+"njoag-leod-2021","Monmouth","Monmouth Beach PD","NJLEA0331",,,"Municipal"
+"njoag-leod-2025","Monmouth","Monmouth Beach PD","NJLEA0331",,,
+"njoaguof","Monmouth County","Monmouth Beach PD","NJLEA0331",,,
+"njoag-major-discipline","Monmouth","Monmouth County Department of Corrections","NJLEA0332",,,
+"njoaguof","Monmouth County","Monmouth Co Corrections","NJLEA0332",,,
+"njoag-leod-2021","Monmouth","Monmouth Co Prosecutors Office","NJLEA0333",,,"County"
+"njoag-leod-2025","Monmouth","Monmouth Co Prosecutors Office","NJLEA0333",,,
+"njoaguof","Monmouth County","Monmouth Co Prosecutors Office","NJLEA0333",,,
+"njoag-leod-2021","Monmouth","Monmouth Co Sheriffs Dept","NJLEA0334",,,"County"
+"njoag-leod-2025","Monmouth","Monmouth Co Sheriffs Dept","NJLEA0334",,,
+"njoag-major-discipline","Monmouth","Monmouth County Sheriffs Office","NJLEA0334",,,
+"njoaguof","Monmouth County","Monmouth Co Sheriffs Dept","NJLEA0334",,,
+"njoag-leod-2021","Monmouth","Neptune City PD","NJLEA0335",,,"Municipal"
+"njoag-leod-2025","Monmouth","Neptune City PD","NJLEA0335",,,
+"njoag-major-discipline","Monmouth","Neptune City PD","NJLEA0335",,,
+"njoaguof","Monmouth County","Neptune City PD","NJLEA0335",,,
+"njoag-leod-2021","Monmouth","Neptune Twp PD","NJLEA0336",,,"Municipal"
+"njoag-leod-2025","Monmouth","Neptune Twp PD","NJLEA0336",,,
+"njoag-major-discipline","Monmouth","Neptune Twp PD","NJLEA0336",,,
+"njoaguof","Monmouth County","Neptune Twp PD","NJLEA0336",,,
+"njoag-leod-2021","Monmouth","Ocean Twp PD","NJLEA0337",,,"Municipal"
+"njoag-leod-2025","Monmouth","Ocean Twp PD","NJLEA0337",,,
+"njoaguof","Monmouth County","Ocean Twp PD","NJLEA0337",,,
+"njoag-leod-2021","Monmouth","Oceanport PD","NJLEA0338",,,"Municipal"
+"njoag-leod-2025","Monmouth","Oceanport PD","NJLEA0338",,,
+"njoag-major-discipline","Monmouth","Oceanport PD","NJLEA0338",,,
+"njoaguof","Monmouth County","Oceanport PD","NJLEA0338",,,
+"njoag-leod-2021","Monmouth","Red Bank PD","NJLEA0339",,,"Municipal"
+"njoag-leod-2025","Monmouth","Red Bank PD","NJLEA0339",,,
+"njoag-major-discipline","Monmouth","Red Bank PD","NJLEA0339",,,
+"njoaguof","Monmouth County","Red Bank PD","NJLEA0339",,,
+"njoag-leod-2021","Monmouth","Rumson PD","NJLEA0340",,,"Municipal"
+"njoag-leod-2025","Monmouth","Rumson PD","NJLEA0340",,,
+"njoag-major-discipline","Monmouth","Rumson PD","NJLEA0340",,,
+"njoaguof","Monmouth County","Rumson PD","NJLEA0340",,,
+"njoag-leod-2021","Monmouth","Sea Bright PD","NJLEA0341",,,"Municipal"
+"njoag-leod-2025","Monmouth","Sea Bright PD","NJLEA0341",,,
+"njoag-major-discipline","Monmouth","Sea Bright PD","NJLEA0341",,,
+"njoaguof","Monmouth County","Sea Bright PD","NJLEA0341",,,
+"njoag-leod-2021","Monmouth","Sea Girt PD","NJLEA0342",,,"Municipal"
+"njoag-leod-2025","Monmouth","Sea Girt PD","NJLEA0342",,,
+"njoag-major-discipline","Monmouth","Sea Girt PD","NJLEA0342",,,
+"njoaguof","Monmouth County","Sea Girt PD","NJLEA0342",,,
+"njoag-leod-2021","Monmouth","Shrewsbury PD","NJLEA0343",,,"Municipal"
+"njoag-leod-2025","Monmouth","Shrewsbury PD","NJLEA0343",,,
+"njoaguof","Monmouth County","Shrewsbury PD","NJLEA0343",,,
+"njoag-leod-2021","Monmouth","Spring Lake Heights PD","NJLEA0344",,,"Municipal"
+"njoag-leod-2025","Monmouth","Spring Lake Heights PD","NJLEA0344",,,
+"njoaguof","Monmouth County","Spring Lake Heights PD","NJLEA0344",,,
+"njoag-leod-2021","Monmouth","Spring Lake PD","NJLEA0345",,,"Municipal"
+"njoag-leod-2025","Monmouth","Spring Lake PD","NJLEA0345",,,
+"njoaguof","Monmouth County","Spring Lake PD","NJLEA0345",,,
+"njoag-leod-2021","Monmouth","Tinton Falls PD","NJLEA0346",,,"Municipal"
+"njoag-leod-2025","Monmouth","Tinton Falls PD","NJLEA0346",,,
+"njoag-major-discipline","Monmouth","Tinton Falls PD","NJLEA0346",,,
+"njoaguof","Monmouth County","Tinton Falls PD","NJLEA0346",,,
+"njoag-leod-2021","Monmouth","Union Beach PD","NJLEA0347",,,"Municipal"
+"njoag-leod-2025","Monmouth","Union Beach PD","NJLEA0347",,,
+"njoaguof","Monmouth County","Union Beach PD","NJLEA0347",,,
+"njoag-leod-2021","Monmouth","Wall Twp PD","NJLEA0348",,,"Municipal"
+"njoag-leod-2025","Monmouth","Wall Twp PD","NJLEA0348",,,
+"njoag-major-discipline","Monmouth","Wall Twp PD","NJLEA0348",,,
+"njoaguof","Monmouth County","Wall Twp PD","NJLEA0348",,,
+"njoag-leod-2021","Monmouth","West Long Branch PD","NJLEA0349",,,"Municipal"
+"njoag-leod-2025","Monmouth","West Long Branch PD","NJLEA0349",,,
+"njoag-major-discipline","Monmouth","West Long Branch PD","NJLEA0349",,,
+"njoaguof","Monmouth County","West Long Branch PD","NJLEA0349",,,
+"njoag-leod-2021","Morris","Boonton PD","NJLEA0350",,,"Municipal"
+"njoag-leod-2025","Morris","Boonton PD","NJLEA0350",,,
+"njoaguof","Morris County","Boonton PD","NJLEA0350",,,
+"njoag-leod-2025","Morris","Boonton Twp PD","NJLEA0351",,,
+"njoaguof","Morris County","Boonton Twp PD","NJLEA0351",,,
+"njoag-leod-2021","Morris","Butler Boro PD","NJLEA0352",,,"Municipal"
+"njoag-leod-2025","Morris","Butler Boro PD","NJLEA0352",,,
+"njoaguof","Morris County","Butler Boro PD","NJLEA0352",,,
+"njoag-leod-2021","Morris","Chatham Boro PD","NJLEA0353",,,"Municipal"
+"njoag-leod-2025","Morris","Chatham Boro PD","NJLEA0353",,,
+"njoaguof","Morris County","Chatham Boro PD","NJLEA0353",,,
+"njoag-leod-2021","Morris","Chatham Twp PD","NJLEA0354",,,"Municipal"
+"njoag-leod-2025","Morris","Chatham Twp PD","NJLEA0354",,,
+"njoag-major-discipline","Morris","Chatham Twp PD","NJLEA0354",,,
+"njoaguof","Morris County","Chatham Twp PD","NJLEA0354",,,
+"njoag-leod-2021","Morris","Chester PD","NJLEA0355",,,"Municipal"
+"njoag-leod-2025","Morris","Chester PD","NJLEA0355",,,
+"njoaguof","Morris County","Chester PD","NJLEA0355",,,
+"njoag-leod-2021","Morris","Denville PD","NJLEA0356",,,"Municipal"
+"njoag-leod-2025","Morris","Denville PD","NJLEA0356",,,
+"njoaguof","Morris County","Denville PD","NJLEA0356",,,
+"njoag-leod-2021","Morris","Dover PD","NJLEA0357",,,"Municipal"
+"njoag-leod-2025","Morris","Dover PD","NJLEA0357",,,
+"njoag-major-discipline","Morris","Dover PD","NJLEA0357",,,
+"njoaguof","Morris County","Dover PD","NJLEA0357",,,
+"njoag-leod-2021","Morris","East Hanover Twp PD","NJLEA0358",,,"Municipal"
+"njoag-leod-2025","Morris","East Hanover Twp PD","NJLEA0358",,,
+"njoag-major-discipline","Morris","East Hanover Twp PD","NJLEA0358",,,
+"njoaguof","Morris County","East Hanover Twp PD","NJLEA0358",,,
+"njoag-leod-2021","Morris","Florham Park PD","NJLEA0359",,,"Municipal"
+"njoag-leod-2025","Morris","Florham Park PD","NJLEA0359",,,
+"njoag-major-discipline","Morris","Florham Park PD","NJLEA0359",,,
+"njoaguof","Morris County","Florham Park PD","NJLEA0359",,,
+"njoag-leod-2021","Morris","Hanover Twp PD","NJLEA0360",,,"Municipal"
+"njoag-leod-2025","Morris","Hanover Twp PD","NJLEA0360",,,
+"njoag-major-discipline","Morris","Hanover Twp PD","NJLEA0360",,,
+"njoaguof","Morris County","Hanover Twp PD","NJLEA0360",,,
+"njoag-leod-2021","Morris","Harding Twp PD","NJLEA0361",,,"Municipal"
+"njoag-leod-2025","Morris","Harding Twp PD","NJLEA0361",,,
+"njoaguof","Morris County","Harding Twp PD","NJLEA0361",,,
+"njoag-leod-2021","Morris","Jefferson Twp PD","NJLEA0362",,,"Municipal"
+"njoag-leod-2025","Morris","Jefferson Twp PD","NJLEA0362",,,
+"njoaguof","Morris County","Jefferson Twp PD","NJLEA0362",,,
+"njoag-leod-2021","Morris","Kinnelon Boro PD","NJLEA0363",,,"Municipal"
+"njoag-leod-2025","Morris","Kinnelon Boro PD","NJLEA0363",,,
+"njoaguof","Morris County","Kinnelon Boro PD","NJLEA0363",,,
+"njoag-leod-2021","Morris","Lincoln Park PD","NJLEA0364",,,"Municipal"
+"njoag-leod-2025","Morris","Lincoln Park PD","NJLEA0364",,,
+"njoag-major-discipline","Morris","Lincoln Park PD","NJLEA0364",,,
+"njoaguof","Morris County","Lincoln Park PD","NJLEA0364",,,
+"njoag-leod-2021","Morris","Long Hill Twp PD","NJLEA0365",,,"Municipal"
+"njoag-leod-2025","Morris","Long Hill Twp PD","NJLEA0365",,,
+"njoag-major-discipline","Morris","Long Hill Twp PD","NJLEA0365",,,
+"njoaguof","Morris County","Long Hill Twp PD","NJLEA0365",,,
+"njoag-leod-2021","Morris","Madison PD","NJLEA0366",,,"Municipal"
+"njoag-leod-2025","Morris","Madison PD","NJLEA0366",,,
+"njoaguof","Morris County","Madison PD","NJLEA0366",,,
+"njoag-leod-2021","Morris","Mendham Boro PD","NJLEA0367",,,"Municipal"
+"njoag-leod-2025","Morris","Mendham Boro PD","NJLEA0367",,,
+"njoaguof","Morris County","Mendham Boro PD","NJLEA0367",,,
+"njoag-leod-2021","Morris","Mendham Twp PD","NJLEA0368",,,"Municipal"
+"njoag-leod-2025","Morris","Mendham Twp PD","NJLEA0368",,,
+"njoaguof","Morris County","Mendham Twp PD","NJLEA0368",,,
+"njoag-leod-2021","Morris","Montville Twp PD","NJLEA0369",,,"Municipal"
+"njoag-leod-2025","Morris","Montville Twp PD","NJLEA0369",,,
+"njoaguof","Morris County","Montville Twp PD","NJLEA0369",,,
+"njoag-major-discipline","Morris","Morris County Department of Corrections","NJLEA0370",,,
+"njoaguof","Morris County","Morris Co Corrections","NJLEA0370",,,
+"njoag-leod-2021","Morris","Morris County Park PD","NJLEA0371",,,"County"
+"njoag-leod-2025","Morris","Morris County Park PD","NJLEA0371",,,
+"njoag-leod-2021","Morris","Morris Co Prosecutors Office","NJLEA0372",,,"County"
+"njoag-leod-2025","Morris","Morris Co Prosecutors Office","NJLEA0372",,,
+"njoag-major-discipline","Morris","Morris County Prosecutors Office","NJLEA0372",,,
+"njoaguof","Morris County","Morris Co Prosecutors Office","NJLEA0372",,,
+"njoag-leod-2021","Morris","Morris Co Sheriffs Dept","NJLEA0373",,,"County"
+"njoag-leod-2025","Morris","Morris Co Sheriffs Dept","NJLEA0373",,,
+"njoag-major-discipline","Morris","Morris County Sheriffs Office","NJLEA0373",,,
+"njoaguof","Morris County","Morris Co Sheriffs Dept","NJLEA0373",,,
+"njoag-leod-2021","Morris","Morris Plains PD","NJLEA0374",,,"Municipal"
+"njoag-leod-2025","Morris","Morris Plains PD","NJLEA0374",,,
+"njoag-major-discipline","Morris","Morris Plains PD","NJLEA0374",,,
+"njoaguof","Morris County","Morris Plains PD","NJLEA0374",,,
+"njoag-leod-2021","Morris","Morris Twp PD","NJLEA0375",,,"Municipal"
+"njoag-leod-2025","Morris","Morris Twp PD","NJLEA0375",,,
+"njoag-major-discipline","Morris","Morris Twp PD","NJLEA0375",,,
+"njoaguof","Morris County","Morris Twp PD","NJLEA0375",,,
+"njoag-leod-2021","Morris","Morristown PD","NJLEA0376",,,"Municipal"
+"njoag-leod-2025","Morris","Morristown PD","NJLEA0376",,,
+"njoag-major-discipline","Morris","Morristown PD","NJLEA0376",,,
+"njoaguof","Morris County","Morristown PD","NJLEA0376",,,
+"njoag-leod-2021","Morris","Mount Arlington Boro PD","NJLEA0377",,,"Municipal"
+"njoag-leod-2025","Morris","Mount Arlington Boro PD","NJLEA0377",,,
+"njoag-major-discipline","Morris","Mount Arlington Boro PD","NJLEA0377",,,
+"njoaguof","Morris County","Mount Arlington Boro PD","NJLEA0377",,,
+"njoag-leod-2021","Morris","Mount Olive Twp PD","NJLEA0378",,,"Municipal"
+"njoag-leod-2025","Morris","Mount Olive Twp PD","NJLEA0378",,,
+"njoaguof","Morris County","Mount Olive Twp PD","NJLEA0378",,,
+"njoag-leod-2021","Morris","Mountain Lakes PD","NJLEA0379",,,"Municipal"
+"njoag-leod-2025","Morris","Mountain Lakes PD","NJLEA0379",,,
+"njoag-major-discipline","Morris","Mountain Lakes PD","NJLEA0379",,,
+"njoaguof","Morris County","Mountain Lakes PD","NJLEA0379",,,
+"njoag-leod-2021","Morris","Netcong Boro PD","NJLEA0380",,,"Municipal"
+"njoag-leod-2025","Morris","Netcong Boro PD","NJLEA0380",,,
+"njoaguof","Morris County","Netcong Boro PD","NJLEA0380",,,
+"njoag-leod-2021","Morris","Parsippany-Troy Hills PD","NJLEA0381",,,"Municipal"
+"njoag-leod-2025","Morris","Parsippany-Troy Hills PD","NJLEA0381",,,
+"njoag-major-discipline","Morris","Parsippany-Troy Hills PD","NJLEA0381",,,
+"njoaguof","Morris County","Parsippany-Troy Hills PD","NJLEA0381",,,
+"njoag-leod-2021","Morris","Pequannock PD","NJLEA0382",,,"Municipal"
+"njoag-leod-2025","Morris","Pequannock PD","NJLEA0382",,,
+"njoaguof","Morris County","Pequannock PD","NJLEA0382",,,
+"njoag-leod-2021","Morris","Randolph Twp PD","NJLEA0383",,,"Municipal"
+"njoag-leod-2025","Morris","Randolph Twp PD","NJLEA0383",,,
+"njoag-major-discipline","Morris","Randolph Twp PD","NJLEA0383",,,
+"njoaguof","Morris County","Randolph Twp PD","NJLEA0383",,,
+"njoag-leod-2021","Morris","Riverdale PD","NJLEA0384",,,"Municipal"
+"njoag-leod-2025","Morris","Riverdale PD","NJLEA0384",,,
+"njoaguof","Morris County","Riverdale PD","NJLEA0384",,,
+"njoag-leod-2021","Morris","Rockaway Boro PD","NJLEA0385",,,"Municipal"
+"njoag-leod-2025","Morris","Rockaway Boro PD","NJLEA0385",,,
+"njoag-major-discipline","Morris","Rockaway Boro PD","NJLEA0385",,,
+"njoaguof","Morris County","Rockaway Boro PD","NJLEA0385",,,
+"njoag-leod-2021","Morris","Rockaway Twp PD","NJLEA0386",,,"Municipal"
+"njoag-leod-2025","Morris","Rockaway Twp PD","NJLEA0386",,,
+"njoaguof","Morris County","Rockaway Twp PD","NJLEA0386",,,
+"njoag-leod-2021","Morris","Roxbury Twp PD","NJLEA0387",,,"Municipal"
+"njoag-leod-2025","Morris","Roxbury Twp PD","NJLEA0387",,,
+"njoaguof","Morris County","Roxbury Twp PD","NJLEA0387",,,
+"njoag-leod-2021","Morris","Washington Twp PD","NJLEA0388",,,"Multiple Municipalities"
+"njoag-leod-2025","Morris","Washington Twp PD","NJLEA0388",,,
+"njoaguof","Morris County","Washington Twp PD","NJLEA0388",,,
+"njoag-leod-2021","Morris","Wharton Boro PD","NJLEA0389",,,"Multiple Municipalities"
+"njoag-leod-2025","Morris","Wharton Boro PD","NJLEA0389",,,
+"njoaguof","Morris County","Wharton Boro PD","NJLEA0389",,,
+"njoag-leod-2021","Ocean","Barnegat Twp PD","NJLEA0390",,,"Municipal"
+"njoag-leod-2025","Ocean","Barnegat Twp PD","NJLEA0390",,,
+"njoag-major-discipline","Ocean","Barnegat Twp PD","NJLEA0390",,,
+"njoaguof","Ocean County","Barnegat Twp PD","NJLEA0390",,,
+"njoag-leod-2021","Ocean","Bayhead Boro PD","NJLEA0391",,,"Municipal"
+"njoag-leod-2025","Ocean","Bayhead Boro PD","NJLEA0391",,,
+"njoaguof","Ocean County","Bayhead Boro PD","NJLEA0391",,,
+"njoag-leod-2021","Ocean","Beach Haven PD","NJLEA0392",,,"Municipal"
+"njoag-leod-2025","Ocean","Beach Haven PD","NJLEA0392",,,
+"njoag-major-discipline","Ocean","Beach Haven PD","NJLEA0392",,,
+"njoaguof","Ocean County","Beach Haven PD","NJLEA0392",,,
+"njoag-leod-2021","Ocean","Beachwood Boro PD","NJLEA0393",,,"Municipal"
+"njoag-leod-2025","Ocean","Beachwood Boro PD","NJLEA0393",,,
+"njoaguof","Ocean County","Beachwood Boro PD","NJLEA0393",,,
+"njoag-leod-2021","Ocean","Berkeley Twp PD","NJLEA0394",,,"Municipal"
+"njoag-leod-2025","Ocean","Berkeley Twp PD","NJLEA0394",,,
+"njoag-major-discipline","Ocean","Berkeley Twp PD","NJLEA0394",,,
+"njoaguof","Ocean County","Berkeley Twp PD","NJLEA0394",,,
+"njoag-leod-2021","Ocean","Brick Twp PD","NJLEA0395",,,"Municipal"
+"njoag-leod-2025","Ocean","Brick Twp PD","NJLEA0395",,,
+"njoag-major-discipline","Ocean","Brick Twp PD","NJLEA0395",,,
+"njoaguof","Ocean County","Brick Twp PD","NJLEA0395",,,
+"njoag-leod-2021","Ocean","Harvey Cedars Boro PD","NJLEA0396",,,"Municipal"
+"njoag-leod-2025","Ocean","Harvey Cedars Boro PD","NJLEA0396",,,
+"njoaguof","Ocean County","Harvey Cedars Boro PD","NJLEA0396",,,
+"njoag-leod-2021","Ocean","Island Heights Boro PD","NJLEA0397",,,"Municipal"
+"njoag-leod-2025","Ocean","Island Heights Boro PD","NJLEA0397",,,
+"njoag-major-discipline","Ocean","Island Heights Boro PD","NJLEA0397",,,
+"njoaguof","Ocean County","Island Heights PD","NJLEA0397",,,
+"njoag-leod-2021","Ocean","Jackson Twp PD","NJLEA0398",,,"Municipal"
+"njoag-leod-2025","Ocean","Jackson Twp PD","NJLEA0398",,,
+"njoag-major-discipline","Ocean","Jackson Twp PD","NJLEA0398",,,
+"njoaguof","Ocean County","Jackson Twp PD","NJLEA0398",,,
+"njoag-leod-2021","Ocean","Lacey Twp PD","NJLEA0399",,,"Municipal"
+"njoag-leod-2025","Ocean","Lacey Twp PD","NJLEA0399",,,
+"njoag-major-discipline","Ocean","Lacey Twp PD","NJLEA0399",,,
+"njoaguof","Ocean County","Lacey Twp PD","NJLEA0399",,,
+"njoag-leod-2021","Ocean","Lakehurst Boro PD","NJLEA0400",,,"Municipal"
+"njoag-leod-2025","Ocean","Lakehurst Boro PD","NJLEA0400",,,
+"njoaguof","Ocean County","Lakehurst Boro PD","NJLEA0400",,,
+"njoag-leod-2021","Ocean","Lakewood PD","NJLEA0401",,,"Municipal"
+"njoag-leod-2025","Ocean","Lakewood PD","NJLEA0401",,,
+"njoag-major-discipline","Ocean","Lakewood PD","NJLEA0401",,,
+"njoaguof","Ocean County","Lakewood PD","NJLEA0401",,,
+"njoag-leod-2021","Ocean","Lavallette PD","NJLEA0402",,,"Municipal"
+"njoag-leod-2025","Ocean","Lavallette PD","NJLEA0402",,,
+"njoag-major-discipline","Ocean","Lavallette PD","NJLEA0402",,,
+"njoaguof","Ocean County","Lavallette PD","NJLEA0402",,,
+"njoag-leod-2021","Ocean","Little Egg Harbor Twp PD","NJLEA0403",,,"Municipal"
+"njoag-leod-2025","Ocean","Little Egg Harbor Twp PD","NJLEA0403",,,
+"njoag-major-discipline","Ocean","Little Egg Harbor Twp PD","NJLEA0403",,,
+"njoaguof","Ocean County","Little Egg Harbor Twp PD","NJLEA0403",,,
+"njoag-leod-2021","Ocean","Long Beach Twp PD","NJLEA0404",,,"Municipal"
+"njoag-leod-2025","Ocean","Long Beach Twp PD","NJLEA0404",,,
+"njoag-major-discipline","Ocean","Long Beach Twp PD","NJLEA0404",,,
+"njoaguof","Ocean County","Long Beach Twp PD","NJLEA0404",,,
+"njoag-leod-2021","Ocean","Manchester Twp PD","NJLEA0405",,,"Municipal"
+"njoag-leod-2025","Ocean","Manchester Twp PD","NJLEA0405",,,
+"njoag-major-discipline","Ocean","Manchester Twp PD","NJLEA0405",,,
+"njoaguof","Ocean County","Manchester Twp PD","NJLEA0405",,,
+"njoag-leod-2021","Ocean","Mantoloking Boro PD","NJLEA0406",,,"Municipal"
+"njoag-leod-2025","Ocean","Mantoloking Boro PD","NJLEA0406",,,
+"njoaguof","Ocean County","Mantoloking Boro PD","NJLEA0406",,,
+"njoag-major-discipline","Ocean","Ocean County Department of Corrections","NJLEA0407",,,
+"njoaguof","Ocean County","Ocean Co Dept Corrections","NJLEA0407",,,
+"njoag-leod-2021","Ocean","Ocean Co Prosecutors Office","NJLEA0408",,,"County"
+"njoag-leod-2025","Ocean","Ocean Co Prosecutors Office","NJLEA0408",,,
+"njoag-major-discipline","Ocean","Ocean County Prosecutors Office","NJLEA0408",,,
+"njoaguof","Ocean County","Ocean Co Prosecutors Office","NJLEA0408",,,
+"njoag-leod-2021","Ocean","Ocean Co Sheriffs Dept","NJLEA0409",,,"County"
+"njoag-leod-2025","Ocean","Ocean Co Sheriffs Dept","NJLEA0409",,,
+"njoaguof","Ocean County","Ocean Co Sheriffs Dept","NJLEA0409",,,
+"njoag-leod-2021","Ocean","Oceangate Boro PD","NJLEA0410",,,"Municipal"
+"njoag-leod-2025","Ocean","Oceangate Boro PD","NJLEA0410",,,
+"njoaguof","Ocean County","Oceangate Boro PD","NJLEA0410",,,
+"njoag-leod-2021","Ocean","Ocean Twp PD","NJLEA0411",,,"Municipal"
+"njoag-leod-2025","Ocean","Ocean Twp PD","NJLEA0411",,,
+"njoaguof","Ocean County","Ocean Twp PD","NJLEA0411",,,
+"njoag-leod-2021","Ocean","Pine Beach Boro PD","NJLEA0412",,,"Municipal"
+"njoag-leod-2025","Ocean","Pine Beach Boro PD","NJLEA0412",,,
+"njoag-major-discipline","Ocean","Pine Beach Boro PD","NJLEA0412",,,
+"njoaguof","Ocean County","Pine Beach Boro PD","NJLEA0412",,,
+"njoag-leod-2021","Ocean","Plumsted Twp PD","NJLEA0413",,,"Municipal"
+"njoag-leod-2025","Ocean","Plumsted Twp PD","NJLEA0413",,,
+"njoag-major-discipline","Ocean","Plumsted Twp PD","NJLEA0413",,,
+"njoaguof","Ocean County","Plumsted Twp PD","NJLEA0413",,,
+"njoag-leod-2021","Ocean","Point Pleasant Beach PD","NJLEA0414",,,"Municipal"
+"njoag-leod-2025","Ocean","Point Pleasant Beach PD","NJLEA0414",,,
+"njoag-major-discipline","Ocean","Point Pleasant Beach PD","NJLEA0414",,,
+"njoaguof","Ocean County","Point Pleasant Beach PD","NJLEA0414",,,
+"njoag-leod-2021","Ocean","Point Pleasant Boro PD","NJLEA0415",,,"Municipal"
+"njoag-leod-2025","Ocean","Point Pleasant Boro PD","NJLEA0415",,,
+"njoag-major-discipline","Ocean","Point Pleasant Boro PD","NJLEA0415",,,
+"njoaguof","Ocean County","Point Pleasant Boro PD","NJLEA0415",,,
+"njoag-leod-2021","Ocean","Seaside Heights PD","NJLEA0416",,,
+"njoag-leod-2025","Ocean","Seaside Heights PD","NJLEA0416",,,
+"njoaguof","Ocean County","Seaside Heights PD","NJLEA0416",,,
+"njoag-leod-2021","Ocean","Seaside Park PD","NJLEA0417",,,"Municipal"
+"njoag-leod-2025","Ocean","Seaside Park PD","NJLEA0417",,,
+"njoaguof","Ocean County","Seaside Park PD","NJLEA0417",,,
+"njoag-leod-2021","Ocean","Ship Bottom Boro PD","NJLEA0418",,,"Municipal"
+"njoag-leod-2025","Ocean","Ship Bottom Boro PD","NJLEA0418",,,
+"njoag-major-discipline","Ocean","Ship Bottom Boro PD","NJLEA0418",,,
+"njoaguof","Ocean County","Ship Bottom Boro PD","NJLEA0418",,,
+"njoag-leod-2021","Ocean","South Toms River PD","NJLEA0419",,,"Municipal"
+"njoag-leod-2025","Ocean","South Toms River PD","NJLEA0419",,,
+"njoag-major-discipline","Ocean","South Toms River PD","NJLEA0419",,,
+"njoaguof","Ocean County","South Toms River PD","NJLEA0419",,,
+"njoag-leod-2021","Ocean","Stafford Twp PD","NJLEA0420",,,"Municipal"
+"njoag-leod-2025","Ocean","Stafford Twp PD","NJLEA0420",,,
+"njoag-major-discipline","Ocean","Stafford Twp PD","NJLEA0420",,,
+"njoaguof","Ocean County","Stafford Twp PD","NJLEA0420",,,
+"njoag-leod-2021","Ocean","Surf City PD","NJLEA0421",,,"Municipal"
+"njoag-leod-2025","Ocean","Surf City PD","NJLEA0421",,,
+"njoaguof","Ocean County","Surf City PD","NJLEA0421",,,
+"njoag-leod-2021","Ocean","Toms River Township","NJLEA0422",,,"Municipal"
+"njoag-leod-2025","Ocean","Toms River Township","NJLEA0422",,,
+"njoag-major-discipline","Ocean","Toms River Twp PD","NJLEA0422",,,
+"njoaguof","Ocean County","Toms River Twp PD","NJLEA0422",,,
+"njoag-leod-2021","Ocean","Tuckerton Boro PD","NJLEA0423",,,"Municipal"
+"njoag-leod-2025","Ocean","Tuckerton Boro PD","NJLEA0423",,,
+"njoaguof","Ocean County","Tuckerton Boro PD","NJLEA0423",,,
+"njoag-leod-2021","Passaic","Bloomingdale Boro PD","NJLEA0424",,,"Municipal"
+"njoag-leod-2025","Passaic","Bloomingdale Boro PD","NJLEA0424",,,
+"njoag-major-discipline","Passaic","Bloomingdale Boro PD","NJLEA0424",,,
+"njoaguof","Passaic County","Bloomingdale Boro PD","NJLEA0424",,,
+"njoag-leod-2021","Passaic","Clifton PD","NJLEA0425",,,"Municipal"
+"njoag-leod-2025","Passaic","Clifton PD","NJLEA0425",,,
+"njoag-major-discipline","Passaic","Clifton PD","NJLEA0425",,,
+"njoaguof","Passaic County","Clifton PD","NJLEA0425",,,
+"njoag-leod-2021","Passaic","Haledon PD","NJLEA0426",,,"Municipal"
+"njoag-leod-2025","Passaic","Haledon PD","NJLEA0426",,,
+"njoaguof","Passaic County","Haledon PD","NJLEA0426",,,
+"njoag-leod-2021","Passaic","Hawthorne PD","NJLEA0427",,,"Municipal"
+"njoag-leod-2025","Passaic","Hawthorne PD","NJLEA0427",,,
+"njoaguof","Passaic County","Hawthorne PD","NJLEA0427",,,
+"njoag-leod-2021","Passaic","Little Falls PD","NJLEA0428",,,"Municipal"
+"njoag-leod-2025","Passaic","Little Falls PD","NJLEA0428",,,
+"njoag-major-discipline","Passaic","Little Falls PD","NJLEA0428",,,
+"njoaguof","Passaic County","Little Falls PD","NJLEA0428",,,
+"njoag-leod-2021","Passaic","North Haledon PD","NJLEA0429",,,"Municipal"
+"njoag-leod-2025","Passaic","North Haledon PD","NJLEA0429",,,
+"njoag-major-discipline","Passaic","North Haledon PD","NJLEA0429",,,
+"njoaguof","Passaic County","North Haledon PD","NJLEA0429",,,
+"njoag-leod-2021","Passaic","Passaic Co Prosecutors Office","NJLEA0430",,,"County"
+"njoag-leod-2025","Passaic","Passaic Co Prosecutors Office","NJLEA0430",,,
+"njoag-major-discipline","Passaic","Passaic County Prosecutors Office","NJLEA0430",,,
+"njoaguof","Passaic County","Passaic Co Prosecutors Office","NJLEA0430",,,
+"njoag-leod-2021","Passaic","Passaic Co Sheriffs Dept","NJLEA0431",,,"County"
+"njoag-leod-2025","Passaic","Passaic Co Sheriffs Dept","NJLEA0431",,,
+"njoag-major-discipline","Passaic","Passaic County Sheriffs Office","NJLEA0431",,,
+"njoaguof","Passaic County","Passaic Co Sheriffs Dept","NJLEA0431",,,
+"njoag-leod-2021","Passaic","Passaic PD","NJLEA0432",,,"Municipal"
+"njoag-leod-2025","Passaic","Passaic PD","NJLEA0432",,,
+"njoag-major-discipline","Passaic","Passaic PD","NJLEA0432",,,
+"njoaguof","Passaic County","Passaic PD","NJLEA0432",,,
+"njoag-leod-2021","Passaic","Paterson PD","NJLEA0433",,,
+"njoag-leod-2025","Passaic","Paterson PD","NJLEA0433",,,
+"njoag-major-discipline","Passaic","Paterson PD","NJLEA0433",,,
+"njoaguof","Passaic County","Paterson PD","NJLEA0433",,,
+"njoag-leod-2021","Passaic","Pompton Lakes Boro PD","NJLEA0434",,,"Municipal"
+"njoag-leod-2025","Passaic","Pompton Lakes Boro PD","NJLEA0434",,,
+"njoag-major-discipline","Passaic","Pompton Lakes Boro PD","NJLEA0434",,,
+"njoaguof","Passaic County","Pompton Lakes Boro PD","NJLEA0434",,,
+"njoag-leod-2021","Passaic","Prospect Park Boro PD","NJLEA0435",,,"Municipal"
+"njoag-leod-2025","Passaic","Prospect Park Boro PD","NJLEA0435",,,
+"njoaguof","Passaic County","Prospect Park Boro PD","NJLEA0435",,,
+"njoag-leod-2021","Passaic","Ringwood Boro PD","NJLEA0436",,,"Municipal"
+"njoag-leod-2025","Passaic","Ringwood Boro PD","NJLEA0436",,,
+"njoaguof","Passaic County","Ringwood Boro PD","NJLEA0436",,,
+"njoag-leod-2021","Passaic","Totowa Boro  PD","NJLEA0437",,,"Municipal"
+"njoag-leod-2025","Passaic","Totowa Boro PD","NJLEA0437",,,
+"njoag-major-discipline","Passaic","Totowa Boro PD","NJLEA0437",,,
+"njoaguof","Passaic County","Totowa Boro PD","NJLEA0437",,,
+"njoag-leod-2021","Passaic","Wanaque Boro PD","NJLEA0438",,,"Municipal"
+"njoag-leod-2025","Passaic","Wanaque Boro PD","NJLEA0438",,,
+"njoag-major-discipline","Passaic","Wanaque Boro PD","NJLEA0438",,,
+"njoaguof","Passaic County","Wanaque Boro PD","NJLEA0438",,,
+"njoag-leod-2021","Passaic","Wayne PD","NJLEA0439",,,"Municipal"
+"njoag-leod-2025","Passaic","Wayne PD","NJLEA0439",,,
+"njoag-major-discipline","Passaic","Wayne PD","NJLEA0439",,,
+"njoaguof","Passaic County","Wayne PD","NJLEA0439",,,
+"njoag-leod-2021","Passaic","West Milford PD","NJLEA0440",,,"Municipal"
+"njoag-leod-2025","Passaic","West Milford PD","NJLEA0440",,,
+"njoag-major-discipline","Passaic","West Milford PD","NJLEA0440",,,
+"njoaguof","Passaic County","West Milford PD","NJLEA0440",,,
+"njoag-leod-2021","Passaic","Woodland Park Boro PD","NJLEA0441",,,"Municipal"
+"njoag-leod-2025","Passaic","Woodland Park Boro PD","NJLEA0441",,,
+"njoag-major-discipline","Passaic","Woodland Park Boro PD","NJLEA0441",,,
+"njoaguof","Passaic County","Woodland Park Boro PD","NJLEA0441",,,
+"njoag-leod-2021","Salem","Carneys Point PD","NJLEA0442",,,"Municipal"
+"njoag-leod-2025","Salem","Carneys Point PD","NJLEA0442",,,
+"njoaguof","Salem County","Carneys Point PD","NJLEA0442",,,
+"njoag-leod-2021","Salem","Elmer Boro PD","NJLEA0443",,,"Municipal"
+"njoag-leod-2025","Salem","Elmer Boro PD","NJLEA0443",,,
+"njoaguof","Salem County","Elmer Boro PD","NJLEA0443",,,
+"njoag-leod-2021","Salem","Lower Alloways Creek Twp PD","NJLEA0444",,,"Municipal"
+"njoag-leod-2025","Salem","Lower Alloways Creek Twp PD","NJLEA0444",,,
+"njoag-major-discipline","Salem","Lower Alloways Creek Twp PD","NJLEA0444",,,
+"njoaguof","Salem County","Lower Alloways Creek Twp PD","NJLEA0444",,,
+"njoag-leod-2021","Salem","Penns Grove PD","NJLEA0445",,,"Municipal"
+"njoag-leod-2025","Salem","Penns Grove PD","NJLEA0445",,,
+"njoaguof","Salem County","Penns Grove PD","NJLEA0445",,,
+"njoag-leod-2021","Salem","Pennsville PD","NJLEA0446",,,"Municipal"
+"njoag-leod-2025","Salem","Pennsville PD","NJLEA0446",,,
+"njoaguof","Salem County","Pennsville PD","NJLEA0446",,,
+"njoag-major-discipline","Salem","Salem County Correctional Facility","NJLEA0447",,,
+"njoag-leod-2021","Salem","Salem Co Prosecutors Office","NJLEA0448",,,"County"
+"njoag-leod-2025","Salem","Salem Co Prosecutors Office","NJLEA0448",,,
+"njoag-major-discipline","Salem","Salem County Prosecutors Office","NJLEA0448",,,
+"njoaguof","Salem County","Salem Co Prosecutors Office","NJLEA0448",,,
+"njoag-leod-2021","Salem","Salem Co Sheriffs Dept","NJLEA0449",,,"County"
+"njoag-leod-2025","Salem","Salem Co Sheriffs Dept","NJLEA0449",,,
+"njoag-major-discipline","Salem","Salem County Sheriffs Office","NJLEA0449",,,
+"njoaguof","Salem County","Salem Co Sheriffs Dept","NJLEA0449",,,
+"njoag-leod-2021","Salem","Salem PD","NJLEA0450",,,"Municipal"
+"njoag-leod-2025","Salem","Salem PD","NJLEA0450",,,
+"njoag-major-discipline","Salem","Salem PD","NJLEA0450",,,
+"njoaguof","Salem County","Salem PD","NJLEA0450",,,
+"njoag-leod-2021","Salem","Woodstown Boro PD","NJLEA0451",,,"Municipal"
+"njoag-leod-2025","Salem","Woodstown Boro PD","NJLEA0451",,,
+"njoaguof","Salem County","Woodstown Boro PD","NJLEA0451",,,
+"njoag-leod-2021","Somerset","Bedminster Twp PD","NJLEA0452",,,"Municipal"
+"njoag-leod-2025","Somerset","Bedminster Twp PD","NJLEA0452",,,
+"njoaguof","Somerset County","Bedminster Twp PD","NJLEA0452",,,
+"njoag-leod-2021","Somerset","Bernards Twp PD","NJLEA0453",,,"Municipal"
+"njoag-leod-2025","Somerset","Bernards Twp PD","NJLEA0453",,,
+"njoag-major-discipline","Somerset","Bernards Twp PD","NJLEA0453",,,
+"njoaguof","Somerset County","Bernards Twp PD","NJLEA0453",,,
+"njoag-leod-2021","Somerset","Bernardsville PD","NJLEA0454",,,"Municipal"
+"njoag-leod-2025","Somerset","Bernardsville PD","NJLEA0454",,,
+"njoaguof","Somerset County","Bernardsville PD","NJLEA0454",,,
+"njoag-leod-2021","Somerset","Bound Brook PD","NJLEA0455",,,"Municipal"
+"njoag-leod-2025","Somerset","Bound Brook PD","NJLEA0455",,,
+"njoaguof","Somerset County","Bound Brook PD","NJLEA0455",,,
+"njoag-leod-2021","Somerset","Branchburg Twp PD","NJLEA0456",,,"Municipal"
+"njoag-leod-2025","Somerset","Branchburg Twp PD","NJLEA0456",,,
+"njoag-major-discipline","Somerset","Branchburg Twp PD","NJLEA0456",,,
+"njoaguof","Somerset County","Branchburg Twp PD","NJLEA0456",,,
+"njoag-leod-2021","Somerset","Bridgewater Twp PD","NJLEA0457",,,"Municipal"
+"njoag-leod-2025","Somerset","Bridgewater Twp PD","NJLEA0457",,,
+"njoag-major-discipline","Somerset","Bridgewater Twp PD","NJLEA0457",,,
+"njoaguof","Somerset County","Bridgewater Twp PD","NJLEA0457",,,
+"njoag-leod-2021","Somerset","Far Hills PD","NJLEA0458",,,"Municipal"
+"njoag-leod-2025","Somerset","Far Hills PD","NJLEA0458",,,
+"njoaguof","Somerset County","Far Hills PD","NJLEA0458",,,
+"njoag-leod-2021","Somerset","Franklin Twp PD","NJLEA0459",,,"Municipal"
+"njoag-leod-2025","Somerset","Franklin Twp PD","NJLEA0459",,,
+"njoag-major-discipline","Somerset","Franklin Twp PD - Somerset County","NJLEA0459",,,
+"njoaguof","Somerset County","Franklin Twp PD","NJLEA0459",,,
+"njoag-leod-2021","Somerset","Green Brook PD","NJLEA0460",,,"Municipal"
+"njoag-leod-2025","Somerset","Green Brook PD","NJLEA0460",,,
+"njoaguof","Somerset County","Green Brook PD","NJLEA0460",,,
+"njoag-leod-2021","Somerset","Hillsborough Twp PD","NJLEA0461",,,"Municipal"
+"njoag-leod-2025","Somerset","Hillsborough Twp PD","NJLEA0461",,,
+"njoaguof","Somerset County","Hillsborough Twp PD","NJLEA0461",,,
+"njoag-leod-2021","Somerset","Manville PD","NJLEA0462",,,"Municipal"
+"njoag-leod-2025","Somerset","Manville PD","NJLEA0462",,,
+"njoag-major-discipline","Somerset","Manville PD","NJLEA0462",,,
+"njoaguof","Somerset County","Manville PD","NJLEA0462",,,
+"njoag-leod-2021","Somerset","Montgomery Twp PD","NJLEA0463",,,"Municipal"
+"njoag-leod-2025","Somerset","Montgomery Twp PD","NJLEA0463",,,
+"njoaguof","Somerset County","Montgomery Twp PD","NJLEA0463",,,
+"njoag-leod-2021","Somerset","North Plainfield PD","NJLEA0464",,,"Municipal"
+"njoag-leod-2025","Somerset","North Plainfield PD","NJLEA0464",,,
+"njoag-major-discipline","Somerset","North Plainfield PD","NJLEA0464",,,
+"njoaguof","Somerset County","North Plainfield PD","NJLEA0464",,,
+"njoag-leod-2021","Somerset","Peapack-Gladstone PD","NJLEA0465",,,"Municipal"
+"njoag-leod-2025","Somerset","Peapack-Gladstone PD","NJLEA0465",,,
+"njoaguof","Somerset County","Peapack-Gladstone PD","NJLEA0465",,,
+"njoag-leod-2021","Somerset","Raritan PD","NJLEA0466",,,"State-wide"
+"njoag-leod-2025","Somerset","Raritan PD","NJLEA0466",,,
+"njoag-major-discipline","Somerset","Raritan PD","NJLEA0466",,,
+"njoaguof","Somerset County","Raritan PD","NJLEA0466",,,
+"njoag-major-discipline","Somerset","Somerset County Department of Corrections","NJLEA0467",,,
+"njoaguof","Somerset County","Somerset Co Corrections","NJLEA0467",,,
+"njoag-leod-2021","Somerset","Somerset Co Prosecutors Office","NJLEA0468",,,"County"
+"njoag-leod-2025","Somerset","Somerset Co Prosecutors Office","NJLEA0468",,,
+"njoag-major-discipline","Somerset","Somerset County Prosecutors Office","NJLEA0468",,,
+"njoaguof","Somerset County","Somerset Co Prosecutors Office","NJLEA0468",,,
+"njoag-leod-2021","Somerset","Somerset County Sheriff's Office","NJLEA0469",,,"County"
+"njoag-leod-2025","Somerset","Somerset Co Sheriffs Dept","NJLEA0469",,,
+"njoag-major-discipline","Somerset","Somerset County Sheriffs Office","NJLEA0469",,,
+"njoaguof","Somerset County","Somerset Co Sheriffs Office","NJLEA0469",,,
+"njoag-leod-2021","Somerset","Somerville PD","NJLEA0470",,,"Municipal"
+"njoag-leod-2025","Somerset","Somerville PD","NJLEA0470",,,
+"njoaguof","Somerset County","Somerville PD","NJLEA0470",,,
+"njoag-leod-2021","Somerset","South Bound Brook PD","NJLEA0471",,,"Municipal"
+"njoag-leod-2025","Somerset","South Bound Brook PD","NJLEA0471",,,
+"njoag-major-discipline","Somerset","South Bound Brook PD","NJLEA0471",,,
+"njoaguof","Somerset County","South Bound Brook PD","NJLEA0471",,,
+"njoag-leod-2021","Somerset","Warren Twp PD","NJLEA0472",,,"Municipal"
+"njoag-leod-2025","Somerset","Warren Twp PD","NJLEA0472",,,
+"njoaguof","Somerset County","Warren Twp PD","NJLEA0472",,,
+"njoag-leod-2021","Somerset","Watchung PD","NJLEA0473",,,"Municipal"
+"njoag-leod-2025","Somerset","Watchung PD","NJLEA0473",,,
+"njoag-major-discipline","Somerset","Watchung PD","NJLEA0473",,,
+"njoaguof","Somerset County","Watchung PD","NJLEA0473",,,
+"njoag-leod-2021","Sussex","Andover Twp PD","NJLEA0474",,,"Municipal"
+"njoag-leod-2025","Sussex","Andover Twp PD","NJLEA0474",,,
+"njoaguof","Sussex County","Andover Twp PD","NJLEA0474",,,
+"njoag-leod-2021","Sussex","Byram Twp PD","NJLEA0475",,,"Municipal"
+"njoag-leod-2025","Sussex","Byram Twp PD","NJLEA0475",,,
+"njoag-major-discipline","Sussex","Byram Twp PD","NJLEA0475",,,
+"njoaguof","Sussex County","Byram Twp PD","NJLEA0475",,,
+"njoag-leod-2021","Sussex","Franklin Boro PD","NJLEA0476",,,"Municipal"
+"njoag-leod-2025","Sussex","Franklin Boro PD","NJLEA0476",,,
+"njoag-major-discipline","Sussex","Franklin Boro PD","NJLEA0476",,,
+"njoaguof","Sussex County","Franklin Boro PD","NJLEA0476",,,
+"njoag-leod-2021","Sussex","Hamburg PD","NJLEA0477",,,"Municipal"
+"njoag-leod-2025","Sussex","Hamburg PD","NJLEA0477",,,
+"njoag-major-discipline","Sussex","Hamburg PD","NJLEA0477",,,
+"njoaguof","Sussex County","Hamburg PD","NJLEA0477",,,
+"njoag-leod-2021","Sussex","Hardyston Twp Police Dept","NJLEA0478",,,"Municipal"
+"njoag-leod-2025","Sussex","Hardyston Twp Police Dept","NJLEA0478",,,
+"njoag-major-discipline","Sussex","Hardyston Twp PD","NJLEA0478",,,
+"njoaguof","Sussex County","Hardyston Twp PD","NJLEA0478",,,
+"njoag-leod-2021","Sussex","Hopatcong PD","NJLEA0479",,,"Municipal"
+"njoag-leod-2025","Sussex","Hopatcong PD","NJLEA0479",,,
+"njoag-major-discipline","Sussex","Hopatcong PD","NJLEA0479",,,
+"njoaguof","Sussex County","Hopatcong PD","NJLEA0479",,,
+"njoag-leod-2021","Sussex","Newton PD","NJLEA0480",,,"Municipal"
+"njoag-leod-2025","Sussex","Newton PD","NJLEA0480",,,
+"njoaguof","Sussex County","Newton PD","NJLEA0480",,,
+"njoag-leod-2021","Sussex","Ogdensburg PD","NJLEA0481",,,"Municipal"
+"njoag-leod-2025","Sussex","Ogdensburg PD","NJLEA0481",,,
+"njoag-major-discipline","Sussex","Ogdensburg PD","NJLEA0481",,,
+"njoaguof","Sussex County","Ogdensburg PD","NJLEA0481",,,
+"njoag-leod-2021","Sussex","Sparta PD","NJLEA0482",,,"Municipal"
+"njoag-leod-2025","Sussex","Sparta PD","NJLEA0482",,,
+"njoag-major-discipline","Sussex","Sparta PD","NJLEA0482",,,
+"njoaguof","Sussex County","Sparta PD","NJLEA0482",,,
+"njoag-leod-2021","Sussex","Stanhope PD","NJLEA0483",,,"Municipal"
+"njoag-leod-2025","Sussex","Stanhope PD","NJLEA0483",,,
+"njoag-major-discipline","Sussex","Stanhope PD","NJLEA0483",,,
+"njoaguof","Sussex County","Stanhope PD","NJLEA0483",,,
+"njoag-leod-2021","Sussex","Sussex Co Prosecutors Office","NJLEA0484",,,"County"
+"njoag-leod-2025","Sussex","Sussex Co Prosecutors Office","NJLEA0484",,,
+"njoaguof","Sussex County","Sussex Co Prosecutors Office","NJLEA0484",,,
+"njoag-leod-2021","Sussex","Sussex Co Sheriff'S Dept","NJLEA0485",,,"County"
+"njoag-leod-2025","Sussex","Sussex Co Sheriffs Dept","NJLEA0485",,,
+"njoaguof","Sussex County","Sussex Co Sheriffs Dept","NJLEA0485",,,
+"njoag-leod-2021","Sussex","Vernon Twp PD","NJLEA0486",,,"Municipal"
+"njoag-leod-2025","Sussex","Vernon Twp PD","NJLEA0486",,,
+"njoag-major-discipline","Sussex","Vernon Twp PD","NJLEA0486",,,
+"njoaguof","Sussex County","Vernon Twp PD","NJLEA0486",,,
+"njoag-leod-2021","Union","Berkeley Heights PD","NJLEA0487",,,"Municipal"
+"njoag-leod-2025","Union","Berkeley Heights PD","NJLEA0487",,,
+"njoag-major-discipline","Union","Berkeley Heights PD","NJLEA0487",,,
+"njoaguof","Union County","Berkeley Heights PD","NJLEA0487",,,
+"njoag-leod-2021","Union","Clark PD","NJLEA0488",,,"Municipal"
+"njoag-leod-2025","Union","Clark PD","NJLEA0488",,,
+"njoaguof","Union County","Clark PD","NJLEA0488",,,
+"njoag-leod-2021","Union","Cranford PD","NJLEA0489",,,"Municipal"
+"njoag-leod-2025","Union","Cranford PD","NJLEA0489",,,
+"njoaguof","Union County","Cranford PD","NJLEA0489",,,
+"njoag-leod-2021","Union","Elizabeth PD","NJLEA0490",,,"Municipal"
+"njoag-leod-2025","Union","Elizabeth PD","NJLEA0490",,,
+"njoag-major-discipline","Union","Elizabeth PD","NJLEA0490",,,
+"njoaguof","Union County","Elizabeth PD","NJLEA0490",,,
+"njoag-leod-2021","Union","Fanwood PD","NJLEA0491",,,"Municipal"
+"njoag-leod-2025","Union","Fanwood PD","NJLEA0491",,,
+"njoag-major-discipline","Union","Fanwood PD","NJLEA0491",,,
+"njoaguof","Union County","Fanwood PD","NJLEA0491",,,
+"njoag-leod-2021","Union","Garwood PD","NJLEA0492",,,"Municipal"
+"njoag-leod-2025","Union","Garwood PD","NJLEA0492",,,
+"njoag-major-discipline","Union","Garwood PD","NJLEA0492",,,
+"njoaguof","Union County","Garwood PD","NJLEA0492",,,
+"njoag-leod-2021","Union","Hillside PD","NJLEA0493",,,"Municipal"
+"njoag-leod-2025","Union","Hillside PD","NJLEA0493",,,
+"njoag-major-discipline","Union","Hillside PD","NJLEA0493",,,
+"njoaguof","Union County","Hillside PD","NJLEA0493",,,
+"njoag-leod-2021","Union","Kenilworth PD","NJLEA0494",,,"Municipal"
+"njoag-leod-2025","Union","Kenilworth PD","NJLEA0494",,,
+"njoaguof","Union County","Kenilworth PD","NJLEA0494",,,
+"njoag-leod-2021","Union","Linden Police Department","NJLEA0495",,,"Municipal"
+"njoag-leod-2025","Union","Linden Police Department","NJLEA0495",,,
+"njoag-major-discipline","Union","Linden PD","NJLEA0495",,,
+"njoaguof","Union County","Linden PD","NJLEA0495",,,
+"njoag-leod-2021","Union","Mountainside PD","NJLEA0496",,,"Municipal"
+"njoag-leod-2025","Union","Mountainside PD","NJLEA0496",,,
+"njoag-major-discipline","Union","Mountainside PD","NJLEA0496",,,
+"njoaguof","Union County","Mountainside PD","NJLEA0496",,,
+"njoag-leod-2021","Union","New Providence PD","NJLEA0497",,,"Municipal"
+"njoag-leod-2025","Union","New Providence PD","NJLEA0497",,,
+"njoag-major-discipline","Union","New Providence PD","NJLEA0497",,,
+"njoaguof","Union County","New Providence PD","NJLEA0497",,,
+"njoag-leod-2021","Union","Plainfield PD","NJLEA0498",,,"Municipal"
+"njoag-leod-2025","Union","Plainfield PD","NJLEA0498",,,
+"njoag-major-discipline","Union","Plainfield PD","NJLEA0498",,,
+"njoaguof","Union County","Plainfield PD","NJLEA0498",,,
+"njoag-leod-2021","Union","Rahway PD","NJLEA0499",,,"Municipal"
+"njoag-leod-2025","Union","Rahway PD","NJLEA0499",,,
+"njoag-major-discipline","Union","Rahway PD","NJLEA0499",,,
+"njoaguof","Union County","Rahway PD","NJLEA0499",,,
+"njoag-leod-2021","Union","Roselle Park PD","NJLEA0500",,,"Not Provided"
+"njoag-leod-2025","Union","Roselle Park PD","NJLEA0500",,,
+"njoaguof","Union County","Roselle Park PD","NJLEA0500",,,
+"njoag-leod-2021","Union","Roselle PD","NJLEA0501",,,"Municipal"
+"njoag-leod-2025","Union","Roselle PD","NJLEA0501",,,
+"njoag-major-discipline","Union","Roselle PD","NJLEA0501",,,
+"njoaguof","Union County","Roselle PD","NJLEA0501",,,
+"njoag-leod-2021","Union","Scotch Plains PD","NJLEA0502",,,"Municipal"
+"njoag-leod-2025","Union","Scotch Plains PD","NJLEA0502",,,
+"njoag-major-discipline","Union","Scotch Plains PD","NJLEA0502",,,
+"njoaguof","Union County","Scotch Plains PD","NJLEA0502",,,
+"njoag-leod-2021","Union","Springfield Twp PD","NJLEA0503",,,"Municipal"
+"njoag-leod-2025","Union","Springfield Twp PD","NJLEA0503",,,
+"njoag-major-discipline","Union","Springfield Twp PD - Union County","NJLEA0503",,,
+"njoaguof","Union County","Springfield Twp PD","NJLEA0503",,,
+"njoag-leod-2021","Union","Summit PD","NJLEA0504",,,"Municipal"
+"njoag-leod-2025","Union","Summit PD","NJLEA0504",,,
+"njoag-major-discipline","Union","Summit PD","NJLEA0504",,,
+"njoaguof","Union County","Summit PD","NJLEA0504",,,
+"njoag-leod-2021","Union","Union Co PD","NJLEA0505",,,"County"
+"njoag-leod-2025","Union","Union Co PD","NJLEA0505",,,
+"njoag-major-discipline","Union","Union County PD","NJLEA0505",,,
+"njoaguof","Union County","Union Co PD","NJLEA0505",,,
+"njoag-leod-2021","Union","Union Co Prosecutors Office","NJLEA0506",,,"County"
+"njoag-leod-2025","Union","Union Co Prosecutors Office","NJLEA0506",,,
+"njoag-major-discipline","Union","Union County Prosecutors Office","NJLEA0506",,,
+"njoaguof","Union County","Union Co Prosecutors Office","NJLEA0506",,,
+"njoag-leod-2021","Union","Union Co Sheriffs Office","NJLEA0507",,,"County"
+"njoag-leod-2025","Union","Union County Sheriffs Office","NJLEA0507",,,
+"njoag-major-discipline","Union","Union County Sheriffs Office","NJLEA0507",,,
+"njoaguof","Union County","Union Co Sheriffs Office","NJLEA0507",,,
+"njoag-leod-2021","Union","Union Twp PD","NJLEA0508",,,"Municipal"
+"njoag-leod-2025","Union","Union Twp PD","NJLEA0508",,,
+"njoag-major-discipline","Union","Union Twp PD","NJLEA0508",,,
+"njoaguof","Union County","Union Twp PD","NJLEA0508",,,
+"njoag-leod-2021","Union","Westfield PD","NJLEA0509",,,"Municipal"
+"njoag-leod-2025","Union","Westfield PD","NJLEA0509",,,
+"njoag-major-discipline","Union","Westfield PD","NJLEA0509",,,
+"njoaguof","Union County","Westfield PD","NJLEA0509",,,
+"njoag-leod-2021","Union","Winfield PD","NJLEA0510",,,"Municipal"
+"njoag-leod-2025","Union","Winfield PD","NJLEA0510",,,
+"njoaguof","Union County","Winfield PD","NJLEA0510",,,
+"njoag-leod-2021","Warren","Belvidere PD","NJLEA0511",,,"Municipal"
+"njoag-leod-2025","Warren","Belvidere PD","NJLEA0511",,,
+"njoaguof","Warren County","Belvidere PD","NJLEA0511",,,
+"njoag-leod-2021","Warren","Blairstown Twp PD","NJLEA0512",,,"Municipal"
+"njoag-leod-2025","Warren","Blairstown Twp PD","NJLEA0512",,,
+"njoaguof","Warren County","Blairstown Twp PD","NJLEA0512",,,
+"njoag-leod-2021","Warren","Greenwich Twp PD","NJLEA0513",,,"Municipal"
+"njoag-leod-2025","Warren","Greenwich Twp PD","NJLEA0513",,,
+"njoag-major-discipline","Warren","Greenwich Twp PD - Warren County","NJLEA0513",,,
+"njoaguof","Warren County","Greenwich Twp PD","NJLEA0513",,,
+"njoag-leod-2021","Warren","Hackettstown PD","NJLEA0514",,,"Municipal"
+"njoag-leod-2025","Warren","Hackettstown PD","NJLEA0514",,,
+"njoaguof","Warren County","Hackettstown PD","NJLEA0514",,,
+"njoag-leod-2021","Warren","Independence Twp PD","NJLEA0515",,,"Municipal"
+"njoag-leod-2025","Warren","Independence Twp PD","NJLEA0515",,,
+"njoaguof","Warren County","Independence Twp PD","NJLEA0515",,,
+"njoag-leod-2021","Warren","Lopatcong Twp PD","NJLEA0516",,,"Municipal"
+"njoag-leod-2025","Warren","Lopatcong Twp PD","NJLEA0516",,,
+"njoaguof","Warren County","Lopatcong Twp PD","NJLEA0516",,,
+"njoag-leod-2021","Warren","Mansfield Twp PD","NJLEA0517",,,"Municipal"
+"njoag-leod-2025","Warren","Mansfield Twp PD","NJLEA0517",,,
+"njoaguof","Warren County","Mansfield Twp PD","NJLEA0517",,,
+"njoag-leod-2021","Warren","Phillipsburg PD","NJLEA0518",,,"Municipal"
+"njoag-leod-2025","Warren","Phillipsburg PD","NJLEA0518",,,
+"njoag-major-discipline","Warren","Phillipsburg PD","NJLEA0518",,,
+"njoaguof","Warren County","Phillipsburg PD","NJLEA0518",,,
+"njoag-leod-2021","Warren","Pohatcong PD","NJLEA0519",,,"Municipal"
+"njoag-leod-2025","Warren","Pohatcong PD","NJLEA0519",,,
+"njoag-major-discipline","Warren","Pohatcong PD","NJLEA0519",,,
+"njoaguof","Warren County","Pohatcong PD","NJLEA0519",,,
+"njoag-major-discipline","Warren","Warren County Department of Corrections","NJLEA0520",,,
+"njoaguof","Warren County","Warren Co Corrections","NJLEA0520",,,
+"njoag-leod-2021","Warren","Warren Co Prosecutors Office","NJLEA0521",,,"County"
+"njoag-leod-2025","Warren","Warren Co Prosecutors Office","NJLEA0521",,,
+"njoaguof","Warren County","Warren Co Prosecutors Office","NJLEA0521",,,
+"njoag-leod-2021","Warren","Warren Co Sheriff'S Dept","NJLEA0522",,,"County"
+"njoag-leod-2025","Warren","Warren Co Sheriffs Dept","NJLEA0522",,,
+"njoaguof","Warren County","Warren Co Sheriffs Dept","NJLEA0522",,,
+"njoag-leod-2021","Warren","Washington Park PD","NJLEA0523",,,"Municipal"
+"njoag-leod-2025","Warren","Washington Twp PD","NJLEA0523",,,
+"njoag-major-discipline","Warren","Washington Twp PD - Warren County","NJLEA0523",,,
+"njoaguof","Warren County","Washington Twp PD","NJLEA0523",,,
+"njoag-leod-2021","Camden","Delaware River Port Authority","NJLEA0524",,,"Multiple Municipalities"
+"njoag-leod-2025","Camden","Delaware River Port Authority PD","NJLEA0524",,,
+"njoag-major-discipline","Camden","Delaware River Port Authority PD","NJLEA0524",,,
+"njoaguof","Camden County","Delaware River Port Authority","NJLEA0524",,,
+"njoag-leod-2021","Cape May","Delaware River and Bay Authority Police Department","NJLEA0525",,,"State-wide"
+"njoag-leod-2021","Salem","Delaware River and Bay Authority Police Department","NJLEA0525",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","Delaware River and Bay Authority PD","NJLEA0525",,,
+"njoaguof","Cape May County","Delaware River and Bay Authority PD","NJLEA0525",,,
+"njoag-leod-2021","Union","Kean University PD","NJLEA0526",,,"State-wide"
+"njoag-leod-2025","Union","Kean University PD","NJLEA0526",,,
+"njoag-major-discipline","Union","Kean University PD","NJLEA0526",,,
+"njoaguof","Union County","Kean University PD","NJLEA0526",,,
+"njoag-leod-2021","Monmouth","Monmouth University PD","NJLEA0527",,,"Municipal"
+"njoag-leod-2025","Monmouth","Monmouth University PD","NJLEA0527",,,
+"njoaguof","Monmouth County","Monmouth University PD","NJLEA0527",,,
+"njoag-leod-2021","Essex","Montclair State College PD","NJLEA0528",,,"State-wide"
+"njoag-leod-2025","Essex","Montclair State University PD","NJLEA0528",,,
+"njoag-major-discipline","Essex","Montclair State University PD","NJLEA0528",,,
+"njoaguof","Essex County","Montclair State College PD","NJLEA0528",,,
+"njoag-major-discipline","State or Other Agency","NJ Department of Corrections","NJLEA0529",,,
+"njoaguof",,"Department of Corrections","NJLEA0529",,,
+"njoag-leod-2021","Statewide or Regional LEA","NJ Department Of Human Services","NJLEA0530",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","NJ Department Of Human Services","NJLEA0530",,,
+"njoag-major-discipline","State or Other Agency","NJ Department Of Human Services","NJLEA0530",,,
+"njoaguof",,"NJ State Human Services","NJLEA0530",,,
+"njoag-leod-2021","Statewide or Regional LEA","NJ Div Criminal Justice - Trenton","NJLEA0531",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","NJ Div Criminal Justice - Trenton","NJLEA0531",,,
+"njoag-major-discipline","State or Other Agency","NJ Division of Criminal Justice - Trenton","NJLEA0531",,,
+"njoaguof",,"NJ Division of Criminal Justice","NJLEA0531",,,
+"njoag-leod-2021","Statewide or Regional LEA","NJ Division Of Fish And Wildlife","NJLEA0532",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","NJ Division Of Fish And Wildlife","NJLEA0532",,,
+"njoaguof",,"NJ Division Of Fish And Wildlife","NJLEA0532",,,
+"njoag-leod-2021","Statewide or Regional LEA","Division of Taxation","NJLEA0533",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","NJ Division of Taxation","NJLEA0533",,,
+"njoag-leod-2021","Essex","New Jersey Institute Of Technol","NJLEA0534",,,"State-wide"
+"njoag-leod-2025","Essex","New Jersey Institute Of Technol","NJLEA0534",,,
+"njoag-major-discipline","Essex","New Jersey Institute Of Technology PD","NJLEA0534",,,
+"njoaguof","Essex County","New Jersey Institute Of Technology","NJLEA0534",,,
+"njoag-leod-2021","Statewide or Regional LEA","New Jersey State Park Police","NJLEA0535",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","Park Police","NJLEA0535",,,
+"njoag-major-discipline","State or Other Agency","Park Police","NJLEA0535",,,
+"njoaguof",,"New Jersey State Park Police","NJLEA0535",,,
+"njoag-major-discipline","State or Other Agency","NJ State Parole Board","NJLEA0536",,,
+"njoaguof",,"State Parole Board","NJLEA0536",,,
+"njoag-leod-2021","Statewide or Regional LEA","New Jersey State Police","NJLEA0537",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","New Jersey State Police","NJLEA0537",,,
+"njoag-major-discipline","State or Other Agency","New Jersey State Police","NJLEA0537",,,
+"njoaguof",,"New Jersey State Police","NJLEA0537",,,
+"njoag-leod-2021","Statewide or Regional LEA","New Jersey Transit Police","NJLEA0538",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","New Jersey Transit Police","NJLEA0538",,,
+"njoag-major-discipline","State or Other Agency","New Jersey Transit Police","NJLEA0538",,,
+"njoaguof",,"New Jersey Transit Police","NJLEA0538",,,
+"njoag-leod-2021","Statewide or Regional LEA","Juvenile Justice Commission","NJLEA0539",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","Youth Justice Commission","NJLEA0539",,,
+"njoag-major-discipline","State or Other Agency","Youth Justice Commission","NJLEA0539",,,
+"njoaguof",,"NJ Juvenile Justice Commission","NJLEA0539",,,
+"njoag-leod-2021","Bergen","Palisades Inter. Parkway PD","NJLEA0540",,,"Multiple Municipalities"
+"njoag-leod-2025","Bergen","Palisades Inter. Parkway PD","NJLEA0540",,,
+"njoaguof","Bergen County","Palisades Inter. Parkway PD","NJLEA0540",,,
+"njoag-leod-2021","Mercer","Princeton University Police","NJLEA0541",,,"Municipal"
+"njoag-leod-2025","Mercer","Princeton University PD","NJLEA0541",,,
+"njoag-major-discipline","Mercer","Princeton University PD","NJLEA0541",,,
+"njoaguof","Mercer County","Princeton University Police","NJLEA0541",,,
+"njoag-leod-2021","Gloucester","Rowan University Of NJ","NJLEA0542",,,"State-wide"
+"njoag-leod-2025","Gloucester","Rowan University Of NJ","NJLEA0542",,,
+"njoaguof","Camden County","Rowan University of NJ","NJLEA0542",,,
+"njoaguof","Gloucester County","Rowan University of NJ","NJLEA0542",,,
+"njoag-leod-2021","Statewide or Regional LEA","Rutgers University PD","NJLEA0543",,,"State-wide"
+"njoag-leod-2025","State or Other Agency","Rutgers University PD","NJLEA0543",,,
+"njoag-major-discipline","State or Other Agency","Rutgers University PD","NJLEA0543",,,
+"njoaguof",,"Rutgers University PD","NJLEA0543",,,
+"njoag-leod-2021","Hudson","Stevens Institute Of Technology","NJLEA0544",,,"Municipal"
+"njoag-leod-2025","Hudson","Stevens Institute Of Technology","NJLEA0544",,,
+"njoaguof","Hudson County","Stevens Institute Of Technology","NJLEA0544",,,
+"njoag-leod-2021","Atlantic","Stockton University","NJLEA0545",,,"State-wide"
+"njoag-leod-2025","Atlantic","Stockton University","NJLEA0545",,,
+"njoaguof","Atlantic County","Stockton University","NJLEA0545",,,
+"njoag-leod-2025","Mercer","College Of New Jersey","NJLEA0546",,,
+"njoaguof","Mercer County","College Of New Jersey","NJLEA0546",,,
+"njoag-leod-2021","Passaic","William Paterson University PD","NJLEA0547",,,"State-wide"
+"njoag-leod-2025","Passaic","William Paterson University PD","NJLEA0547",,,
+"njoaguof","Passaic County","William Paterson University PD","NJLEA0547",,,

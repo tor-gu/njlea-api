@@ -1,0 +1,9 @@
+"source","source_county","source_name","agency_id","first_year","final_year","source_type"
+"source-a","Atlantic","Absecon City PD","NJLEA0001",,,"Municipal"
+"source-b","Atlantic","Absecon City PD","NJLEA0001",,,
+"source-a","Camden","Camden Co PD","NJLEA0002",,,"County"
+"source-a","Camden","Woodlynne PD","NJLEA0003",,2021,"Municipal"
+"source-b","Camden","Woodlynne PD","NJLEA0003",,,
+"source-b","Gloucester","Woodlynne PD","NJLEA0003",,,
+"source-b",,"Juvenile Justice Comm","NJLEA0004",,,
+"source-a","Essex","Essex Co Sheriff","NJLEA0006",,,"County"

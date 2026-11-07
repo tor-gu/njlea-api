@@ -1,0 +1,1344 @@
+openapi: '3.0.2'
+info:
+  version: '1.0.0'
+  title: 'njlea-api'
+  description: >
+    # NJ law enforcement agencies, from 2020 to 2026
+
+    A registry of New Jersey law enforcement agencies, as published in the
+    [njlea data package for R](https://github.com/tor-gu/njlea) (version
+    0.1.0). Every agency has a stable ID, its names over time, its level of
+    government and function, the municipalities it polices, its FBI ORIs, and
+    every spelling of it used by the NJ Office of the Attorney General (OAG)
+    datasets. Field names and values are the same as in the R package.
+
+
+    ## Conventions
+
+    * Every reply has the form `{"data": [...], "links": {...}, "meta": {...}}`.
+    `data` is always a list of flat records.
+
+    * Collections are paginated with `page_number` (default 1) and `page_size`
+    (default 100). Follow `links.next` until it is absent to retrieve every page.
+    `links` carries the filters of the request.
+
+    * A request that matches nothing, or a `page_number` past the last page,
+    returns `404`. An unknown query parameter or an invalid value returns `400`.
+
+    * Filters are combined with AND. Missing values are `null`; filters match
+    values exactly, so they can not select `null`.
+
+
+    ## Years
+
+    * The registry covers 2020 to 2026. Routes with an optional `{year}`
+    default to 2026, and their `links` give the year explicitly (e.g.
+    `/nj/lea/agencies` links to `/nj/lea/agencies/2026`).
+
+    * A `{year}` in the path that is not a number returns `400`; a year
+    outside 2020-2026 returns `404`. Years given as query parameters
+    (`geoid_year`, and `year` in `/nj/lea/search`) return `400` when out of
+    range.
+
+    * `first_year` and `final_year` give the years a row is *true* (the agency
+    existed under that name, or the link held), not the years a source
+    reported it. The registry starts in 2020, so `first_year = 2020` means
+    "vouched for from 2020". `final_year = null` means current.
+
+
+    ## Agencies
+
+    * `agency_id` (`NJLEA0001`, ...) is opaque. Once released, an ID is never
+    deleted, reused or repurposed. An agency keeps its `agency_id` when it is
+    renamed; `/nj/lea/agency_epochs` lists every name.
+
+    * `agency_level` is the government that establishes and controls the
+    agency (Municipal, County, State, Bi-state, School district), or Private
+    if none. `agency_function` is what it does.
+
+    * `county` is the agency's own county for Municipal, County and School
+    district agencies, and `null` for State, Bi-state and Private ones.
+
+    * `multi_municipal` is `true` for an agency linked to more than one
+    municipality in the year. **`false` also covers agencies with no links at
+    all** (84 of the 543 agencies of 2026): sheriffs, prosecutors, state
+    agencies, and the New Jersey State Police (see below).
+
+
+    ## Municipalities served
+
+    * `/nj/lea/agency_municipalities` lists the municipalities each agency
+    polices in a year. A municipal department's own municipality is its
+    `Home` link; a municipality it polices by agreement is a `Service` link.
+
+    * `GEOID` is the US Census GEOID as of `geoid_year` (default: the year),
+    as in [njmunicipalities](https://github.com/tor-gu/njmunicipalities);
+    `geoid_year=2000` gives the stable `GEOID_Y2K` codes. `municipality` and
+    `county` are as of the year.
+
+    * **NJ State Police links are not included yet.** NJSP is the local police
+    of many rural municipalities (77 full-time and 24 part-time, per a 2022
+    bill), but no published list names them. Most municipalities with no row
+    here are NJSP-patrolled, though not all.
+
+
+    ## Search
+
+    `/nj/lea/search?q=` searches canonical names and every source spelling.
+    `q` is a case-insensitive **substring, not a regular expression** (unlike
+    `q` in the R package's `find_agency()`): every character matches itself.
+    With `year`, only agencies in existence then are searched, with their
+    names as of then; without it, every name is searched and current names
+    are shown.
+
+
+    ## Joining to other data
+
+    * `agency_id` is the agency of `/nj/use_of_force/*`
+    ([njoaguof-api](https://tor-gu.com/apis/njoaguof.html)).
+
+    * `GEOID` with `geoid_year` joins to `/nj/municipalities/{geoid_year}`
+    ([njmunicipalities-api](https://tor-gu.com/apis/njmunicipalities.html)).
+
+    * `ori` joins to FBI Crime Data Explorer data. ORIs are attributes, not
+    keys: an agency can have several (the NJ State Police has 22) or none.
+
+servers:
+  - url: "{protocol}://{server}"
+    variables:
+      protocol:
+        default: https
+        enum:
+          - https
+          - http
+      server:
+        default: api.tor-gu.com
+tags:
+- name: agencies
+  description: Agencies, their names and their municipalities
+- name: aliases
+  description: Source spellings and their sources
+- name: oris
+  description: FBI ORIs
+- name: search
+  description: Agency search by name
+paths:
+  /nj/lea/agencies:
+    summary: Get the agencies in existence in 2026
+    parameters:
+    - $ref: '#/components/parameters/county'
+    - $ref: '#/components/parameters/agencyLevel'
+    - $ref: '#/components/parameters/agencyFunction'
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        The agencies in existence in the latest year (2026), with their names
+        as of then, ordered by `agency_id`. The same as
+        `/nj/lea/agencies/2026`, which the links give.
+      responses:
+        '200':
+          description: Agencies matching the filters
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              examples:
+                firstPage:
+                  summary: The first page (/nj/lea/agencies?page_size=3)
+                  x-request: https://api.tor-gu.com/nj/lea/agencies?page_size=3
+                  value:
+                    data:
+                    - {"agency_id": "NJLEA0001", "agency_name": "Absecon Police Department", "county": "Atlantic County", "agency_level": "Municipal", "agency_function": "Police", "multi_municipal": false}
+                    - {"agency_id": "NJLEA0002", "agency_name": "Atlantic City Police Department", "county": "Atlantic County", "agency_level": "Municipal", "agency_function": "Police", "multi_municipal": false}
+                    - {"agency_id": "NJLEA0003", "agency_name": "Atlantic County Division of Adult Detention", "county": "Atlantic County", "agency_level": "County", "agency_function": "Corrections", "multi_municipal": false}
+                    links:
+                      self: https://api.tor-gu.com/nj/lea/agencies/2026?page_number=1&page_size=3
+                      next: https://api.tor-gu.com/nj/lea/agencies/2026?page_number=2&page_size=3
+                    meta:
+                      record_count: 543
+                      page_count: 181
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - agencies
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/agencies/{year}:
+    summary: Get the agencies in existence in a year
+    parameters:
+    - $ref: '#/components/parameters/year'
+    - $ref: '#/components/parameters/county'
+    - $ref: '#/components/parameters/agencyLevel'
+    - $ref: '#/components/parameters/agencyFunction'
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        The agencies in existence in `year`, with their names as of `year`,
+        ordered by `agency_id`. As `get_agencies(year)` in the R package.
+      responses:
+        '200':
+          description: Agencies matching the filters
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              example:
+                data:
+                - {"agency_id": "NJLEA0131", "agency_name": "Camden County Department of Corrections", "county": "Camden County", "agency_level": "County", "agency_function": "Corrections", "multi_municipal": false}
+                - {"agency_id": "NJLEA0132", "agency_name": "Camden County Police Department", "county": "Camden County", "agency_level": "County", "agency_function": "Police", "multi_municipal": true}
+                - {"agency_id": "NJLEA0133", "agency_name": "Camden County Prosecutor's Office", "county": "Camden County", "agency_level": "County", "agency_function": "Prosecutor", "multi_municipal": false}
+                - {"agency_id": "NJLEA0134", "agency_name": "Camden County Sheriff's Office", "county": "Camden County", "agency_level": "County", "agency_function": "Sheriff", "multi_municipal": false}
+                links:
+                  self: https://api.tor-gu.com/nj/lea/agencies/2025?agency_level=County&county=Camden&page_number=1&page_size=100
+                meta:
+                  record_count: 4
+                  page_count: 1
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - agencies
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/agencies/{year}/{agency_id}:
+    summary: Get an agency as of a year
+    parameters:
+    - $ref: '#/components/parameters/year'
+    - $ref: '#/components/parameters/agencyIdPath'
+    get:
+      description: >
+        The agency's row of `/nj/lea/agencies/{year}`. An agency that did not
+        exist in `year` returns 404. Not paginated.
+      responses:
+        '200':
+          description: The agency as of `year`
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              example:
+                data:
+                - {"agency_id": "NJLEA0162", "agency_name": "Woodlynne Police Department", "county": "Camden County", "agency_level": "Municipal", "agency_function": "Police", "multi_municipal": false}
+                links:
+                  self: https://api.tor-gu.com/nj/lea/agencies/2024/NJLEA0162
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - agencies
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/agency_epochs:
+    summary: Get every agency name, with its years
+    parameters:
+    - $ref: '#/components/parameters/agencyId'
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        The `agency` table of the R package: one row per agency and name (an
+        *epoch*), with the years it holds and a note. Ordered by `agency_id`,
+        then `first_year`.
+      responses:
+        '200':
+          description: Agency epochs matching the filters
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              example:
+                data:
+                - {"agency_id": "NJLEA0281", "first_year": 2020, "final_year": 2020, "agency_name": "Middlesex County College Police Department", "county": "Middlesex County", "agency_level": "County", "agency_function": "College or university", "note": "The college became Middlesex College on 2021-01-01 (https://www.mycentraljersey.com/story/news/2021/01/08/middlesex-county-college-rebrands-itself-name-change/6603837002/; https://en.wikipedia.org/wiki/Middlesex_College_(New_Jersey)). The NJSP bias report (2025) writes 'MIDDLESEX COLLEGE PD'; LEOD, use of force and CDE keep the old name"}
+                - {"agency_id": "NJLEA0281", "first_year": 2021, "final_year": null, "agency_name": "Middlesex College Police Department", "county": "Middlesex County", "agency_level": "County", "agency_function": "College or university", "note": "The college became Middlesex College on 2021-01-01 (https://www.mycentraljersey.com/story/news/2021/01/08/middlesex-county-college-rebrands-itself-name-change/6603837002/; https://en.wikipedia.org/wiki/Middlesex_College_(New_Jersey)). The NJSP bias report (2025) writes 'MIDDLESEX COLLEGE PD'; LEOD, use of force and CDE keep the old name"}
+                links:
+                  self: https://api.tor-gu.com/nj/lea/agency_epochs?agency_id=NJLEA0281&page_number=1&page_size=100
+                meta:
+                  record_count: 2
+                  page_count: 1
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - agencies
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/agency_municipalities:
+    summary: Get the municipalities agencies serve in 2026
+    parameters:
+    - $ref: '#/components/parameters/geoidYear'
+    - $ref: '#/components/parameters/agencyId'
+    - $ref: '#/components/parameters/GEOID'
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        The municipalities each agency polices in the latest year (2026). The
+        same as `/nj/lea/agency_municipalities/2026`, which the links give.
+        NJ State Police links are not included yet.
+      responses:
+        '200':
+          description: Links matching the filters
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              examples:
+                firstPage:
+                  summary: The first page (/nj/lea/agency_municipalities?page_size=3)
+                  x-request: https://api.tor-gu.com/nj/lea/agency_municipalities?page_size=3
+                  value:
+                    data:
+                    - {"agency_id": "NJLEA0001", "GEOID": "3400100100", "municipality": "Absecon city", "county": "Atlantic County", "link_type": "Home"}
+                    - {"agency_id": "NJLEA0002", "GEOID": "3400102080", "municipality": "Atlantic City city", "county": "Atlantic County", "link_type": "Home"}
+                    - {"agency_id": "NJLEA0006", "GEOID": "3400107810", "municipality": "Brigantine city", "county": "Atlantic County", "link_type": "Home"}
+                    links:
+                      self: https://api.tor-gu.com/nj/lea/agency_municipalities/2026?page_number=1&page_size=3
+                      next: https://api.tor-gu.com/nj/lea/agency_municipalities/2026?page_number=2&page_size=3
+                    meta:
+                      record_count: 471
+                      page_count: 157
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - agencies
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/agency_municipalities/{year}:
+    summary: Get the municipalities agencies serve in a year
+    parameters:
+    - $ref: '#/components/parameters/year'
+    - $ref: '#/components/parameters/geoidYear'
+    - $ref: '#/components/parameters/agencyId'
+    - $ref: '#/components/parameters/GEOID'
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        The municipalities each agency polices in `year`, ordered by
+        `agency_id`, then `link_type` (`Home` first), then `GEOID`. As
+        `get_agency_municipalities(year, geoid_year)` in the R package. NJ
+        State Police links are not included yet.
+      responses:
+        '200':
+          description: Links matching the filters
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              examples:
+                camdenCounty:
+                  summary: >
+                    Camden County Police Department, which took over Woodlynne
+                    in 2024 (/nj/lea/agency_municipalities/2025?agency_id=NJLEA0132)
+                  value:
+                    data:
+                    - {"agency_id": "NJLEA0132", "GEOID": "3400710000", "municipality": "Camden city", "county": "Camden County", "link_type": "Service"}
+                    - {"agency_id": "NJLEA0132", "GEOID": "3400782450", "municipality": "Woodlynne borough", "county": "Camden County", "link_type": "Service"}
+                    links:
+                      self: https://api.tor-gu.com/nj/lea/agency_municipalities/2025?agency_id=NJLEA0132&page_number=1&page_size=100
+                    meta:
+                      record_count: 2
+                      page_count: 1
+                southOrange:
+                  summary: >
+                    South Orange, renamed in 2026 with a new GEOID
+                    (/nj/lea/agency_municipalities/2026?agency_id=NJLEA0204)
+                  value:
+                    data:
+                    - {"agency_id": "NJLEA0204", "GEOID": "3401369270", "municipality": "South Orange village", "county": "Essex County", "link_type": "Home"}
+                    links:
+                      self: https://api.tor-gu.com/nj/lea/agency_municipalities/2026?agency_id=NJLEA0204&page_number=1&page_size=100
+                    meta:
+                      record_count: 1
+                      page_count: 1
+                southOrangeGeoidY2K:
+                  summary: >
+                    The same, with its 2000 GEOID
+                    (/nj/lea/agency_municipalities/2026?agency_id=NJLEA0204&geoid_year=2000)
+                  value:
+                    data:
+                    - {"agency_id": "NJLEA0204", "GEOID": "3401369274", "municipality": "South Orange village", "county": "Essex County", "link_type": "Home"}
+                    links:
+                      self: https://api.tor-gu.com/nj/lea/agency_municipalities/2026?agency_id=NJLEA0204&geoid_year=2000&page_number=1&page_size=100
+                    meta:
+                      record_count: 1
+                      page_count: 1
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - agencies
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/aliases:
+    summary: Get every source spelling of every agency
+    parameters:
+    - $ref: '#/components/parameters/source'
+    - $ref: '#/components/parameters/agencyId'
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        The `agency_alias` table of the R package: every spelling of every
+        agency, exactly as each source writes it, ordered by `agency_id`, then
+        `source`. `first_year` and `final_year` are `null` (unbounded) except
+        where a spelling changes meaning.
+      responses:
+        '200':
+          description: Aliases matching the filters
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              example:
+                data:
+                - {"source": "njoag-leod-2021", "source_county": "Statewide or Regional LEA", "source_name": "Juvenile Justice Commission", "agency_id": "NJLEA0539", "first_year": null, "final_year": null, "source_type": "State-wide"}
+                - {"source": "njoag-leod-2025", "source_county": "State or Other Agency", "source_name": "Youth Justice Commission", "agency_id": "NJLEA0539", "first_year": null, "final_year": null, "source_type": null}
+                - {"source": "njoag-major-discipline", "source_county": "State or Other Agency", "source_name": "Youth Justice Commission", "agency_id": "NJLEA0539", "first_year": null, "final_year": null, "source_type": null}
+                - {"source": "njoaguof", "source_county": null, "source_name": "NJ Juvenile Justice Commission", "agency_id": "NJLEA0539", "first_year": null, "final_year": null, "source_type": null}
+                links:
+                  self: https://api.tor-gu.com/nj/lea/aliases?agency_id=NJLEA0539&page_number=1&page_size=100
+                meta:
+                  record_count: 4
+                  page_count: 1
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - aliases
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/oris:
+    summary: Get the agencies' FBI ORIs
+    parameters:
+    - $ref: '#/components/parameters/agencyId'
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        The `agency_ori` table of the R package: the FBI ORIs of each agency,
+        ordered by `agency_id`, then `ori`. An agency can have several ORIs
+        (the NJ State Police has 22) or none. `GEOID_Y2K` is set only when the
+        ORI covers part of the agency (a Rutgers campus).
+      responses:
+        '200':
+          description: ORIs matching the filters
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              example:
+                data:
+                - {"agency_id": "NJLEA0543", "ori": "NJ0043900", "GEOID_Y2K": "3400710000", "first_year": 2020, "final_year": null, "match": "Hand", "note": "CDE NJ list: 'Rutgers University: Camden'"}
+                - {"agency_id": "NJLEA0543", "ori": "NJ0073000", "GEOID_Y2K": "3401351000", "first_year": 2020, "final_year": null, "match": "Hand", "note": "CDE NJ list: 'Rutgers University: Newark'"}
+                - {"agency_id": "NJLEA0543", "ori": "NJ0123000", "GEOID_Y2K": "3402351210", "first_year": 2020, "final_year": null, "match": "Hand", "note": "CDE NJ list: 'Rutgers University: New Brunswick'"}
+                links:
+                  self: https://api.tor-gu.com/nj/lea/oris?agency_id=NJLEA0543&page_number=1&page_size=100
+                meta:
+                  record_count: 3
+                  page_count: 1
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - oris
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/oris/{ori}:
+    summary: Get an ORI
+    parameters:
+    - $ref: '#/components/parameters/ori'
+    get:
+      description: >
+        The ORI's row of `/nj/lea/oris`. Not paginated.
+      responses:
+        '200':
+          description: The ORI
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              example:
+                data:
+                - {"agency_id": "NJLEA0543", "ori": "NJ0073000", "GEOID_Y2K": "3401351000", "first_year": 2020, "final_year": null, "match": "Hand", "note": "CDE NJ list: 'Rutgers University: Newark'"}
+                links:
+                  self: https://api.tor-gu.com/nj/lea/oris/NJ0073000
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - oris
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/sources:
+    summary: Get the sources of the aliases
+    parameters:
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        The `alias_source` table of the R package: the datasets whose
+        spellings `/nj/lea/aliases` records.
+      responses:
+        '200':
+          description: The alias sources
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              example:
+                data:
+                - {"source": "njoag-leod-2021", "title": "NJ OAG Law Enforcement Officer Diversity data, 2021 release", "url": "https://www.njoag.gov/policerecruiting/", "coverage": "2021", "retrieved": null}
+                - {"source": "njoag-leod-2025", "title": "NJ OAG Law Enforcement Officer Diversity data, 2025 release", "url": "https://www.njoag.gov/policerecruiting/", "coverage": "2021-2025", "retrieved": null}
+                - {"source": "njoaguof", "title": "NJ OAG use of force data, via the njoaguof package", "url": "https://github.com/tor-gu/njoaguof", "coverage": "2020-10-01 to 2026-08-31", "retrieved": null}
+                - {"source": "njoag-major-discipline", "title": "NJ OAG Major Discipline data, 2020-2025 (combined file)", "url": "https://njoag.box.com/s/v93zq4oxauyb3bazpbph077fzmb2roje", "coverage": "2020-06-15 to 2025-12-31", "retrieved": "2026-10-31"}
+                links:
+                  self: https://api.tor-gu.com/nj/lea/sources?page_number=1&page_size=100
+                meta:
+                  record_count: 4
+                  page_count: 1
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - aliases
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+  /nj/lea/search:
+    summary: Find agencies by name
+    parameters:
+    - $ref: '#/components/parameters/q'
+    - $ref: '#/components/parameters/county'
+    - $ref: '#/components/parameters/searchYear'
+    - $ref: '#/components/parameters/pageNumber'
+    - $ref: '#/components/parameters/pageSize'
+    get:
+      description: >
+        Agencies whose canonical name or a source spelling contains `q`
+        (ignoring case), one row per distinct matching text. Ordered by
+        `agency_id`, then the name before aliases, then `matched_on` and
+        `matched_text`. As `find_agency()` in the R package, except that `q` is
+        a substring, not a regular expression.
+      responses:
+        '200':
+          description: Matching names and spellings
+          content:
+            'application/vnd.api+json':
+              schema:
+                $ref: '#/components/schemas/success'
+              examples:
+                formerName:
+                  summary: >
+                    A former name finds the Youth Justice Commission
+                    (/nj/lea/search?q=juvenile%20justice)
+                  value:
+                    data:
+                    - {"agency_id": "NJLEA0539", "agency_name": "New Jersey Youth Justice Commission", "county": null, "matched_on": "name", "matched_text": "New Jersey Juvenile Justice Commission"}
+                    - {"agency_id": "NJLEA0539", "agency_name": "New Jersey Youth Justice Commission", "county": null, "matched_on": "njoag-leod-2021", "matched_text": "Juvenile Justice Commission"}
+                    - {"agency_id": "NJLEA0539", "agency_name": "New Jersey Youth Justice Commission", "county": null, "matched_on": "njoaguof", "matched_text": "NJ Juvenile Justice Commission"}
+                    links:
+                      self: https://api.tor-gu.com/nj/lea/search?q=juvenile%20justice&page_number=1&page_size=100
+                    meta:
+                      record_count: 3
+                      page_count: 1
+                countyAndYear:
+                  summary: >
+                    With county and year (/nj/lea/search?q=sheriff&county=Bergen&year=2025&page_size=3)
+                  value:
+                    data:
+                    - {"agency_id": "NJLEA0023", "agency_name": "Bergen County Sheriff's Office", "county": "Bergen County", "matched_on": "name", "matched_text": "Bergen County Sheriff's Office"}
+                    - {"agency_id": "NJLEA0023", "agency_name": "Bergen County Sheriff's Office", "county": "Bergen County", "matched_on": "njoag-leod-2021", "matched_text": "Bergen Co Sheriffs Dept"}
+                    - {"agency_id": "NJLEA0023", "agency_name": "Bergen County Sheriff's Office", "county": "Bergen County", "matched_on": "njoag-leod-2025", "matched_text": "Bergen Co Sheriffs Dept"}
+                    links:
+                      self: https://api.tor-gu.com/nj/lea/search?county=Bergen&q=sheriff&year=2025&page_number=1&page_size=3
+                      next: https://api.tor-gu.com/nj/lea/search?county=Bergen&q=sheriff&year=2025&page_number=2&page_size=3
+                    meta:
+                      record_count: 5
+                      page_count: 2
+        '400':
+          description: Bad Request
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '404':
+          description: Not Found
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+        '500':
+          description: Internal Server Error
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: '#/components/schemas/failure'
+      tags:
+      - search
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LeaFunction.Arn}/invocations"
+        responses:
+          default:
+            statusCode: "201"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+components:
+  schemas:
+    success:
+      type: object
+      required:
+        - data
+        - links
+      properties:
+        data:
+          $ref: "#/components/schemas/data"
+        links:
+          $ref: "#/components/schemas/links"
+        meta:
+          $ref: "#/components/schemas/meta"
+    data:
+      oneOf:
+        - type: array
+          items:
+            $ref: '#/components/schemas/agency'
+        - type: array
+          items:
+            $ref: '#/components/schemas/agencyEpoch'
+        - type: array
+          items:
+            $ref: '#/components/schemas/agencyMunicipality'
+        - type: array
+          items:
+            $ref: '#/components/schemas/alias'
+        - type: array
+          items:
+            $ref: '#/components/schemas/ori'
+        - type: array
+          items:
+            $ref: '#/components/schemas/source'
+        - type: array
+          items:
+            $ref: '#/components/schemas/searchHit'
+    links:
+      type: object
+      additionalProperties:
+        $ref: "#/components/schemas/link"
+    link:
+      type: string
+      format: uri-reference
+    meta:
+      type: object
+      properties:
+        record_count:
+          type: integer
+        page_count:
+          type: integer
+    agencyId:
+      description: The agency's identifier (opaque; never reused)
+      type: string
+      pattern: '^NJLEA[0-9]{4}$'
+      example: NJLEA0199
+    agencyName:
+      description: The agency's canonical name (as of the year, where there is one)
+      type: string
+      example: Newark Police Department
+    county:
+      type: string
+      enum:
+        - Atlantic County
+        - Bergen County
+        - Burlington County
+        - Camden County
+        - Cape May County
+        - Cumberland County
+        - Essex County
+        - Gloucester County
+        - Hudson County
+        - Hunterdon County
+        - Mercer County
+        - Middlesex County
+        - Monmouth County
+        - Morris County
+        - Ocean County
+        - Passaic County
+        - Salem County
+        - Somerset County
+        - Sussex County
+        - Union County
+        - Warren County
+      example: Essex County
+    agencyCounty:
+      description: >
+        The agency's own county (Municipal, County and School district
+        agencies); `null` for State, Bi-state and Private ones
+      allOf:
+        - $ref: '#/components/schemas/county'
+      nullable: true
+    agencyLevel:
+      description: >
+        The government that establishes and controls the agency, or Private if
+        none
+      type: string
+      enum:
+        - Municipal
+        - County
+        - State
+        - Bi-state
+        - School district
+        - Private
+      example: Municipal
+    agencyFunction:
+      description: What the agency does
+      type: string
+      enum:
+        - Police
+        - Sheriff
+        - Prosecutor
+        - Corrections
+        - College or university
+        - K-12 school
+        - Park and conservation
+        - Authority or transit
+        - Investigative
+      example: Police
+    linkType:
+      description: >
+        `Home` for a municipal department's own municipality, `Service` for a
+        municipality it polices by agreement
+      type: string
+      enum:
+        - Home
+        - Service
+      example: Home
+    oriMatch:
+      description: How the ORI was matched to the agency (a scripted name match, or by hand)
+      type: string
+      enum:
+        - Name
+        - Hand
+      example: Name
+    sourceName:
+      description: An alias source (see `/nj/lea/sources`)
+      type: string
+      enum:
+        - njoag-leod-2021
+        - njoag-leod-2025
+        - njoaguof
+        - njoag-major-discipline
+      example: njoaguof
+    geoid:
+      description: A US Census GEOID of a NJ municipality
+      type: string
+      pattern: '^34[0-9]{8}$'
+      example: '3401351000'
+    firstYear:
+      description: The first year the row holds
+      type: integer
+      example: 2020
+    finalYear:
+      description: The last year the row holds; `null` = current
+      type: integer
+      nullable: true
+      example: 2024
+    note:
+      description: Evidence and remarks
+      type: string
+      nullable: true
+    agency:
+      description: An agency in a year (`get_agencies(year)` in the R package)
+      type: object
+      required:
+        - agency_id
+        - agency_name
+        - county
+        - agency_level
+        - agency_function
+        - multi_municipal
+      properties:
+        agency_id:
+          $ref: '#/components/schemas/agencyId'
+        agency_name:
+          $ref: '#/components/schemas/agencyName'
+        county:
+          $ref: '#/components/schemas/agencyCounty'
+        agency_level:
+          $ref: '#/components/schemas/agencyLevel'
+        agency_function:
+          $ref: '#/components/schemas/agencyFunction'
+        multi_municipal:
+          description: >
+            `true` if the agency is linked to more than one municipality in the
+            year. `false` also covers agencies with no links at all.
+          type: boolean
+    agencyEpoch:
+      description: An agency under one name, with its years (the `agency` table)
+      type: object
+      required:
+        - agency_id
+        - first_year
+        - final_year
+        - agency_name
+        - county
+        - agency_level
+        - agency_function
+        - note
+      properties:
+        agency_id:
+          $ref: '#/components/schemas/agencyId'
+        first_year:
+          $ref: '#/components/schemas/firstYear'
+        final_year:
+          $ref: '#/components/schemas/finalYear'
+        agency_name:
+          $ref: '#/components/schemas/agencyName'
+        county:
+          $ref: '#/components/schemas/agencyCounty'
+        agency_level:
+          $ref: '#/components/schemas/agencyLevel'
+        agency_function:
+          $ref: '#/components/schemas/agencyFunction'
+        note:
+          $ref: '#/components/schemas/note'
+    agencyMunicipality:
+      description: >
+        A municipality an agency polices in a year
+        (`get_agency_municipalities(year, geoid_year)` in the R package)
+      type: object
+      required:
+        - agency_id
+        - GEOID
+        - municipality
+        - county
+        - link_type
+      properties:
+        agency_id:
+          $ref: '#/components/schemas/agencyId'
+        GEOID:
+          description: >
+            The municipality's GEOID as of `geoid_year`; `null` if it has none
+            then
+          allOf:
+            - $ref: '#/components/schemas/geoid'
+          nullable: true
+        municipality:
+          description: The municipality's name as of the year
+          type: string
+          example: Newark city
+        county:
+          description: The municipality's county
+          allOf:
+            - $ref: '#/components/schemas/county'
+        link_type:
+          $ref: '#/components/schemas/linkType'
+    alias:
+      description: A spelling of an agency, exactly as a source writes it
+      type: object
+      required:
+        - source
+        - source_county
+        - source_name
+        - agency_id
+        - first_year
+        - final_year
+        - source_type
+      properties:
+        source:
+          $ref: '#/components/schemas/sourceName'
+        source_county:
+          description: The county (or grouping) as the source writes it
+          type: string
+          nullable: true
+          example: Essex
+        source_name:
+          description: The agency's name as the source writes it
+          type: string
+          example: Newark PD
+        agency_id:
+          $ref: '#/components/schemas/agencyId'
+        first_year:
+          description: The first year the spelling means this agency; `null` = unbounded
+          type: integer
+          nullable: true
+        final_year:
+          description: The last year the spelling means this agency; `null` = unbounded
+          type: integer
+          nullable: true
+        source_type:
+          description: The source's own agency type, where it has one (LEOD 2021)
+          type: string
+          nullable: true
+          example: Municipal
+    ori:
+      description: An FBI ORI of an agency
+      type: object
+      required:
+        - agency_id
+        - ori
+        - GEOID_Y2K
+        - first_year
+        - final_year
+        - match
+        - note
+      properties:
+        agency_id:
+          $ref: '#/components/schemas/agencyId'
+        ori:
+          $ref: '#/components/schemas/oriCode'
+        GEOID_Y2K:
+          description: >
+            The 2000 GEOID of the municipality the ORI covers; set only when
+            the ORI covers part of the agency (a Rutgers campus)
+          allOf:
+            - $ref: '#/components/schemas/geoid'
+          nullable: true
+        first_year:
+          $ref: '#/components/schemas/firstYear'
+        final_year:
+          $ref: '#/components/schemas/finalYear'
+        match:
+          $ref: '#/components/schemas/oriMatch'
+        note:
+          $ref: '#/components/schemas/note'
+    oriCode:
+      description: >
+        An FBI Originating Agency Identifier: 9 characters, any state prefix
+        (the Delaware River and Bay Authority's is `DE0020100`)
+      type: string
+      pattern: '^[A-Z]{2}[0-9A-Z]{7}$'
+      example: NJNPD0000
+    source:
+      description: A dataset whose spellings `/nj/lea/aliases` records
+      type: object
+      required:
+        - source
+        - title
+        - url
+        - coverage
+        - retrieved
+      properties:
+        source:
+          $ref: '#/components/schemas/sourceName'
+        title:
+          type: string
+        url:
+          type: string
+          format: uri
+        coverage:
+          description: The period the source covers
+          type: string
+          nullable: true
+        retrieved:
+          description: When the source was retrieved (YYYY-MM-DD), if recorded
+          type: string
+          format: date
+          nullable: true
+    searchHit:
+      description: A name or spelling matching a search (`find_agency()` in the R package)
+      type: object
+      required:
+        - agency_id
+        - agency_name
+        - county
+        - matched_on
+        - matched_text
+      properties:
+        agency_id:
+          $ref: '#/components/schemas/agencyId'
+        agency_name:
+          description: The agency's name as of `year`, or its current name
+          type: string
+        county:
+          $ref: '#/components/schemas/agencyCounty'
+        matched_on:
+          description: '`name` (a canonical name) or the alias source'
+          type: string
+          example: name
+        matched_text:
+          description: The name or spelling that matched
+          type: string
+    error:
+      type: object
+      required:
+        - status
+      properties:
+        status:
+          type: string
+          example: "404"
+        detail:
+          type: string
+          example: "Item not found"
+    failure:
+      type: object
+      required:
+        - errors
+      properties:
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/error'
+  parameters:
+    pageSize:
+      name: page_size
+      in: query
+      description: Maximum number of results to return in a single reply
+      required: false
+      schema:
+        type: integer
+        format: int32
+        default: 100
+        example: 100
+    pageNumber:
+      name: page_number
+      in: query
+      description: Page number
+      required: false
+      schema:
+        type: integer
+        format: int32
+        default: 1
+        example: 1
+    year:
+      name: year
+      in: path
+      description: >
+        The year, 2020 to 2026. Not a number returns 400; out of range returns
+        404.
+      required: true
+      schema:
+        type: integer
+        minimum: 2020
+        maximum: 2026
+        example: 2025
+    agencyIdPath:
+      name: agency_id
+      in: path
+      description: Agency identifier
+      required: true
+      schema:
+        $ref: '#/components/schemas/agencyId'
+    ori:
+      name: ori
+      in: path
+      description: FBI ORI
+      required: true
+      schema:
+        $ref: '#/components/schemas/oriCode'
+    agencyId:
+      name: agency_id
+      in: query
+      description: Only this agency
+      required: false
+      schema:
+        $ref: '#/components/schemas/agencyId'
+    county:
+      name: county
+      in: query
+      description: >
+        Only agencies whose own county this is, as `Camden` or `Camden County`
+        (any case). State, Bi-state and Private agencies have no county.
+      required: false
+      schema:
+        type: string
+        example: Camden
+    agencyLevel:
+      name: agency_level
+      in: query
+      description: Only agencies of this level
+      required: false
+      schema:
+        $ref: '#/components/schemas/agencyLevel'
+    agencyFunction:
+      name: agency_function
+      in: query
+      description: Only agencies of this function
+      required: false
+      schema:
+        $ref: '#/components/schemas/agencyFunction'
+    geoidYear:
+      name: geoid_year
+      in: query
+      description: >
+        The year whose GEOIDs to use, 2000 to 2026 (default: the year). 2000
+        gives the stable `GEOID_Y2K` codes.
+      required: false
+      schema:
+        type: integer
+        minimum: 2000
+        maximum: 2026
+        example: 2000
+    GEOID:
+      name: GEOID
+      in: query
+      description: Only this municipality (its GEOID as of `geoid_year`)
+      required: false
+      schema:
+        $ref: '#/components/schemas/geoid'
+    source:
+      name: source
+      in: query
+      description: Only spellings from this source
+      required: false
+      schema:
+        $ref: '#/components/schemas/sourceName'
+    q:
+      name: q
+      in: query
+      description: >
+        The text to find in names and spellings: a case-insensitive substring
+        (not a regular expression), 1 to 100 characters
+      required: true
+      schema:
+        type: string
+        minLength: 1
+        maxLength: 100
+        example: juvenile justice
+    searchYear:
+      name: year
+      in: query
+      description: >
+        Only agencies in existence in this year (2020 to 2026), with their
+        names as of then. Without it, every name is searched and current names
+        are shown.
+      required: false
+      schema:
+        type: integer
+        minimum: 2020
+        maximum: 2026
+        example: 2025

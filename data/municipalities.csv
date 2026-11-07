@@ -1,0 +1,574 @@
+"GEOID_Y2K","GEOID","county","municipality","first_year","final_year"
+"3400100100","3400100100","Atlantic County","Absecon city",2000,2026
+"3400102080","3400102080","Atlantic County","Atlantic City city",2000,2026
+"3400107810","3400107810","Atlantic County","Brigantine city",2000,2026
+"3400108680","3400108680","Atlantic County","Buena borough",2000,2026
+"3400108710","3400108710","Atlantic County","Buena Vista township",2000,2026
+"3400115160","3400115160","Atlantic County","Corbin City city",2000,2026
+"3400120290","3400120290","Atlantic County","Egg Harbor township",2000,2026
+"3400120350","3400120350","Atlantic County","Egg Harbor City city",2000,2026
+"3400121870","3400121870","Atlantic County","Estell Manor city",2000,2026
+"3400123940","3400123940","Atlantic County","Folsom borough",2000,2026
+"3400125560","3400125560","Atlantic County","Galloway township",2000,2026
+"3400129280","3400129280","Atlantic County","Hamilton township",2000,2026
+"3400129430","3400129430","Atlantic County","Hammonton town",2000,2026
+"3400140530","3400140530","Atlantic County","Linwood city",2000,2026
+"3400141370","3400141370","Atlantic County","Longport borough",2000,2026
+"3400143890","3400143890","Atlantic County","Margate City city",2000,2026
+"3400149410","3400149410","Atlantic County","Mullica township",2000,2026
+"3400152950","3400152950","Atlantic County","Northfield city",2000,2026
+"3400159640","3400159640","Atlantic County","Pleasantville city",2000,2026
+"3400160600","3400160600","Atlantic County","Port Republic city",2000,2026
+"3400168430","3400168430","Atlantic County","Somers Point city",2000,2026
+"3400175620","3400175620","Atlantic County","Ventnor City city",2000,2026
+"3400180330","3400180330","Atlantic County","Weymouth township",2000,2026
+"3400300700","3400300700","Bergen County","Allendale borough",2000,2026
+"3400301090","3400301090","Bergen County","Alpine borough",2000,2026
+"3400305170","3400305170","Bergen County","Bergenfield borough",2000,2026
+"3400306490","3400306490","Bergen County","Bogota borough",2000,2026
+"3400310480","3400310480","Bergen County","Carlstadt borough",2000,2026
+"3400313570","3400313570","Bergen County","Cliffside Park borough",2000,2026
+"3400313810","3400313810","Bergen County","Closter borough",2000,2026
+"3400315820","3400315820","Bergen County","Cresskill borough",2000,2026
+"3400317530","3400317530","Bergen County","Demarest borough",2000,2026
+"3400318400","3400318400","Bergen County","Dumont borough",2000,2026
+"3400319510","3400319510","Bergen County","East Rutherford borough",2000,2026
+"3400320020","3400320020","Bergen County","Edgewater borough",2000,2026
+"3400321300","3400321300","Bergen County","Elmwood Park borough",2000,2026
+"3400321450","3400321450","Bergen County","Emerson borough",2000,2026
+"3400321480","3400321480","Bergen County","Englewood city",2000,2026
+"3400321510","3400321510","Bergen County","Englewood Cliffs borough",2000,2026
+"3400322470","3400322470","Bergen County","Fair Lawn borough",2000,2026
+"3400322560","3400322560","Bergen County","Fairview borough",2000,2026
+"3400324420","3400324420","Bergen County","Fort Lee borough",2000,2026
+"3400324990","3400324990","Bergen County","Franklin Lakes borough",2000,2026
+"3400325770","3400325770","Bergen County","Garfield city",2000,2026
+"3400326640","3400326640","Bergen County","Glen Rock borough",2000,2026
+"3400328680","3400328680","Bergen County","Hackensack city",2000,2026
+"3400330150","3400330150","Bergen County","Harrington Park borough",2000,2026
+"3400330420","3400330420","Bergen County","Hasbrouck Heights borough",2000,2026
+"3400330540","3400330540","Bergen County","Haworth borough",2000,2026
+"3400331920","3400331920","Bergen County","Hillsdale borough",2000,2026
+"3400332310","3400332310","Bergen County","Ho-Ho-Kus borough",2000,2026
+"3400340020","3400340020","Bergen County","Leonia borough",2000,2026
+"3400340680","3400340680","Bergen County","Little Ferry borough",2000,2026
+"3400341100","3400341100","Bergen County","Lodi borough",2000,2026
+"3400342090","3400342090","Bergen County","Lyndhurst township",2000,2026
+"3400342750","3400342750","Bergen County","Mahwah township",2000,2026
+"3400344880","3400344880","Bergen County","Maywood borough",2000,2026
+"3400346110","3400346110","Bergen County","Midland Park borough",2000,2026
+"3400347610","3400347610","Bergen County","Montvale borough",2000,2026
+"3400347700","3400347700","Bergen County","Moonachie borough",2000,2026
+"3400351660","3400351660","Bergen County","New Milford borough",2000,2026
+"3400352320","3400352320","Bergen County","North Arlington borough",2000,2026
+"3400353430","3400353430","Bergen County","Northvale borough",2000,2026
+"3400353610","3400353610","Bergen County","Norwood borough",2000,2026
+"3400353850","3400353850","Bergen County","Oakland borough",2000,2026
+"3400354870","3400354870","Bergen County","Old Tappan borough",2000,2026
+"3400354990","3400354990","Bergen County","Oradell borough",2000,2026
+"3400355770","3400355770","Bergen County","Palisades Park borough",2000,2026
+"3400355950","3400355950","Bergen County","Paramus borough",2000,2026
+"3400356130","3400356130","Bergen County","Park Ridge borough",2000,2026
+"3400361680","3400361680","Bergen County","Ramsey borough",2000,2026
+"3400362910","3400362910","Bergen County","Ridgefield borough",2000,2026
+"3400362940","3400362940","Bergen County","Ridgefield Park village",2000,2026
+"3400363000","3400363000","Bergen County","Ridgewood village",2000,2026
+"3400363360","3400363360","Bergen County","River Edge borough",2000,2026
+"3400363690","3400363690","Bergen County","River Vale township",2000,2026
+"3400363990","3400363990","Bergen County","Rochelle Park township",2000,2026
+"3400364170","3400364170","Bergen County","Rockleigh borough",2000,2026
+"3400365280","3400365280","Bergen County","Rutherford borough",2000,2026
+"3400365340","3400365340","Bergen County","Saddle Brook township",2000,2026
+"3400365400","3400365400","Bergen County","Saddle River borough",2000,2026
+"3400368970","3400368970","Bergen County","South Hackensack township",2000,2026
+"3400372360","3400372360","Bergen County","Teaneck township",2000,2026
+"3400372420","3400372420","Bergen County","Tenafly borough",2000,2026
+"3400372480","3400372480","Bergen County","Teterboro borough",2000,2026
+"3400375140","3400375140","Bergen County","Upper Saddle River borough",2000,2026
+"3400376400","3400376400","Bergen County","Waldwick borough",2000,2026
+"3400376490","3400376490","Bergen County","Wallington borough",2000,2026
+"3400377135","3400377135","Bergen County","Washington township",2000,2026
+"3400380270","3400380270","Bergen County","Westwood borough",2000,2026
+"3400382300","3400382300","Bergen County","Woodcliff Lake borough",2000,2026
+"3400382570","3400382570","Bergen County","Wood-Ridge borough",2000,2026
+"3400383050","3400383050","Bergen County","Wyckoff township",2000,2026
+"3400503370","3400503370","Burlington County","Bass River township",2000,2026
+"3400505740","3400505740","Burlington County","Beverly city",2000,2026
+"3400506670","3400506670","Burlington County","Bordentown city",2000,2026
+"3400506700","3400506700","Burlington County","Bordentown township",2000,2026
+"3400508920","3400508920","Burlington County","Burlington city",2000,2026
+"3400508950","3400508950","Burlington County","Burlington township",2000,2026
+"3400512670","3400512670","Burlington County","Chesterfield township",2000,2026
+"3400512940","3400512940","Burlington County","Cinnaminson township",2000,2026
+"3400517080","3400517080","Burlington County","Delanco township",2000,2026
+"3400517440","3400517440","Burlington County","Delran township",2000,2026
+"3400518790","3400518790","Burlington County","Eastampton township",2000,2026
+"3400520050","3400520050","Burlington County","Edgewater Park township",2000,2026
+"3400522110","3400522110","Burlington County","Evesham township",2000,2026
+"3400523250","3400523250","Burlington County","Fieldsboro borough",2000,2026
+"3400523850","3400523850","Burlington County","Florence township",2000,2026
+"3400529010","3400529010","Burlington County","Hainesport township",2000,2026
+"3400542060","3400542060","Burlington County","Lumberton township",2000,2026
+"3400543290","3400543290","Burlington County","Mansfield township",2000,2026
+"3400543740","3400543740","Burlington County","Maple Shade township",2000,2026
+"3400545120","3400545120","Burlington County","Medford township",2000,2026
+"3400545210","3400545210","Burlington County","Medford Lakes borough",2000,2026
+"3400547880","3400547880","Burlington County","Moorestown township",2000,2026
+"3400548900","3400548900","Burlington County","Mount Holly township",2000,2026
+"3400549020","3400549020","Burlington County","Mount Laurel township",2000,2026
+"3400551510","3400551510","Burlington County","New Hanover township",2000,2026
+"3400553070","3400553070","Burlington County","North Hanover township",2000,2026
+"3400555800","3400555800","Burlington County","Palmyra borough",2000,2026
+"3400557480","3400557480","Burlington County","Pemberton borough",2000,2026
+"3400557510","3400557510","Burlington County","Pemberton township",2000,2026
+"3400563510","3400563510","Burlington County","Riverside township",2000,2026
+"3400563660","3400563660","Burlington County","Riverton borough",2000,2026
+"3400566810","3400566810","Burlington County","Shamong township",2000,2026
+"3400568610","3400568610","Burlington County","Southampton township",2000,2026
+"3400569990","3400569990","Burlington County","Springfield township",2000,2026
+"3400572060","3400572060","Burlington County","Tabernacle township",2000,2026
+"3400577150","3400577150","Burlington County","Washington township",2000,2026
+"3400578200","3400578200","Burlington County","Westampton township",2000,2026
+"3400581440","3400581440","Burlington County","Willingboro township",2000,2026
+"3400582420","3400582420","Burlington County","Woodland township",2000,2026
+"3400582960","3400582960","Burlington County","Wrightstown borough",2000,2026
+"3400702200","3400702200","Camden County","Audubon borough",2000,2026
+"3400702230","3400702230","Camden County","Audubon Park borough",2000,2026
+"3400703250","3400703250","Camden County","Barrington borough",2000,2026
+"3400704750","3400704750","Camden County","Bellmawr borough",2000,2026
+"3400705440","3400705440","Camden County","Berlin borough",2000,2026
+"3400705470","3400705470","Camden County","Berlin township",2000,2026
+"3400708170","3400708170","Camden County","Brooklawn borough",2000,2026
+"3400710000","3400710000","Camden County","Camden city",2000,2026
+"3400712280","3400712280","Camden County","Cherry Hill township",2000,2026
+"3400712550","3400712550","Camden County","Chesilhurst borough",2000,2026
+"3400713420","3400713420","Camden County","Clementon borough",2000,2026
+"3400714260","3400714260","Camden County","Collingswood borough",2000,2026
+"3400726070","3400726070","Camden County","Gibbsboro borough",2000,2026
+"3400726760","3400726760","Camden County","Gloucester township",2000,2026
+"3400726820","3400726820","Camden County","Gloucester City city",2000,2026
+"3400728740","3400728740","Camden County","Haddon township",2000,2026
+"3400728770","3400728770","Camden County","Haddonfield borough",2000,2026
+"3400728800","3400728800","Camden County","Haddon Heights borough",2000,2026
+"3400732220","3400732220","Camden County","Hi-Nella borough",2000,2026
+"3400739210","3400739210","Camden County","Laurel Springs borough",2000,2026
+"3400739420","3400739420","Camden County","Lawnside borough",2000,2026
+"3400740440","3400740440","Camden County","Lindenwold borough",2000,2026
+"3400742630","3400742630","Camden County","Magnolia borough",2000,2026
+"3400745510","3400745510","Camden County","Merchantville borough",2000,2026
+"3400748750","3400748750","Camden County","Mount Ephraim borough",2000,2026
+"3400753880","3400753880","Camden County","Oaklyn borough",2000,2026
+"3400757660","3400757660","Camden County","Pennsauken township",2000,2026
+"3400758770","3400758770","Camden County","Pine Hill borough",2000,2026
+"3400758920","3400758920","Camden County","Pine Valley borough",2000,2021
+"3400765160","3400765160","Camden County","Runnemede borough",2000,2026
+"3400768340","3400768340","Camden County","Somerdale borough",2000,2026
+"3400771220","3400771220","Camden County","Stratford borough",2000,2026
+"3400772240","3400772240","Camden County","Tavistock borough",2000,2026
+"3400776220","3400776220","Camden County","Voorhees township",2000,2026
+"3400777630","3400777630","Camden County","Waterford township",2000,2026
+"3400781740","3400781740","Camden County","Winslow township",2000,2026
+"3400782450","3400782450","Camden County","Woodlynne borough",2000,2026
+"3400902320","3400902320","Cape May County","Avalon borough",2000,2026
+"3400910270","3400910270","Cape May County","Cape May city",2000,2026
+"3400910330","3400910330","Cape May County","Cape May Point borough",2000,2026
+"3400917560","3400917560","Cape May County","Dennis township",2000,2026
+"3400941610","3400941610","Cape May County","Lower township",2000,2026
+"3400945810","3400945810","Cape May County","Middle township",2000,2026
+"3400953490","3400953490","Cape May County","North Wildwood city",2000,2026
+"3400954360","3400954360","Cape May County","Ocean City city",2000,2026
+"3400966390","3400966390","Cape May County","Sea Isle City city",2000,2026
+"3400971010","3400971010","Cape May County","Stone Harbor borough",2000,2026
+"3400974810","3400974810","Cape May County","Upper township",2000,2026
+"3400978530","3400978530","Cape May County","West Cape May borough",2000,2026
+"3400980210","3400980210","Cape May County","West Wildwood borough",2000,2026
+"3400981170","3400981170","Cape May County","Wildwood city",2000,2026
+"3400981200","3400981200","Cape May County","Wildwood Crest borough",2000,2026
+"3400981890","3400981890","Cape May County","Woodbine borough",2000,2026
+"3401107600","3401107600","Cumberland County","Bridgeton city",2000,2026
+"3401114710","3401114710","Cumberland County","Commercial township",2000,2026
+"3401116900","3401116900","Cumberland County","Deerfield township",2000,2026
+"3401118220","3401118220","Cumberland County","Downe township",2000,2026
+"3401122350","3401122350","Cumberland County","Fairfield township",2000,2026
+"3401128170","3401128170","Cumberland County","Greenwich township",2000,2026
+"3401133120","3401133120","Cumberland County","Hopewell township",2000,2026
+"3401139450","3401139450","Cumberland County","Lawrence township",2000,2026
+"3401144580","3401144580","Cumberland County","Maurice River township",2000,2026
+"3401146680","3401146680","Cumberland County","Millville city",2000,2026
+"3401167020","3401167020","Cumberland County","Shiloh borough",2000,2026
+"3401171160","3401171160","Cumberland County","Stow Creek township",2000,2026
+"3401174870","3401174870","Cumberland County","Upper Deerfield township",2000,2026
+"3401176070","3401176070","Cumberland County","Vineland city",2000,2026
+"3401304695","3401304695","Essex County","Belleville township",2000,2026
+"3401306260","3401306260","Essex County","Bloomfield township",2000,2026
+"3401309220","3401309220","Essex County","Caldwell borough",2000,2009
+"3401309220","3401309250","Essex County","Caldwell borough",2010,2026
+"3401311200","3401311200","Essex County","Cedar Grove township",2000,2026
+"3401313045","3401313045","Essex County","City of Orange township",2000,2026
+"3401319390","3401319390","Essex County","East Orange city",2000,2026
+"3401321840","3401321840","Essex County","Essex Fells borough",2000,2026
+"3401322385","3401322385","Essex County","Fairfield township",2000,2026
+"3401326610","3401326610","Essex County","Glen Ridge borough",2000,2026
+"3401334450","3401334450","Essex County","Irvington township",2000,2026
+"3401340890","3401340890","Essex County","Livingston township",2000,2026
+"3401343800","3401343800","Essex County","Maplewood township",2000,2026
+"3401346380","3401346380","Essex County","Millburn township",2000,2026
+"3401347500","3401347500","Essex County","Montclair township",2000,2026
+"3401351000","3401351000","Essex County","Newark city",2000,2026
+"3401352620","3401352620","Essex County","North Caldwell borough",2000,2026
+"3401353680","3401353680","Essex County","Nutley township",2000,2026
+"3401364590","3401364590","Essex County","Roseland borough",2000,2026
+"3401369274","3401369274","Essex County","South Orange Village township",2000,2025
+"3401369274","3401369270","Essex County","South Orange village",2026,2026
+"3401375815","3401375815","Essex County","Verona township",2000,2026
+"3401378510","3401378510","Essex County","West Caldwell township",2000,2026
+"3401379800","3401379800","Essex County","West Orange township",2000,2026
+"3401513360","3401513360","Gloucester County","Clayton borough",2000,2026
+"3401517710","3401517710","Gloucester County","Deptford township",2000,2026
+"3401519180","3401519180","Gloucester County","East Greenwich township",2000,2026
+"3401521060","3401521060","Gloucester County","Elk township",2000,2026
+"3401524840","3401524840","Gloucester County","Franklin township",2000,2026
+"3401526340","3401526340","Gloucester County","Glassboro borough",2000,2026
+"3401528185","3401528185","Gloucester County","Greenwich township",2000,2026
+"3401530180","3401530180","Gloucester County","Harrison township",2000,2026
+"3401541160","3401541160","Gloucester County","Logan township",2000,2026
+"3401543440","3401543440","Gloucester County","Mantua township",2000,2026
+"3401547250","3401547250","Gloucester County","Monroe township",2000,2026
+"3401549680","3401549680","Gloucester County","National Park borough",2000,2026
+"3401551390","3401551390","Gloucester County","Newfield borough",2000,2026
+"3401557150","3401557150","Gloucester County","Paulsboro borough",2000,2026
+"3401559070","3401559070","Gloucester County","Pitman borough",2000,2026
+"3401569030","3401569030","Gloucester County","South Harrison township",2000,2026
+"3401571850","3401571850","Gloucester County","Swedesboro borough",2000,2026
+"3401577180","3401577180","Gloucester County","Washington township",2000,2026
+"3401578110","3401578110","Gloucester County","Wenonah borough",2000,2026
+"3401578800","3401578800","Gloucester County","West Deptford township",2000,2026
+"3401580120","3401580120","Gloucester County","Westville borough",2000,2026
+"3401582120","3401582120","Gloucester County","Woodbury city",2000,2026
+"3401582180","3401582180","Gloucester County","Woodbury Heights borough",2000,2026
+"3401582840","3401582840","Gloucester County","Woolwich township",2000,2026
+"3401703580","3401703580","Hudson County","Bayonne city",2000,2026
+"3401719360","3401719360","Hudson County","East Newark borough",2000,2026
+"3401728650","3401728650","Hudson County","Guttenberg town",2000,2026
+"3401730210","3401730210","Hudson County","Harrison town",2000,2026
+"3401732250","3401732250","Hudson County","Hoboken city",2000,2026
+"3401736000","3401736000","Hudson County","Jersey City city",2000,2026
+"3401736510","3401736510","Hudson County","Kearny town",2000,2026
+"3401752470","3401752470","Hudson County","North Bergen township",2000,2026
+"3401766570","3401766570","Hudson County","Secaucus town",2000,2026
+"3401774630","3401774630","Hudson County","Union City city",2000,2026
+"3401777930","3401777930","Hudson County","Weehawken township",2000,2026
+"3401779610","3401779610","Hudson County","West New York town",2000,2026
+"3401900550","3401900550","Hunterdon County","Alexandria township",2000,2026
+"3401905650","3401905650","Hunterdon County","Bethlehem township",2000,2026
+"3401906370","3401906370","Hunterdon County","Bloomsbury borough",2000,2026
+"3401909280","3401909280","Hunterdon County","Califon borough",2000,2026
+"3401913720","3401913720","Hunterdon County","Clinton town",2000,2026
+"3401913750","3401913750","Hunterdon County","Clinton township",2000,2026
+"3401917170","3401917170","Hunterdon County","Delaware township",2000,2026
+"3401918820","3401918820","Hunterdon County","East Amwell township",2000,2026
+"3401923700","3401923700","Hunterdon County","Flemington borough",2000,2026
+"3401924870","3401924870","Hunterdon County","Franklin township",2000,2026
+"3401925350","3401925350","Hunterdon County","Frenchtown borough",2000,2026
+"3401926550","3401926550","Hunterdon County","Glen Gardner borough",2000,2026
+"3401929460","3401929460","Hunterdon County","Hampton borough",2000,2026
+"3401931320","3401931320","Hunterdon County","High Bridge borough",2000,2026
+"3401932460","3401932460","Hunterdon County","Holland township",2000,2026
+"3401937065","3401937065","Hunterdon County","Kingwood township",2000,2026
+"3401938610","3401938610","Hunterdon County","Lambertville city",2000,2026
+"3401939630","3401939630","Hunterdon County","Lebanon borough",2000,2026
+"3401939660","3401939660","Hunterdon County","Lebanon township",2000,2026
+"3401946260","3401946260","Hunterdon County","Milford borough",2000,2026
+"3401961920","3401961920","Hunterdon County","Raritan township",2000,2026
+"3401962250","3401962250","Hunterdon County","Readington township",2000,2026
+"3401970980","3401970980","Hunterdon County","Stockton borough",2000,2026
+"3401972510","3401972510","Hunterdon County","Tewksbury township",2000,2026
+"3401974420","3401974420","Hunterdon County","Union township",2000,2026
+"3401978230","3401978230","Hunterdon County","West Amwell township",2000,2026
+"3402119780","3402119780","Mercer County","East Windsor township",2000,2026
+"3402122185","3402122185","Mercer County","Ewing township",2000,2026
+"3402129310","3402129310","Mercer County","Hamilton township",2000,2026
+"3402131620","3402131620","Mercer County","Hightstown borough",2000,2026
+"3402133150","3402133150","Mercer County","Hopewell borough",2000,2026
+"3402133180","3402133180","Mercer County","Hopewell township",2000,2026
+"3402139510","3402139510","Mercer County","Lawrence township",2000,2026
+"3402157600","3402157600","Mercer County","Pennington borough",2000,2026
+"3402160900","3402160900","Mercer County","Princeton borough",2000,2012
+"3402160900","3402160900","Mercer County","Princeton",2013,2026
+"3402160915","3402160915","Mercer County","Princeton township",2000,2012
+"3402174000","3402174000","Mercer County","Trenton city",2000,2026
+"3402177210","3402177210","Mercer County","Washington township",2000,2007
+"3402177210","3402163850","Mercer County","Robbinsville township",2008,2026
+"3402180240","3402180240","Mercer County","West Windsor township",2000,2026
+"3402310750","3402310750","Middlesex County","Carteret borough",2000,2026
+"3402315550","3402315550","Middlesex County","Cranbury township",2000,2026
+"3402318490","3402318490","Middlesex County","Dunellen borough",2000,2026
+"3402319000","3402319000","Middlesex County","East Brunswick township",2000,2026
+"3402320230","3402320230","Middlesex County","Edison township",2000,2026
+"3402330840","3402330840","Middlesex County","Helmetta borough",2000,2026
+"3402331470","3402331470","Middlesex County","Highland Park borough",2000,2026
+"3402334890","3402334890","Middlesex County","Jamesburg borough",2000,2026
+"3402345690","3402345690","Middlesex County","Metuchen borough",2000,2026
+"3402345900","3402345900","Middlesex County","Middlesex borough",2000,2026
+"3402346620","3402346620","Middlesex County","Milltown borough",2000,2026
+"3402347280","3402347280","Middlesex County","Monroe township",2000,2026
+"3402351210","3402351210","Middlesex County","New Brunswick city",2000,2026
+"3402352560","3402352560","Middlesex County","North Brunswick township",2000,2026
+"3402354705","3402354705","Middlesex County","Old Bridge township",2000,2026
+"3402358200","3402358200","Middlesex County","Perth Amboy city",2000,2026
+"3402359010","3402359010","Middlesex County","Piscataway township",2000,2026
+"3402359280","3402359280","Middlesex County","Plainsboro township",2000,2026
+"3402365790","3402365790","Middlesex County","Sayreville borough",2000,2026
+"3402368550","3402368550","Middlesex County","South Amboy city",2000,2026
+"3402368790","3402368790","Middlesex County","South Brunswick township",2000,2026
+"3402369390","3402369390","Middlesex County","South Plainfield borough",2000,2026
+"3402369420","3402369420","Middlesex County","South River borough",2000,2026
+"3402369810","3402369810","Middlesex County","Spotswood borough",2000,2026
+"3402382000","3402382000","Middlesex County","Woodbridge township",2000,2026
+"3402500070","3402500070","Monmouth County","Aberdeen township",2000,2026
+"3402500730","3402500730","Monmouth County","Allenhurst borough",2000,2026
+"3402500760","3402500760","Monmouth County","Allentown borough",2000,2026
+"3402501960","3402501960","Monmouth County","Asbury Park city",2000,2026
+"3402502110","3402502110","Monmouth County","Atlantic Highlands borough",2000,2026
+"3402502440","3402502440","Monmouth County","Avon-by-the-Sea borough",2000,2026
+"3402504930","3402504930","Monmouth County","Belmar borough",2000,2026
+"3402506970","3402506970","Monmouth County","Bradley Beach borough",2000,2026
+"3402507750","3402507750","Monmouth County","Brielle borough",2000,2026
+"3402514560","3402514560","Monmouth County","Colts Neck township",2000,2026
+"3402516660","3402516660","Monmouth County","Deal borough",2000,2026
+"3402519840","3402519840","Monmouth County","Eatontown borough",2000,2026
+"3402521570","3402521570","Monmouth County","Englishtown borough",2000,2026
+"3402522440","3402522440","Monmouth County","Fair Haven borough",2000,2026
+"3402522950","3402522950","Monmouth County","Farmingdale borough",2000,2026
+"3402525200","3402525200","Monmouth County","Freehold borough",2000,2026
+"3402525230","3402525230","Monmouth County","Freehold township",2000,2026
+"3402530690","3402530690","Monmouth County","Hazlet township",2000,2026
+"3402531500","3402531500","Monmouth County","Highlands borough",2000,2026
+"3402532640","3402532640","Monmouth County","Holmdel township",2000,2026
+"3402533300","3402533300","Monmouth County","Howell township",2000,2026
+"3402534200","3402534200","Monmouth County","Interlaken borough",2000,2026
+"3402536480","3402536480","Monmouth County","Keansburg borough",2000,2026
+"3402536810","3402536810","Monmouth County","Keyport borough",2000,2026
+"3402540770","3402540770","Monmouth County","Little Silver borough",2000,2026
+"3402541010","3402541010","Monmouth County","Loch Arbour village",2000,2026
+"3402541310","3402541310","Monmouth County","Long Branch city",2000,2026
+"3402542990","3402542990","Monmouth County","Manalapan township",2000,2026
+"3402543050","3402543050","Monmouth County","Manasquan borough",2000,2026
+"3402544070","3402544070","Monmouth County","Marlboro township",2000,2026
+"3402544520","3402544520","Monmouth County","Matawan borough",2000,2026
+"3402545990","3402545990","Monmouth County","Middletown township",2000,2026
+"3402546560","3402546560","Monmouth County","Millstone township",2000,2026
+"3402547130","3402547130","Monmouth County","Monmouth Beach borough",2000,2026
+"3402549890","3402549890","Monmouth County","Neptune township",2000,2026
+"3402549920","3402549920","Monmouth County","Neptune City borough",2000,2026
+"3402554270","3402554270","Monmouth County","Ocean township",2000,2026
+"3402554570","3402554570","Monmouth County","Oceanport borough",2000,2026
+"3402562430","3402562430","Monmouth County","Red Bank borough",2000,2026
+"3402564410","3402564410","Monmouth County","Roosevelt borough",2000,2026
+"3402565130","3402565130","Monmouth County","Rumson borough",2000,2026
+"3402566240","3402566240","Monmouth County","Sea Bright borough",2000,2026
+"3402566330","3402566330","Monmouth County","Sea Girt borough",2000,2026
+"3402567350","3402567350","Monmouth County","Shrewsbury borough",2000,2026
+"3402567365","3402567365","Monmouth County","Shrewsbury township",2000,2026
+"3402568670","3402568670","Monmouth County","South Belmar borough",2000,2004
+"3402568670","3402537560","Monmouth County","Lake Como borough",2005,2026
+"3402570110","3402570110","Monmouth County","Spring Lake borough",2000,2026
+"3402570140","3402570140","Monmouth County","Spring Lake Heights borough",2000,2026
+"3402573020","3402573020","Monmouth County","Tinton Falls borough",2000,2026
+"3402574540","3402574540","Monmouth County","Union Beach borough",2000,2026
+"3402574900","3402574900","Monmouth County","Upper Freehold township",2000,2026
+"3402576460","3402576460","Monmouth County","Wall township",2000,2026
+"3402579310","3402579310","Monmouth County","West Long Branch borough",2000,2026
+"3402706610","3402706610","Morris County","Boonton town",2000,2026
+"3402706640","3402706640","Morris County","Boonton township",2000,2026
+"3402709040","3402709040","Morris County","Butler borough",2000,2026
+"3402712100","3402712100","Morris County","Chatham borough",2000,2026
+"3402712130","3402712130","Morris County","Chatham township",2000,2026
+"3402712580","3402712580","Morris County","Chester borough",2000,2026
+"3402712610","3402712610","Morris County","Chester township",2000,2026
+"3402717650","3402717650","Morris County","Denville township",2000,2026
+"3402718070","3402718070","Morris County","Dover town",2000,2026
+"3402719210","3402719210","Morris County","East Hanover township",2000,2026
+"3402723910","3402723910","Morris County","Florham Park borough",2000,2026
+"3402729550","3402729550","Morris County","Hanover township",2000,2026
+"3402729700","3402729700","Morris County","Harding township",2000,2026
+"3402734980","3402734980","Morris County","Jefferson township",2000,2026
+"3402737110","3402737110","Morris County","Kinnelon borough",2000,2026
+"3402740290","3402740290","Morris County","Lincoln Park borough",2000,2026
+"3402741362","3402741362","Morris County","Long Hill township",2000,2026
+"3402742510","3402742510","Morris County","Madison borough",2000,2026
+"3402745330","3402745330","Morris County","Mendham borough",2000,2026
+"3402745360","3402745360","Morris County","Mendham township",2000,2026
+"3402746860","3402746860","Morris County","Mine Hill township",2000,2026
+"3402747670","3402747670","Morris County","Montville township",2000,2026
+"3402748090","3402748090","Morris County","Morris township",2000,2026
+"3402748210","3402748210","Morris County","Morris Plains borough",2000,2026
+"3402748300","3402748300","Morris County","Morristown town",2000,2026
+"3402748480","3402748480","Morris County","Mountain Lakes borough",2000,2026
+"3402748690","3402748690","Morris County","Mount Arlington borough",2000,2026
+"3402749080","3402749080","Morris County","Mount Olive township",2000,2026
+"3402750130","3402750130","Morris County","Netcong borough",2000,2026
+"3402756460","3402756460","Morris County","Parsippany-Troy Hills township",2000,2026
+"3402758110","3402758110","Morris County","Pequannock township",2000,2026
+"3402761890","3402761890","Morris County","Randolph township",2000,2026
+"3402763300","3402763300","Morris County","Riverdale borough",2000,2026
+"3402764050","3402764050","Morris County","Rockaway borough",2000,2026
+"3402764080","3402764080","Morris County","Rockaway township",2000,2026
+"3402764980","3402764980","Morris County","Roxbury township",2000,2026
+"3402775890","3402775890","Morris County","Victory Gardens borough",2000,2026
+"3402777240","3402777240","Morris County","Washington township",2000,2026
+"3402780390","3402780390","Morris County","Wharton borough",2000,2026
+"3402903050","3402903050","Ocean County","Barnegat township",2000,2026
+"3402903130","3402903130","Ocean County","Barnegat Light borough",2000,2026
+"3402903520","3402903520","Ocean County","Bay Head borough",2000,2026
+"3402903940","3402903940","Ocean County","Beach Haven borough",2000,2026
+"3402904180","3402904180","Ocean County","Beachwood borough",2000,2026
+"3402905305","3402905305","Ocean County","Berkeley township",2000,2026
+"3402907420","3402907420","Ocean County","Brick township",2000,2026
+"3402918130","3402918130","Ocean County","Dover township",2000,2006
+"3402918130","3402973125","Ocean County","Toms River township",2007,2026
+"3402918670","3402918670","Ocean County","Eagleswood township",2000,2026
+"3402930390","3402930390","Ocean County","Harvey Cedars borough",2000,2026
+"3402934530","3402934530","Ocean County","Island Heights borough",2000,2026
+"3402934680","3402934680","Ocean County","Jackson township",2000,2026
+"3402937380","3402937380","Ocean County","Lacey township",2000,2026
+"3402937770","3402937770","Ocean County","Lakehurst borough",2000,2026
+"3402938550","3402938550","Ocean County","Lakewood township",2000,2026
+"3402939390","3402939390","Ocean County","Lavallette borough",2000,2026
+"3402940560","3402940560","Ocean County","Little Egg Harbor township",2000,2026
+"3402941250","3402941250","Ocean County","Long Beach township",2000,2026
+"3402943140","3402943140","Ocean County","Manchester township",2000,2026
+"3402943380","3402943380","Ocean County","Mantoloking borough",2000,2026
+"3402954300","3402954300","Ocean County","Ocean township",2000,2026
+"3402954450","3402954450","Ocean County","Ocean Gate borough",2000,2026
+"3402958590","3402958590","Ocean County","Pine Beach borough",2000,2026
+"3402959790","3402959790","Ocean County","Plumsted township",2000,2026
+"3402959880","3402959880","Ocean County","Point Pleasant borough",2000,2026
+"3402959910","3402959910","Ocean County","Point Pleasant Beach borough",2000,2026
+"3402966450","3402966450","Ocean County","Seaside Heights borough",2000,2026
+"3402966480","3402966480","Ocean County","Seaside Park borough",2000,2026
+"3402967110","3402967110","Ocean County","Ship Bottom borough",2000,2026
+"3402969510","3402969510","Ocean County","South Toms River borough",2000,2026
+"3402970320","3402970320","Ocean County","Stafford township",2000,2026
+"3402971640","3402971640","Ocean County","Surf City borough",2000,2026
+"3402974210","3402974210","Ocean County","Tuckerton borough",2000,2026
+"3403106340","3403106340","Passaic County","Bloomingdale borough",2000,2026
+"3403113690","3403113690","Passaic County","Clifton city",2000,2026
+"3403129070","3403129070","Passaic County","Haledon borough",2000,2026
+"3403130570","3403130570","Passaic County","Hawthorne borough",2000,2026
+"3403140620","3403140620","Passaic County","Little Falls township",2000,2026
+"3403153040","3403153040","Passaic County","North Haledon borough",2000,2026
+"3403156550","3403156550","Passaic County","Passaic city",2000,2026
+"3403157000","3403157000","Passaic County","Paterson city",2000,2026
+"3403160090","3403160090","Passaic County","Pompton Lakes borough",2000,2026
+"3403161170","3403161170","Passaic County","Prospect Park borough",2000,2026
+"3403163150","3403163150","Passaic County","Ringwood borough",2000,2026
+"3403173140","3403173140","Passaic County","Totowa borough",2000,2026
+"3403176730","3403176730","Passaic County","Wanaque borough",2000,2026
+"3403177840","3403177840","Passaic County","Wayne township",2000,2026
+"3403179460","3403179460","Passaic County","West Milford township",2000,2026
+"3403179820","3403179820","Passaic County","West Paterson borough",2000,2008
+"3403179820","3403182423","Passaic County","Woodland Park borough",2009,2026
+"3403300880","3403300880","Salem County","Alloway township",2000,2026
+"3403310610","3403310610","Salem County","Carneys Point township",2000,2026
+"3403321240","3403321240","Salem County","Elmer borough",2000,2026
+"3403321330","3403321330","Salem County","Elsinboro township",2000,2026
+"3403341640","3403341640","Salem County","Lower Alloways Creek township",2000,2026
+"3403343200","3403343200","Salem County","Mannington township",2000,2026
+"3403354810","3403354810","Salem County","Oldmans township",2000,2026
+"3403357750","3403357750","Salem County","Penns Grove borough",2000,2026
+"3403357870","3403357870","Salem County","Pennsville township",2000,2026
+"3403358530","3403358530","Salem County","Pilesgrove township",2000,2026
+"3403359130","3403359130","Salem County","Pittsgrove township",2000,2026
+"3403361470","3403361470","Salem County","Quinton township",2000,2026
+"3403365490","3403365490","Salem County","Salem city",2000,2026
+"3403375110","3403375110","Salem County","Upper Pittsgrove township",2000,2026
+"3403382720","3403382720","Salem County","Woodstown borough",2000,2026
+"3403504450","3403504450","Somerset County","Bedminster township",2000,2026
+"3403505560","3403505560","Somerset County","Bernards township",2000,2026
+"3403505590","3403505590","Somerset County","Bernardsville borough",2000,2026
+"3403506790","3403506790","Somerset County","Bound Brook borough",2000,2026
+"3403507180","3403507180","Somerset County","Branchburg township",2000,2026
+"3403507720","3403507720","Somerset County","Bridgewater township",2000,2026
+"3403522890","3403522890","Somerset County","Far Hills borough",2000,2026
+"3403524900","3403524900","Somerset County","Franklin township",2000,2026
+"3403527510","3403527510","Somerset County","Green Brook township",2000,2026
+"3403531890","3403531890","Somerset County","Hillsborough township",2000,2026
+"3403543620","3403543620","Somerset County","Manville borough",2000,2026
+"3403546590","3403546590","Somerset County","Millstone borough",2000,2026
+"3403547580","3403547580","Somerset County","Montgomery township",2000,2026
+"3403553280","3403553280","Somerset County","North Plainfield borough",2000,2026
+"3403557300","3403557300","Somerset County","Peapack and Gladstone borough",2000,2026
+"3403561980","3403561980","Somerset County","Raritan borough",2000,2026
+"3403564320","3403564320","Somerset County","Rocky Hill borough",2000,2026
+"3403568460","3403568460","Somerset County","Somerville borough",2000,2026
+"3403568730","3403568730","Somerset County","South Bound Brook borough",2000,2026
+"3403576940","3403576940","Somerset County","Warren township",2000,2026
+"3403577600","3403577600","Somerset County","Watchung borough",2000,2026
+"3403701330","3403701330","Sussex County","Andover borough",2000,2026
+"3403701360","3403701360","Sussex County","Andover township",2000,2026
+"3403707300","3403707300","Sussex County","Branchville borough",2000,2026
+"3403709160","3403709160","Sussex County","Byram township",2000,2026
+"3403724810","3403724810","Sussex County","Frankford township",2000,2026
+"3403724930","3403724930","Sussex County","Franklin borough",2000,2026
+"3403725140","3403725140","Sussex County","Fredon township",2000,2026
+"3403727420","3403727420","Sussex County","Green township",2000,2026
+"3403729220","3403729220","Sussex County","Hamburg borough",2000,2026
+"3403729490","3403729490","Sussex County","Hampton township",2000,2026
+"3403729850","3403729850","Sussex County","Hardyston township",2000,2026
+"3403732910","3403732910","Sussex County","Hopatcong borough",2000,2026
+"3403737440","3403737440","Sussex County","Lafayette township",2000,2026
+"3403747430","3403747430","Sussex County","Montague township",2000,2026
+"3403751930","3403751930","Sussex County","Newton town",2000,2026
+"3403754660","3403754660","Sussex County","Ogdensburg borough",2000,2026
+"3403765700","3403765700","Sussex County","Sandyston township",2000,2026
+"3403769690","3403769690","Sussex County","Sparta township",2000,2026
+"3403770380","3403770380","Sussex County","Stanhope borough",2000,2026
+"3403770890","3403770890","Sussex County","Stillwater township",2000,2026
+"3403771670","3403771670","Sussex County","Sussex borough",2000,2026
+"3403775740","3403775740","Sussex County","Vernon township",2000,2026
+"3403776640","3403776640","Sussex County","Walpack township",2000,2026
+"3403776790","3403776790","Sussex County","Wantage township",2000,2026
+"3403905320","3403905320","Union County","Berkeley Heights township",2000,2026
+"3403913150","3403913150","Union County","Clark township",2000,2026
+"3403915640","3403915640","Union County","Cranford township",2000,2026
+"3403921000","3403921000","Union County","Elizabeth city",2000,2026
+"3403922860","3403922860","Union County","Fanwood borough",2000,2026
+"3403925800","3403925800","Union County","Garwood borough",2000,2026
+"3403931980","3403931980","Union County","Hillside township",2000,2026
+"3403936690","3403936690","Union County","Kenilworth borough",2000,2026
+"3403940350","3403940350","Union County","Linden city",2000,2026
+"3403948510","3403948510","Union County","Mountainside borough",2000,2026
+"3403951810","3403951810","Union County","New Providence borough",2000,2026
+"3403959190","3403959190","Union County","Plainfield city",2000,2026
+"3403961530","3403961530","Union County","Rahway city",2000,2026
+"3403964620","3403964620","Union County","Roselle borough",2000,2026
+"3403964650","3403964650","Union County","Roselle Park borough",2000,2026
+"3403966060","3403966060","Union County","Scotch Plains township",2000,2026
+"3403970020","3403970020","Union County","Springfield township",2000,2026
+"3403971430","3403971430","Union County","Summit city",2000,2026
+"3403974480","3403974480","Union County","Union township",2000,2026
+"3403979040","3403979040","Union County","Westfield town",2000,2026
+"3403981650","3403981650","Union County","Winfield township",2000,2026
+"3404100670","3404100670","Warren County","Allamuchy township",2000,2026
+"3404101030","3404101030","Warren County","Alpha borough",2000,2026
+"3404104990","3404104990","Warren County","Belvidere town",2000,2026
+"3404106160","3404106160","Warren County","Blairstown township",2000,2026
+"3404124960","3404124960","Warren County","Franklin township",2000,2026
+"3404125320","3404125320","Warren County","Frelinghuysen township",2000,2026
+"3404128260","3404128260","Warren County","Greenwich township",2000,2026
+"3404128710","3404128710","Warren County","Hackettstown town",2000,2026
+"3404129820","3404129820","Warren County","Hardwick township",2000,2026
+"3404130090","3404130090","Warren County","Harmony township",2000,2026
+"3404133060","3404133060","Warren County","Hope township",2000,2026
+"3404133930","3404133930","Warren County","Independence township",2000,2026
+"3404137320","3404137320","Warren County","Knowlton township",2000,2026
+"3404140110","3404140110","Warren County","Liberty township",2000,2026
+"3404141490","3404141490","Warren County","Lopatcong township",2000,2026
+"3404143320","3404143320","Warren County","Mansfield township",2000,2026
+"3404155530","3404155530","Warren County","Oxford township",2000,2026
+"3404158350","3404158350","Warren County","Phillipsburg town",2000,2026
+"3404159820","3404159820","Warren County","Pohatcong township",2000,2026
+"3404177270","3404177270","Warren County","Washington borough",2000,2026
+"3404177300","3404177300","Warren County","Washington township",2000,2026
+"3404180570","3404180570","Warren County","White township",2000,2026
