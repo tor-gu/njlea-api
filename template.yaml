@@ -44,7 +44,7 @@ Resources:
       Architectures:
         - x86_64
       Timeout: 10
-      MemorySize: 512
+      MemorySize: 256
       Tracing: Active
       Environment:
         Variables:
