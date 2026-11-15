@@ -12,6 +12,13 @@ used by the NJ Office of the Attorney General (OAG) datasets. Field
 names and values are the same as in the R package; see it for more
 details on the underlying dataset.
 
+Its `agency_id` is the agency key in the other NJ OAG APIs, the [Use of
+Force API](https://tor-gu.com/apis/njoaguof.html)
+(`api.tor-gu.com/nj/use_of_force/`) and the [Law Enforcement Officer
+Diversity API](https://tor-gu.com/apis/njoagleod.html)
+(`api.tor-gu.com/nj/officer_diversity/`), so their records join to the
+registry on it.
+
 ## Try it out
 
 ### OpenAPI/Swagger
