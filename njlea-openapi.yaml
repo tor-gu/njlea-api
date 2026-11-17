@@ -6,7 +6,7 @@ info:
     # NJ law enforcement agencies, from 2020 to 2026
 
     A registry of New Jersey law enforcement agencies, as published in the
-    [njlea data package for R](https://github.com/tor-gu/njlea) (version
+    [njlea data package for R](https://github.com/torgu-data/njlea) (version
     0.1.0). Every agency has a stable ID, its names over time, its level of
     government and function, the municipalities it polices, its FBI ORIs, and
     every spelling of it used by the NJ Office of the Attorney General (OAG)
@@ -72,7 +72,7 @@ info:
     `Home` link; a municipality it polices by agreement is a `Service` link.
 
     * `GEOID` is the US Census GEOID as of `geoid_year` (default: the year),
-    as in [njmunicipalities](https://github.com/tor-gu/njmunicipalities);
+    as in [njmunicipalities](https://github.com/torgu-data/njmunicipalities);
     `geoid_year=2000` gives the stable `GEOID_Y2K` codes. `municipality` and
     `county` are as of the year.
 

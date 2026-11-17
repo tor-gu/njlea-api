@@ -4,7 +4,7 @@
 #
 # Usage: Rscript scripts/export_data.R <git-ref> [out-dir] [expected-dir]
 #
-# Installs tor-gu/njlea at <git-ref> (e.g. v0.1.0) into a temporary library,
+# Installs torgu-data/njlea at <git-ref> (e.g. v0.1.0) into a temporary library,
 # with its njmunicipalities dependency, and writes to out-dir (default: data):
 #   <table>.csv         the five njlea tables, in R's row order (NA is an empty
 #                       field; empty strings are exported as NA, and reported)
@@ -50,7 +50,7 @@ if (nzchar(local_git)) {
   )
 } else {
   remotes::install_github(
-    "tor-gu/njlea",
+    "torgu-data/njlea",
     ref = ref, lib = lib, upgrade = "never", dependencies = NA, quiet = TRUE
   )
 }

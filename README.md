@@ -4,7 +4,7 @@
 This is the source code for the NJ Law Enforcement Agencies API deployed
 at `api.tor-gu.com/nj/lea/`.
 
-It serves [njlea](https://github.com/tor-gu/njlea), a registry of New
+It serves [njlea](https://github.com/torgu-data/njlea), a registry of New
 Jersey law enforcement agencies from 2020 to 2026. Each agency has a
 stable ID, its names over time, its level of government and function,
 the municipalities it polices, its FBI ORIs, and every spelling of it
@@ -224,10 +224,10 @@ function serves every route, with the data packaged in it. A deployment
 has three parts:
 
 1.  The lambda layer
-    [layer_torguapi](https://github.com/tor-gu/layer_torguapi) (version
+    [layer_torguapi](https://github.com/torgu-data/layer_torguapi) (version
     11 or later), which needs to be deployed separately.
 2.  The data: CSV exports of a tagged
-    [njlea](https://github.com/tor-gu/njlea) release, committed in
+    [njlea](https://github.com/torgu-data/njlea) release, committed in
     `data/`, and built into `lea/data/njlea.json` by `make data`.
 3.  The Lambda and API Gateway, defined in `template.yaml`.
 
@@ -289,7 +289,7 @@ Replace the `TorguapiLayerXXX` params with the values derived from the
 The `ApiRoot` value is used only for generating the values in `"links"`
 in the JSON reply. On `api.tor-gu.com`, the relationship between the
 publicly facing API URL and the API Gateway endpoints is configured in
-[torgu-api-cloudfront](https://github.com/tor-gu/torgu-api-cloudfront).
+[torgu-api-cloudfront](https://github.com/torgu-data/torgu-api-cloudfront).
 
 To deploy a second environment alongside the first, give it a resource
 name prefix (I use `dev-`) with the `EnvPrefix` template parameter.
