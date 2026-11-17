@@ -9,8 +9,7 @@
 #
 # The repo has GitHub's immutable OIDC subjects, which name the owner and repo
 # by id as well (repo:<owner>@<id>/<repo>@<id>), so the claim prefix is
-# var.github_subject_prefix. New repos get these by default; the older
-# njmunicipalities-api and layer_torguapi still have repo:<owner>/<repo>.
+# var.github_subject_prefix.
 
 data "aws_caller_identity" "current" {}
 data "aws_region" "current" {}

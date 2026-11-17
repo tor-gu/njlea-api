@@ -1,5 +1,5 @@
 project               = "njlea-api"
-github_subject_prefix = "repo:tor-gu@99346055/njlea-api@1446962458"
+github_subject_prefix = "repo:torgu-data@357626211/njlea-api@1446962458"
 
 envs = {
   dev = {
